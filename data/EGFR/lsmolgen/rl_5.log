@@ -1,0 +1,2922 @@
+Model initialized, starting training...
+
+       Step 0   Fraction valid SMILES: 95.3  Time elapsed: 0.02h Time left: 69.90h
+  Agent    Prior   Target   Score             SMILES
+ -19.55   -89.35   -2.95    0.68     CCOC(=O)c1[nH]c(C)c(C(=O)C2=C(O)C(=O)N(CCCO)C2c2ccco2)c1C
+ -25.50   -93.18    3.46    0.75     Nc1nc2ncccc2c2c1nc(-c1ccccc1)n2CCCN1CCCCC1
+ -21.95   -102.32  -102.32    0.00     Clc1ccc2c(c1)Sc1c3c(cc4c1O2)CNCC4
+ -19.94   -87.29   -2.93    0.66     O=C(NCCCN1CCC2(CCc3ccccc32)CC1)C1CC1(Cl)Cl
+ -16.31   -53.87    6.29    0.47     Cn1cc(-c2nc3ccccc3o2)ccc1=O
+ -22.37   -87.39  -87.39    0.00     COc1cc2ncc3c(c(-c4ccc(C#CCCN(C)C)cc4)nn3C)c2cc1OCCCN1CCCCC1
+ -17.02   -52.31   24.11    0.60     CCCCCCCCc1cn(-c2ccc(Cl)cc2)nn1
+ -16.86   -42.20   21.80    0.50     CN1CCN(CC2COc3ccccc3OC2)CC1
+ -16.87   -88.26   14.27    0.80     O=C(O)Cc1nn(CC(=O)Nc2cc(Cl)ccc2Cl)c(=O)c2ccccc12
+ -16.65   -71.18    7.16    0.61     CCC1(c2ccccc2)NC(=O)N(CC(=O)N2CCCc3ccccc32)C1=O
+Step [1/3000]: Train loss: 2503.1802
+Saving model with loss 2503.180...
+
+       Step 1   Fraction valid SMILES: 96.9  Time elapsed: 0.04h Time left: 67.44h
+  Agent    Prior   Target   Score             SMILES
+ -25.82   -69.68   17.62    0.68     Clc1ccc(CC[C@@H](c2c[nH]c3ccc(Cl)cc23)n2cncn2)cc1
+ -20.61   -66.08  -66.08    0.00     CCOCC(=O)NC1CCc2cccc(OC)c2C1C
+ -24.10   -97.71   -1.07    0.75     Cc1ccc(N2C(=O)c3cccnc3C2=O)cc1C(=O)N1N=C(C)CC1c1ccccc1
+ -20.94   -61.54   -5.73    0.44     COC[C@H]1CN[C@H](C)CN1CC(=O)N(C)C(C)(C)C
+ -17.26   -72.61   12.89    0.67     CCOC(=O)c1c(C)[nH]c(C(=O)Nc2ccccc2C(=O)OC)c1C
+ -23.44   -62.60    8.31    0.55     CO[C@H]1C[C@@H](C(=O)O)N(C(=O)c2ccccn2)c2ccccc21
+ -17.56   -49.08   45.89    0.74     Nc1ccccc1S(=O)(=O)Nc1ccccc1C(=O)Nc1ccccc1
+ -18.95   -54.63   42.91    0.76     O=C(NCC1COc2ccccc2O1)Nc1cc(Cl)ccc1Cl
+ -24.73   -82.81  -11.90    0.55     Cn1cc(C2CCCN(c3ncnc(N4CCOCC4)c3F)C2)cn1
+ -16.33   -54.97   16.33    0.56     Cc1cc(-c2ccc(F)cc2)n2nc(N)nc2n1
+Step [2/3000]: Train loss: 2423.3353
+Saving model with loss 2423.335...
+
+       Step 2   Fraction valid SMILES: 97.7  Time elapsed: 0.06h Time left: 63.77h
+  Agent    Prior   Target   Score             SMILES
+ -10.77   -35.03  -35.03    0.00     Nc1ccccc1NC(=O)c1ccc2ccccc2c1
+ -12.46   -26.40  -26.40    0.00     O=C(O)c1c(O)cccc1O
+ -12.59   -74.93   -2.35    0.57     CCOC(=O)c1cnn2c1n[n+]([O-])c1ccc(OC)cc12
+ -25.90   -72.50    3.92    0.60     CCCN(CC1CC1)c1cc(C)nc(-c2c(OC)cc(OC)cc2OC)n1
+ -23.76   -51.15   36.02    0.68     CN(c1ccccc1)c1nc(-c2ccccc2)c(C(=O)N2CCNCC2)s1
+ -17.26   -47.42   35.78    0.65     O=C(c1cc2cc(Cl)ccc2[nH]1)N1CC(N2CCCCC2)C1
+ -23.98   -74.26   -4.50    0.55     CC(Cn1ccnc1)NC(=O)N1CCCCC1C1CCCCC1
+ -19.13   -52.23   22.52    0.58     CCc1ccccc1OC(=O)c1cc(=O)c2ccccc2o1
+ -16.34   -50.30   37.90    0.69     O=C(NC(=O)c1ccccc1)Nc1ccc2cn[nH]c2c1
+ -16.31   -66.32   29.04    0.75     O=C(NC1CC1)c1cccc(-c2cnc3ccc(NCC4CC4)nn23)c1
+Step [3/3000]: Train loss: 2275.6093
+Saving model with loss 2275.609...
+
+       Step 3   Fraction valid SMILES: 98.4  Time elapsed: 0.08h Time left: 62.52h
+  Agent    Prior   Target   Score             SMILES
+ -20.45   -55.34   27.35    0.65     CC(C(=O)Nc1cc(F)ccc1F)c1nc2ccccc2[nH]1
+ -27.22   -72.06   -4.73    0.53     COc1ccc([C@H](N)CCC2(C)CCCCC2)cc1F
+ -16.61   -62.06  -62.06    0.00     COC(=O)Cc1ccccc1OC(=O)N(C)C
+ -15.00   -46.71   31.25    0.61     CCc1ccc(Nc2ncccc2C(N)=O)cc1
+ -12.55   -44.42   31.49    0.59     O=C1C(Cl)=C(N2CCOCC2)C(=O)N1c1ccccc1
+ -15.07   -70.89    6.68    0.61     CN1Cc2ccccc2C(c2ccccc2)N=C1CCc1c[nH]c2ccccc12
+ -20.89   -76.39  -76.39    0.00     NCCOCCOc1n[nH]c2cc(NC(=O)N[C@H](CO)c3ccccc3)ncc12
+ -11.92   -42.06   41.14    0.65     Cc1ccc(S(=O)(=O)N2CCN(C(=O)c3ccco3)CC2)cc1
+ -17.83   -55.71   22.63    0.61     Cc1nccn1Cc1ccccc1C(=O)Nc1ccccc1
+ -19.49   -65.30    7.53    0.57     O=[N+]([O-])c1ccc(C[n+]2ccccc2N)cc1
+Step [4/3000]: Train loss: 2005.9260
+Saving model with loss 2005.926...
+
+       Step 4   Fraction valid SMILES: 99.2  Time elapsed: 0.10h Time left: 61.88h
+  Agent    Prior   Target   Score             SMILES
+ -21.75   -56.95   25.86    0.65     CN(C(=O)Oc1ccccc1C(=O)Oc1ccccc1)c1ccco1
+ -15.54   -32.73   56.75    0.70     COc1ccc(CCN=C(N)Nc2nccs2)cc1
+ -14.23   -39.84   32.09    0.56     Cc1ccccc1C(=O)NCc1nccn1C
+ -24.99   -64.75   33.30    0.77     CCCCCC(NC(=O)c1ccccc1OCc1ccccc1)C(=O)NCC
+  -8.84   -29.80  -29.80    0.00     O=C(Nc1ccccc1)c1ccccc1[N+](=O)[O-]
+ -21.75   -36.33   29.08    0.51     N[C@@]1(CO)CCS(=O)(=O)N1
+ -27.36   -69.49  -69.49    0.00     CC(/C=N/OCCNc1ccnc2cc(Cl)ccc12)=[N+](/C=C/c1ccccc1)OC
+  -7.61   -39.41  -39.41    0.00     O=c1cc(-c2ccccc2)oc2ccccc12
+ -10.25   -47.75   47.61    0.75     O=C(O)c1ccccc1Nc1ccnc(Nc2ccccc2)n1
+ -14.56   -64.10   15.00    0.62     Oc1nc(-c2ccncc2)nc2sc3c(c12)CCCC3
+Step [5/3000]: Train loss: 2096.0776
+
+       Step 5   Fraction valid SMILES: 96.1  Time elapsed: 0.12h Time left: 60.65h
+  Agent    Prior   Target   Score             SMILES
+ -10.75   -51.51  -51.51    0.00     COc1ccccc1NC(=O)c1ccccc1SC
+ -17.12   -93.01   11.31    0.81     COC(=O)Nc1nc2ccc(Cl)cc2c2nc(-c3ccccc3Cl)nn12
+ -14.00   -44.62   36.66    0.63     Cc1ccccc1CNCc1coc(-c2ccccc2)n1
+ -17.38   -58.88   27.13    0.67     O=C(Nc1ncccc1OCc1ccccc1)c1ccccc1-n1cccc1
+ -12.72   -26.40   37.86    0.50     c1ccc(Nc2ccncn2)cc1
+ -12.25   -56.91   25.01    0.64     COc1ccccc1N1CCN(C2CCCN(Cc3ccccc3OC)C2)CC1
+ -21.12   -63.49   24.45    0.69     COc1ccc(Cl)cc1N1CCN(Cc2cc([N+](=O)[O-])ccc2Cl)CC1
+  -9.21   -21.70   40.76    0.49     Cc1cccc(Nc2ccccc2)c1
+ -13.27   -45.61   21.59    0.52     CN(c1ccncc1)c1ccccn1
+ -17.22   -53.50   23.43    0.60     O=P1(OC(=O)c2ccccc2)Oc2ccccc2O1
+Step [6/3000]: Train loss: 2027.4991
+
+       Step 6   Fraction valid SMILES: 99.2  Time elapsed: 0.14h Time left: 59.20h
+  Agent    Prior   Target   Score             SMILES
+  -9.49   -17.92  -17.92    0.00     O=S(=O)(Nc1ccc(Cl)cc1)c1ccccc1
+ -15.43   -54.28   23.16    0.61     O=C(Nc1ccccc1F)C1CCN(S(=O)(=O)N2CCCC2)CC1
+ -13.83   -33.83   39.39    0.57     Cn1ccnc1S(=O)(=O)Cc1ccccc1
+ -20.42   -69.61   10.65    0.63     CC(N[C@H]1CCCC[C@@H]1NCc1ccccc1)c1ccccc1
+  -7.61   -53.21   19.11    0.56     Oc1ccccc1/C=N/n1cnnc1
+ -10.76   -25.91  -25.91    0.00     O=[N+]([O-])c1ccc(Nc2ccncc2)cc1
+ -14.17   -74.43   -4.29    0.55     COC(=O)C1=C(c2ccccc2)c2ccccc2Sc2ccccc21
+ -10.33   -26.91   55.14    0.64     Clc1ccccc1Nc1ccnc2ccccc12
+ -14.78   -73.76   12.89    0.68     O=c1ccn(Cc2ccccc2)cc1Cc1cnccn1
+ -22.96   -56.36   23.89    0.63     Cc1cnccc1CNCc1cnn(C)c1C
+Step [7/3000]: Train loss: 1799.0925
+Saving model with loss 1799.093...
+
+       Step 7   Fraction valid SMILES: 99.2  Time elapsed: 0.15h Time left: 57.83h
+  Agent    Prior   Target   Score             SMILES
+ -25.23   -108.05  -43.92    0.50     c1ccc2c3c([nH]c2c1)Cc1c-3cc[n+]([O-])c1O
+ -10.29   -52.11  -52.11    0.00     COc1ccccc1NC(=O)Nc1ccccc1OC
+ -24.83   -87.38    6.44    0.73     c1ncn(CSC2CCCN(CCOc3ccccc3)C2)n1
+ -20.64   -81.34    7.50    0.69     O=C(O)c1ccccc1OC1CN(Cc2ccncc2)CCO1
+  -9.57   -29.26  -29.26    0.00     NC(=O)Nc1ccccc1
+ -21.30   -81.47   14.78    0.75     CS(=O)(=O)Nc1ccccc1OCC1CS(=O)(=O)CC1O
+ -21.35   -73.91    7.37    0.63     Cc1nc2ccccn2c1C(=O)N1CCC[C@@H](Nc2ccccc2)C1
+ -19.85   -58.06  -58.06    0.00     N#Cc1cc2cnccc2nc1-c1ccc(Cl)cc1
+ -21.14   -55.26  -55.26    0.00     COc1ccc2cc([C@H](N)[C@@H](O)CCC(C)(C)O)ccc2c1
+ -21.99   -59.51    1.42    0.48     CCC(O)c1nc2ccccc2n1CC(C)O
+Step [8/3000]: Train loss: 1690.1105
+Saving model with loss 1690.111...
+
+       Step 8   Fraction valid SMILES: 98.4  Time elapsed: 0.17h Time left: 57.31h
+  Agent    Prior   Target   Score             SMILES
+ -20.52   -65.29    5.75    0.56     c1ccc(C[n+]2cc(-c3ccccc3)n3c2CCCCC3)cc1
+ -11.89   -33.23   54.45    0.69     NC(=O)CSc1ncnc2sccc12
+ -23.59   -74.87    2.70    0.61     O=C(c1ncc(-c2ccccn2)cn1)N1CCC(c2ccccc2)C1
+ -16.56   -33.45  -33.45    0.00     O=C(Nc1ccc2nc(Nc3ccccc3)nc2c1)c1cccnc1
+ -17.33   -65.86   19.90    0.67     Nc1nc(N2CCN[C@@H](Cc3ccccc3)CC2)nc2ccccc12
+ -15.20   -49.82   20.96    0.55     Oc1cccc2c1CNC(Cc1ccccc1)C2
+ -16.60   -54.86   15.16    0.55     C[C@@](N)(Cc1ccccc1)C(=O)Nc1ccccn1
+ -22.98   -89.93   16.70    0.83     Cc1ccc2ccnc(Nc3cc(NC(=O)C4CCN(Cc5ccccc5)CC4)ncc3Cl)c2c1
+  -9.75   -54.75   15.65    0.55     O=c1ccn(COC(CO)CO)c(=O)[nH]1
+ -17.22   -60.89   32.55    0.73     O=C(O)c1cccc(NC(=O)COc2cccc3cccnc23)c1
+Step [9/3000]: Train loss: 1818.7915
+
+       Step 9   Fraction valid SMILES: 96.9  Time elapsed: 0.19h Time left: 56.61h
+  Agent    Prior   Target   Score             SMILES
+ -13.34   -46.34   24.44    0.55     Nc1ccnn1Cc1ccccc1Cl
+ -13.16   -48.02   27.63    0.59     Nc1nccn2c(C3CCc4ccccc43)ncc12
+ -23.13   -54.68   20.97    0.59     CN(O)C(=O)Nc1ccc(C2CCNCC2)cn1
+ -10.89   -34.87   38.35    0.57     O=C(O)c1ccncc1NC(=O)c1ccccc1
+ -13.02   -40.99   36.06    0.60     O=C(OCC(=O)N1CCN(c2ccccc2)CC1)c1ccco1
+ -23.24   -78.83    0.15    0.62     NC[C@@]1(O)CCN(C(=O)c2occc2C(F)(F)F)C1
+ -14.20   -45.96   29.05    0.59     NS(=O)(=O)c1ccc(-c2cnccn2)cc1
+ -20.89   -73.62   18.80    0.72     N#Cc1ccccc1Oc1cccnc1C1OC(O)C(O)C1O
+ -22.15   -67.86    5.36    0.57     NS(N)(=O)c1cscc1-n1cccc1
+ -30.67   -80.96    6.85    0.69     Cc1nc2ccc(=O)n(Cc3ccccc3F)c2cc1C(=O)N1CCN(c2ccccn2)CC1
+Step [10/3000]: Train loss: 1871.1207
+
+       Step 10   Fraction valid SMILES: 95.3  Time elapsed: 0.21h Time left: 56.04h
+  Agent    Prior   Target   Score             SMILES
+ -19.25   -59.32    9.28    0.54     O=c1cccnn1C1CC(c2ccccc2)(c2ccccc2)C1=O
+ -12.62   -41.70  -41.70    0.00     O=C(NC(=O)c1ccncc1)c1ccco1
+ -10.69   -29.60  -29.60    0.00     Sc1nc2ccccc2[nH]1
+ -13.77   -37.69  -37.69    0.00     OCc1ccc(Nc2ncccn2)nc1
+ -15.90   -28.85   53.84    0.65     Nc1c(F)cccc1NC(=O)Cc1ccccn1
+ -14.70   -58.85   13.35    0.56     NC1CCc2ccccc2N(CCc2ccccc2)C1=O
+ -17.09   -48.93  -48.93    0.00     COc1ccncc1NC(=O)CN1C(=O)c2ccccc2C1=O
+  -9.29   -29.20   47.99    0.60     Nc1ncc(Cc2ccccc2)nc1O
+ -18.01   -45.35   45.27    0.71     COc1ccc(F)cc1N1CCN(C(=O)c2cccnc2SC)CC1
+ -20.65   -96.98  -15.70    0.63     O=C(c1ccccn1)N1CCC(NS(=O)(=O)N2CCOCC2)C1=O
+Step [11/3000]: Train loss: 1811.9136
+
+       Step 11   Fraction valid SMILES: 95.3  Time elapsed: 0.22h Time left: 55.65h
+  Agent    Prior   Target   Score             SMILES
+  -9.27   -32.61  -32.61    0.00     Nc1ncc2ccccc2n1
+ -18.20   -55.44   20.34    0.59     Clc1ccc(Cl)c(N2CCN(c3nccs3)CC2)c1
+ -22.40   -54.59  -54.59    0.00     CCNc1ccc2ncnc(NC(CO)c3ccccc3)c2c1
+ -10.88   -43.92   39.28    0.65     O=C(NC1CCN(Cc2ccccc2)CC1)c1cccs1
+ -10.76   -38.18   63.58    0.80     COc1cccc(Nc2ncnc3[nH]cnc23)c1OC
+ -15.53   -75.21   12.47    0.69     N#Cc1ccccc1-c1ccncc1NS(=O)(=O)c1ccccc1
+  -8.09   -52.14   28.24    0.63     O=C(Nc1ccccn1)c1cnn2ccccc12
+ -13.77   -66.23   11.60    0.61     CN(C)c1ncccc1CNCc1cccnc1
+ -21.97   -58.63   33.28    0.72     COc1cnccc1C1(N)CCN(S(=O)(=O)c2cccnc2)CC1
+  -9.24   -55.53   40.98    0.75     Nc1ncnc2c1cnn2Cc1cncs1
+Step [12/3000]: Train loss: 1970.2733
+
+       Step 12   Fraction valid SMILES: 97.7  Time elapsed: 0.24h Time left: 55.45h
+  Agent    Prior   Target   Score             SMILES
+ -10.98   -25.20  -25.20    0.00     O=[N+]([O-])c1ccccn1
+ -12.98   -63.56  -63.56    0.00     O=S(=O)(Nc1cccnn1)c1cccnc1Nc1ccccn1
+ -15.18   -74.06    7.09    0.63     CNc1ncccc1CNC(=O)N1CCN(CC)CC1
+ -17.48   -55.94   37.37    0.73     O=C(c1ccncc1)C1CCN(C(=O)c2ccccc2N2CCOCC2)CC1
+ -26.06   -80.01   23.93    0.81     COc1ccccc1NC(=O)COC(=O)c1cccc(S(=O)(=O)Nc2ccc(OC)cc2OC)c1
+ -21.42   -88.32   -6.91    0.64     C=C1CN(S(=O)(=O)NC(=O)c2ccco2)CCN1C
+ -14.75   -55.67  -55.67    0.00     Nc1nccnc1COP(N)(=O)=O
+ -11.96   -52.84   24.34    0.60     O=C(Nc1ccccc1C(=O)NC1CC1)c1cccnc1
+ -11.64   -54.16   35.70    0.70     COc1cccc(NC(=O)CN(C)CC(=O)Nc2ccccc2OC)c1
+ -14.32   -53.99   21.14    0.59     Cc1ccc(Sc2ccccc2)nc1N
+Step [13/3000]: Train loss: 1950.7472
+
+       Step 13   Fraction valid SMILES: 95.3  Time elapsed: 0.26h Time left: 55.49h
+  Agent    Prior   Target   Score             SMILES
+ -12.12   -44.91   18.96    0.50     N#Cc1cn(-c2ccccc2)nn1
+ -13.59   -66.87    9.55    0.60     NC1=N[C@@]2(c3ccccc3)CN(Cc3ccccc3)C[C@@H]21
+ -11.61   -33.59   35.79    0.54     CONc1ncnc2sccc12
+ -30.97   -135.10  -32.82    0.80     N#Cc1cnn2c1[nH]/c(=N\C(=O)c1ccccc1F)n2CSc1ccccc1
+ -15.15   -47.84   24.22    0.56     O=C(O)CN1C(=O)CN(CC2CCCCC2)C1=O
+ -12.22   -56.04  -56.04    0.00     Nc1cccc(Nc2cccnn2)n1
+ -16.45   -68.29   24.90    0.73     Cc1noc(NS(=O)(=O)c2ccccc2/C=C/c2ccccn2)c1C
+ -20.20   -61.82   10.12    0.56     O=S(=O)(c1ccccc1[N+](=O)[O-])N(Cc1ccccc1)c1ccccc1
+ -11.87   -39.58   28.52    0.53     O=c1ccn(CCc2ccccc2)cc1O
+ -18.99   -84.44  -84.44    0.00     O=C(O)Cc1nn(Cc2cccnc2Cl)c(=O)c1O
+Step [14/3000]: Train loss: 2013.2654
+
+       Step 14   Fraction valid SMILES: 96.1  Time elapsed: 0.28h Time left: 55.11h
+  Agent    Prior   Target   Score             SMILES
+ -29.60   -116.33  -39.28    0.60     CCOC(=O)C1C(=O)c2cccnc2N(OS(N)(=O)=O)S1
+ -10.85   -57.44   47.14    0.82     CN1CCN(c2nccnc2Oc2ccc(Nc3ccccn3)nc2)CC1
+ -22.34   -93.94  -11.38    0.64     NC[C@H]1CN(c2ccccc2CNc2ncccn2)CC1O
+ -21.29   -64.99   23.59    0.69     O=S(=O)(c1ccc2occc2c1)N1CCN(c2cccc(C(F)(F)F)c2)CC1
+ -12.73   -23.68   26.50    0.39     Cc1[nH]nc2ccccc12
+  -8.11   -24.58  -24.58    0.00     Cn1cnc2ccccc21
+  -7.64   -29.19   43.90    0.57     O=C(Nc1cccnc1)c1ccccn1
+ -12.01   -47.44   60.08    0.84     Nc1ncnc2c1cnn2C1CCN(C(=S)Nc2ccccc2)CC1
+ -20.00   -58.80  -58.80    0.00     CSc1nn2c(Nc3ccccn3)nc3ccccc3c12
+ -13.36   -39.52   49.57    0.70     NS(=O)(=O)c1ccc(Nc2nccsc2=O)cc1
+Step [15/3000]: Train loss: 2160.8662
+
+       Step 15   Fraction valid SMILES: 96.9  Time elapsed: 0.29h Time left: 54.93h
+  Agent    Prior   Target   Score             SMILES
+ -17.14   -86.02  -86.02    0.00     COc1ncccc1NC(=O)N(Cc1ccccc1)c1ncccn1
+  -9.82   -26.55  -26.55    0.00     NS(=O)(=O)c1cccc(Nc2ncccn2)c1
+ -13.06   -53.93   37.59    0.71     O=C(Nc1ccccn1)c1cccnc1Cn1cccn1
+ -11.03   -26.57  -26.57    0.00     O=c1[nH]c2ccccc2c(=O)n1O
+ -12.52   -50.58   43.75    0.74     O=S(=O)(Cc1nccn1Cc1ccccn1)c1cccnc1
+ -16.18   -61.88    4.30    0.52     O=C1NC(=O)C(/C=N/c2ccccc2)c2ccccc21
+ -11.42   -26.67   32.59    0.46     CNc1nc2ccccc2s1
+  -9.29   -65.48   17.72    0.65     NC(=S)N1N=C(c2ccccc2)CC1c1ccccc1O
+ -13.30   -40.31   38.41    0.62     O=C(NCCc1nccn1Cc1ccccc1)C1CC1
+ -11.69   -42.61   34.83    0.61     O=C(Nc1ccncn1)c1cncs1
+Step [16/3000]: Train loss: 1755.4305
+
+       Step 16   Fraction valid SMILES: 98.4  Time elapsed: 0.31h Time left: 55.12h
+  Agent    Prior   Target   Score             SMILES
+ -20.58   -75.38   -9.84    0.51     FC1(F)CCN1c1nccnc1C1CCNCC1
+ -22.64   -52.72  -52.72    0.00     Cc1cccc(CNc2cccc(C)c2)c1O
+ -14.30   -80.59   -4.43    0.60     N#Cc1cnn2c(N)cc(N)nc12
+ -10.42   -42.42   47.56    0.70     O=S1(=O)N=C(NCc2ccccc2)c2ccccc21
+ -18.58   -69.76   32.00    0.80     O[C@@H]1CCN(c2cccnc2Oc2ccc(Nc3ccccn3)nc2)C1
+ -22.55   -85.55    3.28    0.69     O=C(OC1CNC1=O)c1cnnn1C1CCS(=O)(=O)C1
+ -21.34   -60.45  -60.45    0.00     NCCCNCCCCNc1nccc2[nH]cnc12
+ -12.20   -60.00   21.67    0.64     O=C(c1ccnnc1)N1CCN(S(=O)(=O)c2ccccc2)CC1
+  -9.60   -45.19   35.96    0.63     Nc1n[nH]c(N)c1Cc1ccccc1
+ -17.11   -54.98   25.27    0.63     NC(=O)c1cnc(N2CCN(C(c3ccccc3)c3ccccc3)CC2)nc1
+Step [17/3000]: Train loss: 2081.0963
+
+       Step 17   Fraction valid SMILES: 100.0  Time elapsed: 0.33h Time left: 55.41h
+  Agent    Prior   Target   Score             SMILES
+ -16.08   -52.24   42.74    0.74     O=C(NC1CCCNC1)c1ccncc1NC(=O)c1cccnc1
+ -16.19   -47.14   38.87    0.67     O=C(Nc1ccc(-n2ccccc2=O)cc1)c1cnccn1
+ -11.51   -48.49  -48.49    0.00     c1ncn(-c2ccccc2)n1
+ -19.96   -60.54   36.49    0.76     O=S(=O)(c1cccnc1)c1ccccc1CSc1ccc(Br)cc1
+ -13.75   -38.35  -38.35    0.00     N#Cc1ccccc1N1CCN(CC#N)CC1
+ -15.63   -39.98   30.42    0.55     Fc1ccccc1C1Cc2cccnc2N1
+ -17.38   -38.48  -38.48    0.00     CCNc1nc(N)c(C#N)cc1C#N
+ -12.13   -58.14   29.67    0.69     O=C(NCC1CC1)c1cnn(Cc2cccnc2)c1
+ -14.78   -74.64    3.57    0.61     CN(Cc1cnn(C)c1)C(=O)CN1C(=O)COc2ccccc21
+ -30.22   -80.70   -0.83    0.62     COc1ccc2[nH]nc(C)c2c1CNC(C)(CC)c1noc2ccccc12
+Step [18/3000]: Train loss: 2022.5124
+
+       Step 18   Fraction valid SMILES: 97.6  Time elapsed: 0.35h Time left: 55.61h
+  Agent    Prior   Target   Score             SMILES
+ -16.83   -62.96   13.71    0.60     Cc1ncc(F)cc1CNC(=O)Cn1cccn1
+ -14.45   -50.74   40.40    0.71     O=C(Oc1ccccc1C(=O)N1CCN(c2ccccc2)CC1)c1cccnc1
+ -13.68   -65.06   15.58    0.63     O=C1c2cccnc2SCN1c1ccccn1
+ -16.58   -48.92   21.73    0.55     NC1CCN(Cc2cccs2)c2ccccc21
+ -14.79   -56.80  -56.80    0.00     O=C(N[C@H](Cc1ccccc1)C(=O)O)c1ccccn1
+ -13.92   -60.34   10.19    0.55     O=C1CCc2c1cnn2-c1ccccc1Cl
+ -13.77   -54.86   22.20    0.60     Nc1ncnc(N2CCN(C(=O)C3CCCO3)CC2)c1O
+  -6.25   -55.11   49.72    0.82     O=C(Nc1ccncn1)c1cccnc1Sc1cccnc1
+ -21.02   -52.82   35.63    0.69     Cc1cccnc1OC1CCN(C(=O)c2nncs2)CC1
+ -14.27   -42.17  -42.17    0.00     Oc1ccccn1Sc1ncccn1
+Step [19/3000]: Train loss: 2125.2673
+
+       Step 19   Fraction valid SMILES: 96.9  Time elapsed: 0.37h Time left: 55.53h
+  Agent    Prior   Target   Score             SMILES
+ -13.25   -38.90   56.33    0.74     Nc1nc(N[C@@H]2CCCNC2)c2ccccc2n1
+  -9.69   -40.42   26.02    0.52     NC(=O)c1cnn2ccccc12
+ -26.22   -121.74  -121.74    0.00     CCNC(=O)c1ncn2c1CN(c1ccccc1)C(C)C1COc1ccccc1O2
+ -15.45   -44.51   56.74    0.79     CN1CCN(c2nccnc2SCc2cccnc2)CC1
+ -15.28   -50.07   13.16    0.49     COc1ccccc1C1SCCN1S(=O)(=O)c1ccc(C)cc1
+ -11.24   -37.19   54.72    0.72     NS(=O)(=O)c1ccc(NC(=O)CNc2ccccn2)cc1
+ -17.26   -57.29   35.89    0.73     O=S(=O)(c1cccnc1)c1cn(CCN2CCCCC2)nn1
+ -13.21   -47.01   33.12    0.63     O=C(Nc1nc2ccccc2[nH]1)c1cccnn1
+ -15.64   -60.19   23.53    0.65     O=C(NCCc1ccnnc1)c1cnccn1
+ -15.75   -58.39   32.62    0.71     Oc1ccccc1C1=NCCN1CCN1CCN(c2ccccc2)CC1
+Step [20/3000]: Train loss: 2129.4426
+
+       Step 20   Fraction valid SMILES: 95.3  Time elapsed: 0.39h Time left: 55.60h
+  Agent    Prior   Target   Score             SMILES
+ -15.12   -46.16   49.84    0.75     NC1CCN(Cc2ccccc2Nc2ncccn2)CC1
+ -17.42   -40.13  -40.13    0.00     COc1cncc(OC)c1N1CCN(C)CC1
+ -15.77   -54.49   18.86    0.57     Nc1nncn1C(=O)N1CCc2ccccc21
+ -18.17   -75.12  -75.12    0.00     COc1ccc(NC(=O)C[S+]([O-])CC(=O)NC)cc1C
+ -19.12   -66.26   13.61    0.62     CC1Nc2ncnc(N)c2N=C1c1ccc[nH]1
+ -17.38   -38.89   33.69    0.57     c1nccnc1Nc1cccnc1
+ -21.34   -71.41    7.56    0.62     Cc1nn(CC2CNCCO2)c(=O)cc1Nc1ccccc1OC
+ -11.29   -45.60  -45.60    0.00     O=c1[nH]cnc2cncnc12
+ -13.99   -65.43   19.30    0.66     O=S(=O)(c1cccnc1)c1cccn1-c1ncccc1F
+ -24.28   -83.39  -83.39    0.00     COc1ccc2[nH]cc(CCNC(=O)CCCCCNC(=O)COc3ccc(Cl)cc3Cl)c2c1
+Step [21/3000]: Train loss: 1846.3516
+
+       Step 21   Fraction valid SMILES: 96.9  Time elapsed: 0.41h Time left: 55.63h
+  Agent    Prior   Target   Score             SMILES
+ -14.51   -58.63   24.19    0.65     O=C(NC1COC1)c1cccnc1COc1cccnc1
+ -16.56   -72.10   33.50    0.82     Nc1ncnc(N2CCN(S(=O)(=O)c3cccnc3)CC2)c1N1CCCC1
+ -28.30   -94.41   -5.96    0.69     Fc1ccc2[nH]cc(C[C@H](NC(=O)CCCc3ccncc3)c2c1)c1ccccc1C(F)(F)F
+ -25.47   -100.79    9.67    0.86     O=C(c1cnncc1CN1C(=O)CSc2ncccc21)NC1CCS(=O)(=O)C1
+ -10.07   -32.08   49.58    0.64     Nc1ncncc1CNc1cccnc1
+ -18.73   -51.08  -51.08    0.00     CCOC(=O)c1sc(NC(=O)Cc2ccccc2N)nc1C
+ -12.90   -65.62   -3.80    0.48     CCc1nnn(-c2ccccn2)n1
+ -18.46   -73.26   16.60    0.70     O=C(OCCCc1ccncc1)c1cnnn1Cc1ccccc1
+ -23.49   -89.03   10.17    0.77     COc1ccccc1Nc1ncccc1CNC(=O)c1nccnc1C(C)C
+  -8.97   -43.87   32.54    0.60     O=S(=O)(Cc1ccccn1)c1ccncc1
+Step [22/3000]: Train loss: 2060.5392
+
+       Step 22   Fraction valid SMILES: 98.4  Time elapsed: 0.43h Time left: 55.56h
+  Agent    Prior   Target   Score             SMILES
+ -14.88   -93.58    5.37    0.77     CCOc1ccc(NC(=O)CN(C)CC(=O)NCc2ccncc2)cc1OCC
+ -13.79   -63.22   35.73    0.77     O=C(Nc1ncncc1CN1CCN(c2ncccn2)CC1)c1cccnc1
+ -16.58   -68.66  -68.66    0.00     Cc1ncnc(NCc2ccccn2)c1Oc1cccnc1C
+ -20.71   -64.85   15.28    0.63     CN1Cc2cc(Sc3cccnc3)ccc2NC(=O)C1
+ -11.40   -41.55   37.94    0.62     Nc1cccnc1Cn1ccnn1
+ -17.18   -50.18   37.37    0.68     CC(C)(CSc1ccccn1)NS(=O)(=O)c1ccccc1
+ -17.16   -57.41   16.96    0.58     O=C(NCc1ccncn1)C1(Cc2ccccc2)CCC1
+ -13.00   -70.36   22.31    0.72     Cc1nnc(NC(=O)CN(C)S(=O)(=O)c2ccccc2C)s1
+ -10.34   -34.05   61.56    0.75     O=C(CSc1nccn1Cc1ccco1)Nc1cccnc1
+ -26.65   -82.82    6.78    0.70     O=C(NC(CC1CCC1)C(c1cccnc1)c1ccncc1)c1ccccc1Br
+Step [23/3000]: Train loss: 1774.3782
+
+       Step 23   Fraction valid SMILES: 97.7  Time elapsed: 0.45h Time left: 55.64h
+  Agent    Prior   Target   Score             SMILES
+ -15.48   -48.04   36.44    0.66     O=C1CCCN1C(=O)CN1CCN(Cc2ccccc2C(F)(F)F)CC1
+ -22.55   -76.08   11.60    0.69     COc1ccccc1OCCCOc1ccccc1CCN1CCNCC1
+  -7.73   -45.19   33.91    0.62     Nc1n[nH]c(N)c1Cc1ccccc1
+ -14.18   -39.11   38.97    0.61     c1ccc(CCNC2CCNCC2)cc1C1CCNCC1
+ -22.25   -84.44    6.69    0.71     O=C(NC1CCCN(CCNc2ccncn2)C1)c1nccs1
+  -7.41   -18.17  -18.17    0.00     O=C1NCc2ccccc21
+ -22.91   -74.45   22.19    0.75     CCCCCCCCNS(=O)(=O)NC(=O)Cn1cccc1C
+ -13.27   -41.34   28.42    0.55     O=C(CN1C(=O)CSc2ccccc21)c1ccccc1
+  -9.38   -43.51   39.05    0.64     COc1ccccc1CNC(=O)CN1C(=O)CSc2ccccc21
+ -16.22   -78.64   15.31    0.73     COc1ccccc1N1CCN(CCN(C(=O)Nc2cccnc2)CCN(C)C)CC1
+Step [24/3000]: Train loss: 2078.3389
+
+       Step 24   Fraction valid SMILES: 98.4  Time elapsed: 0.47h Time left: 55.85h
+  Agent    Prior   Target   Score             SMILES
+  -7.83   -31.30   30.90    0.49     Nc1nccn2cncc12
+ -18.96   -53.97   34.22    0.69     O=C(NC(=O)c1c[nH]c(=O)c(Cl)c1)c1cccnc1
+  -9.98   -37.30   46.28    0.65     O=C1CSC(=O)N1CCN1CCN(c2ccccn2)CC1
+ -10.02   -42.80   47.31    0.70     O=C1CNCCN1CCNc1ccnc2ccccc12
+ -15.61   -65.87   42.41    0.85     O=S(=O)(c1ccc(F)cc1)c1[nH]cnc1CCN1CCN(c2ccccc2)CC1
+ -11.28   -40.88   40.52    0.64     Cc1cnn(CCNCCc2cccnc2)c1
+ -20.86   -45.26  -45.26    0.00     Cc1ccccc1Cn1ncc2c1CC(C)CC2
+ -12.57   -36.24   52.59    0.69     O=C(NCCSc1ccncc1)c1cccnc1
+ -13.86   -76.62   31.67    0.85     O=C(NCCc1ccn[nH]1)c1cccnc1COc1cccnc1
+  -7.82   -67.05   54.94    0.95     Nc1ncnc(N2CCN(CCNS(=O)(=O)c3cccnc3)CC2)c1O
+Step [25/3000]: Train loss: 2243.2019
+
+       Step 25   Fraction valid SMILES: 96.1  Time elapsed: 0.49h Time left: 55.91h
+  Agent    Prior   Target   Score             SMILES
+ -19.61   -41.36  -41.36    0.00     Oc1cc(Nc2ccnc3ccccc23)nc(Nc2ccccc2)n1
+  -8.81   -45.33   54.64    0.78     O=C1NCCN1CCN1CCN(CCOC(c2ccccc2)c2ccccc2)CC1
+ -24.04   -94.83  -20.07    0.58     O=C(NC(C1CC1)C(Cn1ccnn1)c1ccccc1)C1CC1
+ -13.03   -61.88   33.35    0.74     O=C(Cn1nnc(Cc2ccccc2)n1)Nc1cccnc1
+ -14.95   -63.93   41.80    0.83     O=S(=O)(c1ccccn1)c1scnc1COc1ccccn1
+ -15.06   -55.21   36.82    0.72     O=C(OCCN1CCN(CCOc2ccccc2)CC1)c1cnccn1
+  -7.37   -38.00   46.35    0.66     O=C1NCCN1CCN1CCN(c2ccccc2)CC1
+ -20.02   -83.63   20.94    0.82     O=C(NC(=O)c1ccncc1)c1cccnc1C(=O)CCc1ncccn1
+  -9.10   -41.27   62.54    0.81     O=C(NCCN1CCCC1)c1cccnc1Sc1cccnc1
+ -10.97   -34.46   46.18    0.63     Nc1ccncc1NCc1ccncc1
+Step [26/3000]: Train loss: 2286.7338
+
+       Step 26   Fraction valid SMILES: 97.7  Time elapsed: 0.51h Time left: 56.35h
+  Agent    Prior   Target   Score             SMILES
+ -17.22   -56.76   49.48    0.83     COc1ccc(CCNC(C)=O)cc1OCCSc1ccccn1
+ -17.12   -35.85   49.91    0.67     CNC(=O)CCCSc1nc2ccccc2o1
+ -12.51   -67.48   19.43    0.68     O=C(NC1CCCN1CCO)C1CCN(S(=O)(=O)c2cccnc2)CC1
+ -11.35   -38.02   48.12    0.67     O=C(NCC1CCNCC1)C1CCN(C(=O)c2cccnc2)CC1
+ -15.43   -56.41   51.37    0.84     O=C(Cn1ncc2ccccc21)Nc1nc2c(Cl)cccc2s1
+ -12.35   -43.70   38.73    0.64     Cn1cnnc1CCNC(=O)Cn1cccn1
+ -12.79   -47.80   13.13    0.48     CC(=O)Nc1sc2ccccc2c1C
+ -16.90   -57.17   31.02    0.69     Cc1[nH]ncc1CN1CCN(C/C=C/c2ccccc2)CC1
+ -16.81   -74.27    0.22    0.58     c1ccc(C(c2c[nH]cn2)n2cncn2)cc1
+ -11.81   -53.40   21.61    0.59     O=S(=O)(c1ccccn1)c1ccccc1CO
+Step [27/3000]: Train loss: 2539.8923
+
+       Step 27   Fraction valid SMILES: 94.5  Time elapsed: 0.53h Time left: 56.43h
+  Agent    Prior   Target   Score             SMILES
+ -14.13   -44.57   54.89    0.78     O=C(NS(=O)(=O)c1ccccc1)c1ccccc1Cc1cccnc1
+ -12.20   -27.95   22.22    0.39     Cn1c(=O)[nH]c2ccccc21
+ -15.68   -50.89   20.15    0.56     O=C1CCNC1CCc1cccnn1
+ -10.69   -47.61   49.28    0.76     O=C(Nc1ccncn1)c1ccccc1C(=O)c1cccnc1
+ -12.88   -44.09   39.11    0.65     O=C(NCc1cscn1)Nc1ccccn1
+ -28.12   -75.02   14.71    0.70     CN1CCN(c2ccc(N3CCOC(C(=O)NCCN4CCCCC4)C3=O)cc2)CC1
+ -31.64   -102.59   -8.90    0.73     CC1CCN1CCNC(=O)c1ccccc1C(=O)NCC1CCN(C(=O)Cc2ccncc2)CC1
+ -11.33   -45.75   52.30    0.77     O=C(NCCCn1ccnc1)c1cccnc1Cn1ccnc1
+ -25.21   -90.55    4.56    0.74     O=C(OCCCCOc1ccccc1CN1CCCC1)c1ccccc1N1CCCC1=O
+ -14.19   -80.20   26.42    0.83     O=C(NCc1ccn[nH]1)c1cccnc1COc1cccnc1
+Step [28/3000]: Train loss: 2230.0296
+
+       Step 28   Fraction valid SMILES: 98.4  Time elapsed: 0.55h Time left: 56.50h
+  Agent    Prior   Target   Score             SMILES
+ -14.00   -62.99   22.13    0.67     O=C1CNC(=O)C1CCCN1CCN(Cc2ccco2)CC1
+ -10.74   -28.79   60.81    0.70     NS(=O)(=O)c1ccc(NC(=O)CN2CCN(Cc3ccccc3)CC2)cc1
+ -11.93   -63.62  -63.62    0.00     O=C(Cn1ncc2ccccc21)Nc1nc2cccnc2s1
+ -24.98   -66.79   27.80    0.74     COc1cccnc1OCCNC(=O)C1CCN(CCCOc2ccccc2)CC1
+ -12.58   -54.84   34.63    0.70     O=C(NCCc1ncc[nH]1)C1CCN(C(=O)c2cccs2)CC1
+  -9.68   -49.61   44.86    0.74     O=C(NCCCN1CCCC1=O)C1CCN(C(=O)c2cccnc2)CC1
+ -13.84   -52.07   32.03    0.66     O=C(NC1CCN(C(c2cccnc2)c2cccnc2)CC1)c1cccs1
+ -17.11   -31.05  -31.05    0.00     Fc1ccc(NC(=S)Nc2ccc(NS(=O)(=O)c3ccccc3)cc2)cc1
+ -11.54   -33.39   56.08    0.70     O=C(NCCN1CCOCC1)c1ccccc1Cc1ccccc1
+  -9.81   -45.05   50.44    0.75     O=C(NC1CCN(C(=O)CCCn2ccnc2)CC1)c1cccnc1
+Step [29/3000]: Train loss: 2263.5366
+
+       Step 29   Fraction valid SMILES: 98.4  Time elapsed: 0.57h Time left: 56.62h
+  Agent    Prior   Target   Score             SMILES
+  -9.13   -34.66   51.49    0.67     O=C1CCCN1CCNS(=O)(=O)c1ccc(Cl)cc1
+ -12.77   -54.73   16.44    0.56     O=C(c1cccnc1S)c1ccccn1
+ -15.95   -48.93   40.42    0.70     Cn1ccnc1CN1CCN(CC(=O)Nc2ncccn2)CC1
+  -7.25   -33.01   33.93    0.52     O=C1CCCN1CCOc1cccnc1
+ -10.62   -41.65   31.57    0.57     O=C1NC(=O)C(Cc2ccccn2)c2ccccc21
+ -16.43   -51.42   25.25    0.60     COc1cnccc1N1CCN(CCCN)CC1
+ -11.90   -65.76   46.11    0.87     O=C(Nc1nccnc1CCc1ccccn1)c1cccn1CCc1ccccc1
+  -8.52   -60.14   23.95    0.66     O=C1NCCN1CCN1CCN(c2cccnn2)CC1
+ -14.24   -34.41   44.95    0.62     Cc1nnc(CN2CCN(Cc3cccnc3)CC2)o1
+ -18.73   -80.23    8.09    0.69     O=C(C1CC1)c1cn(CCNCc2cccnc2)cn1
+Step [30/3000]: Train loss: 2638.6206
+
+       Step 30   Fraction valid SMILES: 98.4  Time elapsed: 0.59h Time left: 56.67h
+  Agent    Prior   Target   Score             SMILES
+  -6.87   -37.61   46.36    0.66     O=C(NC1CCN(Cc2cccnc2)CC1)c1cccnc1
+  -9.91   -44.43   40.95    0.67     NCc1cccnc1Sc1cccnc1
+  -6.77   -27.55  -27.55    0.00     O=C(Nc1ncccn1)c1ccccc1
+ -12.27   -43.42   38.75    0.64     O=C(COC(=O)CNC(=O)c1ccco1)c1ccccc1
+ -11.19   -35.32   38.02    0.57     Oc1cccnc1CCN1CCNCC1
+ -10.11   -47.63   42.36    0.70     O=C(NCCc1nccn1Cc1ccccn1)c1cccnc1
+ -16.31   -45.14  -45.14    0.00     O=C1CC(N2CCN(CCO)CC2)CCN1Cc1ccccn1
+ -13.29   -45.45   29.05    0.58     OCCN1CCN(Cc2ccncc2)c2ccccc21
+ -26.88   -88.03    1.83    0.70     FC(F)(F)CCNCCNc1ccc(Cn2cccn2)nc1
+ -11.04   -53.75   28.42    0.64     Nc1ncnc(N2CCN(C(=O)c3cccnc3)CC2)c1C1CC1
+Step [31/3000]: Train loss: 2181.8772
+
+       Step 31   Fraction valid SMILES: 99.2  Time elapsed: 0.61h Time left: 56.76h
+  Agent    Prior   Target   Score             SMILES
+ -11.08   -52.05   41.78    0.73     O=C(Nc1nc[nH]n1)c1ccccc1OCc1ccccc1
+  -7.89   -33.03   42.11    0.59     O=C(Nc1nc2cccnc2s1)c1ccccc1
+  -9.05   -53.74   57.36    0.87     O=C(NCCCN1CCN(CCNS(=O)(=O)c2ccccc2)CC1)c1cccnc1
+ -18.63   -56.24   32.21    0.69     C=C1CCN(CCNC(=O)CNS(=O)(=O)c2ccc(C)cc2)CC1
+ -13.69   -48.88   26.89    0.59     O=C(O)CN1CCN(S(=O)(=O)c2cccnc2)CC1
+  -6.09   -33.11   44.97    0.61     O=C(NCC1CCN(C(=O)c2cccnc2)CC1)c1ccccc1
+ -12.23   -57.46   14.73    0.56     O=C1CCCN1CCOCCOc1ccccn1
+ -22.61   -80.66   16.49    0.76     O=C1NC(=O)C(=Cc2cnn[nH]2)CC1=CCCc1ccccc1
+ -10.19   -36.07  -36.07    0.00     O=C(NCCN1CCCC1=O)c1ccncc1
+ -10.49   -17.58   51.03    0.54     OC(Cn1ccnc1)c1ccccc1
+Step [32/3000]: Train loss: 2474.9165
+
+       Step 32   Fraction valid SMILES: 98.4  Time elapsed: 0.63h Time left: 56.87h
+  Agent    Prior   Target   Score             SMILES
+  -9.82   -33.02  -33.02    0.00     CN1CCN(CCc2ccccn2)CC1
+ -11.57   -50.18  -50.18    0.00     Nc1cnccc1N1CCN(Cc2cccnc2)CC1
+ -13.02   -45.88   44.23    0.70     NN1CCN(CCNS(=O)(=O)c2ccccc2)CC1
+ -32.60   -69.26   18.16    0.68     C=CCn1cc(CCCc2c[nH]cn2)cc(Cl)c1=O
+ -12.25   -53.99   30.61    0.66     O=C(NCCCN1CCOCC1)C1CCN(C(=O)Cc2cccs2)CC1
+ -11.03   -50.22   35.16    0.67     O=C(NCCCn1cncn1)c1ccccn1
+  -8.05   -46.99   35.32    0.64     O=C(NCC1CCN(CCc2ccccn2)CC1)c1cccnc1
+  -9.52   -31.95   26.80    0.46     O=C1CC(c2ccccc2)c2ccccc21
+  -6.02   -32.27   42.87    0.59     O=C(NC1CCN(C(=O)c2cccnc2)CC1)c1ccccc1
+ -15.26   -58.55   39.62    0.77     COc1ccc(NC(=S)Nc2cccnc2C)cc1OCC
+Step [33/3000]: Train loss: 2383.0315
+
+       Step 33   Fraction valid SMILES: 100.0  Time elapsed: 0.65h Time left: 56.95h
+  Agent    Prior   Target   Score             SMILES
+ -14.74   -62.38   36.44    0.77     O=C(NCCCN1CCOCC1)C1(CCc2cccnc2)CCN(Cc2ccccc2)CC1
+ -15.50   -49.23   50.10    0.78     O=C(OCCOCCN1CCOCC1)c1cccnc1C(=O)Nc1cccnc1
+ -13.54   -46.32   55.31    0.79     O=C(NCCO)c1cnccc1OCc1cccnc1
+ -10.60   -42.46   52.01    0.74     O=C(NCCC(=O)N1CCN(Cc2cccnc2)CC1)c1ccccc1
+ -12.33   -45.23   36.94    0.64     O=C(Nn1cnnc1)c1ccccc1Cc1ccccc1
+ -10.99   -33.07   50.52    0.65     O=C(NCCCCc1cccnc1)c1cccnc1
+ -12.89   -30.54  -30.54    0.00     CN1CCCN(CCOc2cccnc2)CC1
+  -9.68   -65.05   34.92    0.78     Cc1nnc(NC(=O)CSc2scnn2)s1
+  -8.03   -35.91   49.08    0.66     O=C1NCCN1CCNc1cccnc1
+ -12.72   -50.97   34.15    0.67     O=C(NCCC1CCCN(C(=O)c2cccnc2)C1)c1ccccc1
+Step [34/3000]: Train loss: 2501.0347
+
+       Step 34   Fraction valid SMILES: 98.3  Time elapsed: 0.67h Time left: 57.09h
+  Agent    Prior   Target   Score             SMILES
+ -15.05   -69.40   42.09    0.87     O=C(NCCCN1CCOCC1)c1cnc(C(=O)NCCc2ccccc2)s1
+ -14.59   -52.86   24.45    0.60     c1cnc(NCc2ccncc2)nn1
+ -18.02   -58.01   30.95    0.69     CCOc1cccnc1CCCN1CCN(CCc2cccnc2)CC1
+ -12.64   -40.66   30.77    0.56     COc1ccccc1C(=O)c1cccnc1
+ -19.52   -57.52   47.69    0.82     O=C(NCC1CCOCC1)c1nc2ccccc2nc1Nc1cccnc1
+ -15.64   -53.52   55.54    0.85     OC1CCN(CCSc2ncncc2NC(=O)Cc2ccccc2)CC1
+ -15.31   -71.15   32.53    0.81     O=C(NCCCN1CCOCC1)C(=O)NC1CCN(CCCn2ccnc2)CC1
+  -6.50   -44.14   48.27    0.72     O=C(NCCCN1CCOCC1)c1cccnc1COc1cccnc1
+  -5.36   -25.10  -25.10    0.00     O=C(NCCn1ccnc1)c1ccccc1
+  -8.21   -26.66   54.62    0.63     O=C(NCCSCc1ccccc1)c1ccccc1
+Step [35/3000]: Train loss: 2566.2635
+
+       Step 35   Fraction valid SMILES: 100.0  Time elapsed: 0.69h Time left: 57.21h
+  Agent    Prior   Target   Score             SMILES
+  -8.93   -36.38   40.42    0.60     O=C(CSCc1ccccn1)c1ccccc1
+  -8.66   -44.79   62.73    0.84     O=C(NCCCN1CCOCC1)c1cccnc1CSc1ncccn1
+  -9.34   -39.57   46.96    0.68     O=C(NCCS(=O)(=O)NC1CCCC1)c1cccnc1
+  -7.19   -48.95   39.37    0.69     O=C1NCCN1CCN1CCN(c2ccccn2)CC1
+ -22.31   -51.75   59.61    0.87     O=C1NCCN1CCNc1cc(NC(=O)c2ccccc2)n[nH]1
+  -6.69   -34.66  -34.66    0.00     O=C1CCCN1CCNS(=O)(=O)c1ccc(Cl)cc1
+ -11.09   -30.22   46.19    0.60     Nc1nnc(Cc2ccccc2)s1
+  -8.76   -29.51   59.32    0.69     O=C(NCCCSc1cccnc1)c1ccccc1
+ -13.03   -48.81   46.04    0.74     O=C(NC1CCN(C(=O)CCCS(=O)(=O)c2ccccc2)CC1)c1ccccc1
+ -15.85   -66.30  -66.30    0.00     O=C(NCCc1nc(CCc2ccccc2)sc1C1CC1)c1ccccc1
+Step [36/3000]: Train loss: 2544.1668
+
+       Step 36   Fraction valid SMILES: 98.3  Time elapsed: 0.72h Time left: 57.28h
+  Agent    Prior   Target   Score             SMILES
+  -5.24   -32.55   45.15    0.61     O=C(NCCCn1ccnc1)c1cccnc1
+ -20.08   -96.13   12.79    0.85     O=C1CCc2cc(S(=O)(=O)NCCCN(Cc3cccnc3)c3ccccc3)ccc21
+ -16.77   -51.61   36.84    0.69     O=C1NCCN1CCN(C(=O)c1cccnc1C(F)(F)F)c1ccccc1
+  -6.09   -41.61   40.70    0.64     O=C(NCC1CCCN(Cc2cccnc2)C1)c1cccnc1
+  -7.96   -49.48   32.70    0.64     O=C(NCCCN1CCOCC1)C(=O)Nc1cccnc1
+ -16.05   -43.03   32.49    0.59     O=C1NCCCN1CCNCC1CCOCC1
+ -10.56   -37.79   42.98    0.63     O=C1CN(CCN2CCOCC2)CCN1CCN1CCOCC1
+  -8.43   -28.61   55.61    0.66     O=C(NCCCc1cccnc1)c1cccnc1
+ -20.27   -47.58   43.94    0.71     O=C(NCC1CCCN(Cc2ccc(F)cc2)C1)c1ccc(S(N)(=O)=O)cc1
+ -11.87   -57.95   48.04    0.83     O=C(NCCCN1CCOCC1)c1cccc(NC(=O)CCCCc2cccnc2)c1
+Step [37/3000]: Train loss: 2624.4798
+
+       Step 37   Fraction valid SMILES: 98.4  Time elapsed: 0.74h Time left: 57.48h
+  Agent    Prior   Target   Score             SMILES
+  -9.87   -65.95   24.55    0.71     O=C(NCCCn1nccn1)C1CCN(C(=O)c2cccnc2)CC1
+ -12.49   -63.59  -63.59    0.00     c1ccc(CCCNc2cccnc2)nc1
+ -10.80   -54.72   41.28    0.75     O=C(NCCCN1CCOCC1)c1cccnc1SS(=O)(=O)c1ccc(Cl)cc1
+ -16.48   -57.85   29.19    0.68     O=C(NCCC1CCN(CCOc2ccccc2F)CC1)c1ccccc1
+ -11.22   -37.33   45.10    0.64     O=C(NCC1CCN(C(=O)c2ccnnc2)CC1)c1cccnc1
+  -4.15   -43.51   48.39    0.72     O=C(NCCCN1CCOCC1)C1CCN(C(=O)c2cccnc2)CC1
+  -8.84   -50.76   65.34    0.91     O=C(NCCCN1CCOCC1)c1cccnc1SC1CCS(=O)(=O)C1
+  -3.55   -42.87   63.11    0.83     O=C(NCCCN1CCOCC1)c1cccnc1SCc1cccnc1
+ -15.54   -55.40   31.90    0.68     NC1CCN(CCSc2n[nH]c(N)n2)CC1
+ -12.47   -56.75   39.50    0.75     Nc1ncnc(N2CCOCC2)c1C1CCN(C(=O)c2ccnnc2)CC1
+Step [38/3000]: Train loss: 2576.5039
+
+       Step 38   Fraction valid SMILES: 97.5  Time elapsed: 0.76h Time left: 57.62h
+  Agent    Prior   Target   Score             SMILES
+  -4.94   -24.32   45.57    0.55     O=C(Cn1ncc2ccccc21)c1ccccc1
+  -9.54   -34.28   47.89    0.64     O=C(COC(=O)CNC(=O)c1ccccc1)c1ccccc1
+  -7.82   -55.09  -55.09    0.00     O=C(NC1CCN(CCNS(=O)(=O)c2ccccc2)CC1)c1ccccc1
+ -19.60   -69.58   20.66    0.70     FC(F)(F)c1cncc(NCCc2nnn[nH]2)n1
+  -8.22   -36.15   48.33    0.66     O=C(NCC1CCCN1CCc1cccnc1)c1ccccc1
+ -19.90   -85.44  -85.44    0.00     O=C1CCCN1CCN1CCN(CCN=C(c2ccccc2)c2ccccc2)cc1=O)c1ccccc1
+ -23.64   -58.77   45.29    0.81     O=C(CCCN1Cc2cccnc2SC1CCc1ccccc1)c1ccccc1
+  -9.48   -43.06   42.06    0.67     O=C(NCC1CCCN(Cc2cccnc2)C1)c1cccs1
+ -11.64   -53.54   44.38    0.76     S=C(NCCCN1CCOCC1)c1cccnc1SCc1cccnc1
+  -5.26   -28.02   62.35    0.71     O=C(NCCSCc1cccnc1)c1ccccc1
+Step [39/3000]: Train loss: 2826.2279
+
+       Step 39   Fraction valid SMILES: 99.2  Time elapsed: 0.78h Time left: 57.85h
+  Agent    Prior   Target   Score             SMILES
+  -8.12   -44.32   48.48    0.73     O=C(NCCCN1CCOCC1)c1ccccc1C(=O)c1ccccc1
+ -12.23   -46.88   46.30    0.73     O=C1NCCN1CCN1CCN(C(=O)c2ccnnc2)CC1
+ -12.90   -48.68   47.57    0.75     O=C(CSc1ncnn1CCc1ccccc1)c1ccccc1
+  -7.53   -48.42   38.36    0.68     O=C(NCCCN1CCOCC1)C1CCN(C(=O)CCCc2cccnc2)CC1
+ -21.85   -61.22   41.95    0.81     O=C(NCC1CCCN(Cc2ccc(Cl)cc2)C1)c1cccc(OCCCN2CCOCC2)c1
+  -7.77   -38.78   46.46    0.67     O=C(NCC1CCCN(Cc2cccnc2)C1)c1ccccc1
+ -11.05   -44.35   57.41    0.80     O=C(NCCCN1CCOCC1)c1cccc(S(=O)(=O)N2CCN(CCO)CC2)c1
+ -10.01   -30.79   59.96    0.71     O=C(NCCN1CCOCC1)c1ccc(Cn2ccnc2)cc1
+  -7.00   -54.45   48.98    0.81     O=C(NCCCN1CCOCC1)c1cccnc1SCc1cccnn1
+  -4.86   -24.32   45.31    0.54     O=C(Cn1ncc2ccccc21)c1ccccc1
+Step [40/3000]: Train loss: 2813.9827
+
+       Step 40   Fraction valid SMILES: 97.6  Time elapsed: 0.81h Time left: 58.14h
+  Agent    Prior   Target   Score             SMILES
+  -7.07   -41.61   45.94    0.68     O=C(NCC1CCCN(Cc2cccnc2)C1)c1cccnc1
+ -11.69   -42.06   18.49    0.47     c1cnnc(N2CCOCC2)n1
+ -14.45   -54.74   23.85    0.61     O=C1CN(Cc2ccnnc2)c2ccccc21
+ -12.10   -52.50   37.36    0.70     O=C(NCCCN1CCOCC1)C1(CCc2ccccc2)CCN(Cc2ccc(Cl)cc2)CC1
+  -7.82   -57.57   38.17    0.75     O=C(NCCSCc1ccccc1)c1ccccc1C(=O)c1ccccc1
+ -24.09   -80.84   23.22    0.81     O=C(NCCCN1CCOCC1=O)c1cccc(NCc2ccccc2[N+](=O)[O-])c1
+  -9.01   -72.32   35.20    0.84     O=C(NCCCn1ccnn1)c1ccccc1Sc1cccnc1
+ -13.06   -52.85   56.59    0.86     O=C(NCCCN1CCOC1=O)c1cccnc1SCc1cccnc1
+ -11.87   -40.66   48.81    0.70     O=C(NCCCCCCNC(=O)Cc1ccccn1)c1ccccc1
+ -10.75   -44.99   49.99    0.74     O=C1NCCN1CCNC(=O)C1CCN(C(=O)c2cccnc2)CC1
+Step [41/3000]: Train loss: 2664.1600
+
+       Step 41   Fraction valid SMILES: 97.6  Time elapsed: 0.83h Time left: 58.28h
+  Agent    Prior   Target   Score             SMILES
+  -7.69   -57.88   51.43    0.85     O=C(NCCOc1cccnc1)c1cccnc1SCc1cccnc1
+ -15.06   -83.12  -83.12    0.00     O=C(NC(=O)CSC1CCS(=O)(=O)C1)c1cccc(CNS(=O)(=O)c2ccccc2)c1
+  -8.84   -48.11  -48.11    0.00     O=C(NCCCN1CCOCC1)c1ccc(NC(=O)Cc2cccs2)cc1
+ -10.30   -50.57   39.03    0.70     O=C(NC1CCN(C(=O)CCCn2ccnn2)CC1)c1ccccc1
+  -9.83   -40.38   52.93    0.73     O=C(NCCSCc1ccccn1)c1ccccc1N1CCOCC1
+ -10.93   -62.64   12.75    0.59     O=C(NC1CCN(C(=O)Cc2cccnc2)C1c1ccccc1)c1ccccc1
+ -10.49   -82.17   40.32    0.96     O=C(CSc1cccnn1)Nc1cccnc1Sc1ccncn1
+ -15.30   -89.96   -8.04    0.64     O=C(NCCCN1CCOCC1)C1(C(=O)N2CCOCC2)CCN(CCc2ccccn2)CC1
+ -10.34   -31.89  -31.89    0.00     O=C(CS(=O)(=O)c1cccs1)c1ccccc1
+ -20.66   -93.22  -93.22    0.00     O=C(NCCCNCCCNC(=O)c1nccnc1NC1CCCC1
+Step [42/3000]: Train loss: 2896.5214
+
+       Step 42   Fraction valid SMILES: 98.4  Time elapsed: 0.85h Time left: 58.46h
+  Agent    Prior   Target   Score             SMILES
+  -9.55   -43.62   64.54    0.85     O=C(NCCCN1CCOCC1)c1cccc(S(=O)(=O)N2CCSCC2)c1
+ -16.11   -62.87   47.98    0.87     O=C(NCCCCCN1CCCC1=O)c1cccc(C(=O)NCc2cccnc2)c1
+  -8.78   -77.14   35.50    0.88     O=C(NCCCn1ccnn1)c1cccnc1Sc1ccncn1
+ -17.23   -55.89   44.08    0.78     O=C(NCC1CCCCN1S(=O)(=O)c1ccc(Cl)cc1)n1cccn1
+  -4.65   -48.31   48.71    0.76     O=C(NCCCN1CCOCC1)c1ccccc1Sc1cccnc1
+ -11.48   -30.89   44.50    0.59     O=C1NS(=O)(=O)c2ccccc21
+  -5.93   -44.32   43.24    0.68     O=C(NCCCN1CCOCC1)c1ccccc1C(=O)c1ccccc1
+  -9.01   -55.02   41.62    0.75     O=C(NCCCN1CCOCC1)c1cc(Cc2n[nH]c(=O)c3ccccc23)ccc1F
+  -5.47   -24.75   73.04    0.76     O=C(NCCSc1ncnc2sccc12)c1ccccc1
+  -8.17   -56.45   31.11    0.68     O=C(NCCCN1CCOCC1)c1ccccc1Sc1ccccc1
+Step [43/3000]: Train loss: 2896.5637
+
+       Step 43   Fraction valid SMILES: 100.0  Time elapsed: 0.87h Time left: 58.61h
+  Agent    Prior   Target   Score             SMILES
+ -10.30   -63.42   41.93    0.82     O=C(NC1CCN(C(=O)C2CCCO2)CC1)c1cccnc1Sc1cccnc1
+ -15.29   -43.16   30.18    0.57     O=C(NC1CCCCC1NC(=O)c1ccccn1)c1ccccc1
+  -4.00   -46.98   60.42    0.84     O=C(NCCCN1CCOCC1)c1cccnc1Sc1cccnc1
+ -14.62   -46.50   40.41    0.68     Nc1ncnc(N2CCNCC2)c1Sc1cccnc1
+ -11.20   -47.13   53.99    0.79     O=C(NCCCN1CCCC1)c1cccnc1Sc1ccncn1
+ -12.82   -48.33   33.85    0.64     O=C(NCC1CCCO1)c1ccccc1N1CCN(C(=O)C2CCOCC2)CC1
+ -13.24   -41.50  -41.50    0.00     O=C(CSc1nc[nH]n1)Nc1cc(Cl)ccc1O
+ -16.24   -48.71   31.55    0.63     O=C1CSCCN1CCC1CCN(C(=O)c2cccnc2)CC1
+  -6.80   -25.67   44.73    0.55     O=C(NCC1CCCO1)c1ccccn1
+ -10.10   -48.81   54.35    0.81     O=C1CCCN1CCSc1nnnn1CCc1ccccc1
+Step [44/3000]: Train loss: 2906.5426
+
+       Step 44   Fraction valid SMILES: 97.4  Time elapsed: 0.90h Time left: 58.80h
+  Agent    Prior   Target   Score             SMILES
+  -7.36   -30.95   53.02    0.66     O=C(NCCSCc1ccccc1)c1cccnc1
+  -8.80   -60.46   32.09    0.72     O=C(CSc1cccnc1)c1ccccc1C(=O)c1ccccc1
+ -13.50   -79.25   34.54    0.89     O=C(NS(=O)(=O)c1ccccc1[N+](=O)[O-])c1cccnc1Sc1ccncn1
+ -19.58   -58.19   33.85    0.72     c1ccc(CCN=C2N=NN=C2NCCN2CCOCC2)cc1
+  -9.37   -38.35   60.85    0.77     O=C(NCC1CCCCN1S(=O)(=O)c1ccc(Cl)cc1)c1ccccc1
+ -15.11   -56.55   34.46    0.71     O=C(NCCCN1CCOCC1)C1CCN(C(=O)Cc2cnn(Cc3ccccc3)c2)CC1
+ -17.37   -86.08    9.92    0.75     O=C(NCC1CCCO1)c1cc(CCc2ncncc2F)n[nH]1
+  -6.33   -38.22   58.54    0.76     O=C(NCCCN1CCOCC1)c1ccccc1N1CCN(C(=O)c2cccnc2)CC1
+ -11.19   -46.40   49.73    0.75     O=C(NCC1CCCO1)c1cccnc1SCC(=O)Nc1ccccn1
+ -15.64   -79.49   24.57    0.81     O=C(NCC1SCCS1(=O)=O)c1ccccc1Sc1ccccn1
+Step [45/3000]: Train loss: 2957.7929
+
+       Step 45   Fraction valid SMILES: 98.3  Time elapsed: 0.92h Time left: 58.92h
+  Agent    Prior   Target   Score             SMILES
+  -6.01   -54.99   36.92    0.72     O=C(NCCCN1CCOCC1)c1ccccc1Sc1ccccn1
+ -11.82   -47.94  -47.94    0.00     O=C(NCCCN1CCOCC1)c1cc(Cl)ccc1OC(=O)c1cccnc1
+ -10.26   -57.23   52.46    0.86     O=C(NCCSCc1ccccc1)c1cccnc1OCc1cccnc1
+  -7.87   -59.79   39.92    0.78     O=C(NCC1CCOC1)c1cccnc1Sc1ccncn1
+ -20.12   -46.72  -46.72    0.00     Nc1oncc1C(=O)Nc1ncccn1
+  -6.23   -38.45   51.92    0.71     O=C(NCCOc1cccnc1)c1ccccn1
+ -14.24   -50.46   45.03    0.75     O=C(NCc1cnccn1)c1ccccc1N1CCN(C(=O)c2cccnc2)CC1
+ -10.68   -66.27   47.26    0.89     O=C(NC1CCN(C(=O)c2cccnc2)C1)c1ccccc1Sc1cccnc1
+ -18.17   -68.45  -68.45    0.00     O=C(OCCOCCN1CCOCC1Cc1ccccc1)c1cccnc1Sc1cccnc1
+  -8.24   -32.44   54.98    0.68     O=C(NCCSc1ccccn1)c1cccnc1
+Step [46/3000]: Train loss: 2979.6605
+
+       Step 46   Fraction valid SMILES: 100.0  Time elapsed: 0.94h Time left: 58.95h
+  Agent    Prior   Target   Score             SMILES
+  -5.69   -39.99   56.39    0.75     O=C(NCCSc1nc[nH]n1)c1ccccn1
+  -4.00   -54.15  -54.15    0.00     O=C(NCCSCc1ccccc1)c1cccnc1Sc1cccnc1
+ -21.18   -39.00   41.00    0.62     NC(=O)C1CCCC1N1CCC(NS(=O)(=O)c2ccccc2)CC1
+ -11.86   -59.18   39.00    0.77     O=C(NCCC1CCCO1)c1cc(NC(=O)Cc2cccnc2)ccc1O
+  -5.81   -37.36   69.90    0.84     O=C(NCCSc1ncnc2sccc12)c1cccnc1
+ -11.75   -47.02   40.14    0.68     O=C(NCC1CC1)c1cc(Br)ccc1OCc1cccnc1
+  -5.61   -56.12   46.53    0.80     O=C(NCCSCc1ccccc1)c1ccccc1Sc1cccnc1
+  -4.04   -42.45   57.52    0.78     O=C(NCC1CCCO1)c1cccnc1Sc1cccnc1
+  -9.26   -43.57   39.88    0.65     O=C(NC1CCOCC1)c1cccnc1Sc1cccnc1
+  -7.78   -49.93   38.00    0.69     O=C(NCC1CC1)c1cccnc1Cn1cccn1
+Step [47/3000]: Train loss: 3002.0612
+
+       Step 47   Fraction valid SMILES: 99.1  Time elapsed: 0.96h Time left: 58.92h
+  Agent    Prior   Target   Score             SMILES
+  -4.93   -33.01   59.66    0.72     O=C(NCCSCc1cccnc1)c1cccnc1
+  -6.72   -56.12   46.53    0.80     O=C(NCCSCc1ccccc1)c1ccccc1Sc1cccnc1
+  -9.34   -72.68   19.61    0.72     O=C(NCC1CC1)c1cccnc1Sc1ccnnc1
+  -8.67   -47.88   40.31    0.69     O=C1NCCN1CCNC(=O)C1CCN(Cc2cccnc2)CC1
+  -4.83   -33.55   48.75    0.64     O=C(NCCSCc1ccccc1)c1ccccn1
+ -14.97   -39.70   55.66    0.75     O=C(NCCCSc1ccncc1)c1ccc(Cl)cc1
+ -10.86   -46.09   41.20    0.68     O=C(NCSc1ncn[nH]1)c1ccccc1
+ -13.36   -60.09   33.48    0.73     O=C(NCCCN1CCOCC1)c1ccc(Cl)cc1NCc1cccnc1
+  -7.72   -53.58   47.15    0.79     O=C(NCCSCc1ccccc1)c1ccccc1NC(=O)Cc1ccccn1
+  -5.08   -39.99   61.39    0.79     O=C(NCCSc1nc[nH]n1)c1ccccn1
+Step [48/3000]: Train loss: 2921.5220
+
+       Step 48   Fraction valid SMILES: 98.2  Time elapsed: 0.98h Time left: 58.83h
+  Agent    Prior   Target   Score             SMILES
+  -4.10   -32.44   49.22    0.64     O=C(NCCSc1ccccn1)c1cccnc1
+ -23.36   -60.06   34.02    0.74     O=C(NCCCSC1CCN(C(=O)c2ccc[nH]2)CC1)c1ccccn1
+ -10.50   -63.64    8.68    0.56     O=C(NCC1CC1)c1nc(=O)c2ccccc2o1
+  -9.46   -43.56   58.20    0.80     O=C(NCCc1nccn1CCc1cccnc1)c1cccnc1
+ -17.65   -53.57   30.27    0.65     O=C(NCCc1ccco1)c1ccc2cccnc2c1
+  -9.61   -33.30   50.54    0.65     COc1ccccc1CCNC(=O)Cc1ccccn1
+  -9.40   -60.71   34.52    0.74     O=C(NCC1CC1)c1cccnc1CN1CCN(Cc2cccnc2)CC1
+  -6.51   -48.79   59.62    0.85     O=C(NCCCN1CCOCC1)c1cccnc1Sc1ccncn1
+ -22.62   -50.87   37.71    0.69     O=C(OCCOCCOCCN1CCOCC1c1ccccc1)c1ccccc1
+ -12.29   -67.58   42.63    0.86     O=C(NCCC12CC3CC(CC(C3)C1)C2)c1cccnc1Sc1ccncn1
+Step [49/3000]: Train loss: 2949.4105
+
+       Step 49   Fraction valid SMILES: 99.1  Time elapsed: 0.99h Time left: 58.70h
+  Agent    Prior   Target   Score             SMILES
+  -5.53   -29.55  -29.55    0.00     O=C(CSc1ccccn1)c1ccccc1
+  -8.22   -29.50   40.00    0.54     O=C(NC1CCOc2ccccc21)c1cccnc1
+ -17.82   -37.58   32.43    0.55     O=c1/c(=C/c2ccccn2)sc2ccsc12
+ -12.88   -36.94   41.78    0.62     Nc1ccncc1NC1=NCCN1
+ -12.04   -43.27   33.15    0.60     O=C(CSc1cccnc1)c1ccccc1[N+](=O)[O-]
+ -13.31   -50.15   48.41    0.77     O=C(NCc1ccco1)c1cccnc1Nc1cccnc1
+  -6.47   -45.85   33.38    0.62     O=C1CCCN1CCSc1cccnn1
+ -16.36   -69.97   12.47    0.64     O=C(NCC1CC1)c1ccccc1N1CCOC2=C1CCOC2
+  -6.20   -35.51   51.02    0.68     O=C(NCCSc1ccccc1)c1ccccn1
+  -6.76   -37.39   52.46    0.70     O=C(NCCSc1cccnn1)c1ccccc1
+Step [50/3000]: Train loss: 2721.8994
+
+       Step 50   Fraction valid SMILES: 99.1  Time elapsed: 1.01h Time left: 58.52h
+  Agent    Prior   Target   Score             SMILES
+  -3.91   -33.35   55.61    0.69     O=C(NCCSc1cccnc1)c1cccnc1
+  -3.58   -23.42   62.08    0.67     O=C(NCCSc1ccccn1)c1ccccc1
+  -6.68   -31.60   55.06    0.68     O=C(CSc1ncnc2ccccc12)c1ccccc1
+  -6.31   -67.45   30.09    0.76     O=C(NCC1CC1)c1cccnc1CSc1cccnn1
+  -5.75   -29.24   53.45    0.65     O=C(NCCSc1ccccc1)c1ccccc1
+  -5.85   -19.97  -19.97    0.00     O=C(NS(=O)(=O)c1ccccc1)c1ccccc1
+ -11.06   -67.45   39.56    0.84     O=C(NCc1ccncc1)c1cccnc1CSc1ncnc2sccc12
+  -9.37   -31.62   46.46    0.61     O=C1CCCN1CCSc1ncnc2ccccc12
+  -6.91   -33.46   57.04    0.71     O=C(NCCc1nccn1Cc1ccccc1)c1ccccc1
+  -5.64   -29.55  -29.55    0.00     O=C(CSc1ccccn1)c1ccccc1
+Step [51/3000]: Train loss: 2447.1920
+
+       Step 51   Fraction valid SMILES: 96.2  Time elapsed: 1.03h Time left: 58.28h
+  Agent    Prior   Target   Score             SMILES
+  -7.64   -39.56   24.83    0.50     O=C(NCC1CC1)c1cccnn1
+ -16.33   -49.94  -49.94    0.00     O=C(NC1CCCN1CCN1CCOCC1)c1ccccn1
+  -7.63   -59.84   61.38    0.95     O=C(CSc1ncccn1)Nc1cccnc1Sc1ccncn1
+ -15.29   -55.53  -55.53    0.00     O=C(N1CCSCC1)c1cccnc1Cc1cccnc1)c1cccnc1
+  -5.14   -33.04   67.05    0.78     O=C(NCCSc1nccs1)Nc1cccnc1
+  -7.09   -35.32   55.30    0.71     O=C(NCCc1nccn1CCc1ccccc1)c1ccccc1
+ -13.40   -71.48   30.79    0.80     O=C1NCCN1CCNC1=CC=CS(=O)(=O)N1
+  -9.07   -48.77   43.77    0.72     O=C(CSc1cccnn1)Nc1nccs1
+  -6.13   -29.55  -29.55    0.00     O=C(CSc1ccccn1)c1ccccc1
+ -12.76   -28.52  -28.52    0.00     O=C(O)CCCSc1ncnc2ccccc12
+Step [52/3000]: Train loss: 2635.4160
+
+       Step 52   Fraction valid SMILES: 100.0  Time elapsed: 1.04h Time left: 58.11h
+  Agent    Prior   Target   Score             SMILES
+ -13.29   -48.18   42.19    0.71     O=C(Nc1ncccn1)c1ccccc1N1CCN(C(=O)c2cccnc2)C1
+ -10.83   -47.38   39.53    0.68     O=C(Nc1ccccn1)c1cccnc1N1CCOc2ccccc21
+ -12.34   -68.23   16.76    0.66     O=C(NCCC1CCOC1)c1cccnc1Cc1c[nH]cn1
+  -7.09   -51.50   46.54    0.77     O=C(NCC1CC1)c1cccnc1CSc1nccs1
+ -11.89   -48.89   25.74    0.58     O=C(NC1CC1)c1ccncc1N1CCOCC1
+ -12.55   -44.21   27.47    0.56     O[C@@H]1CCN(Cc2cccnc2)c2ccccc21
+  -9.41   -30.43   57.89    0.69     O=C(OCCN1CCOCC1)c1ccccc1Cc1ccccn1
+  -4.14   -33.35   56.63    0.70     O=C(NCCSc1ccccn1)c1ccccn1
+  -7.54   -35.35   51.81    0.68     O=C1NCCN1CCNC1=NCCN1
+  -9.63   -46.72   32.51    0.62     O=C(NCSc1ccco1)Nc1ccccn1
+Step [53/3000]: Train loss: 2943.5346
+
+       Step 53   Fraction valid SMILES: 99.1  Time elapsed: 1.06h Time left: 57.92h
+  Agent    Prior   Target   Score             SMILES
+  -3.97   -30.80   59.70    0.71     O=C(NCCSc1nc[nH]n1)c1ccccc1
+ -14.86   -60.56   34.03    0.74     O=C(CSc1ccccn1)N1CCN(CCc2ccncc2)CC1
+ -15.45   -52.27  -52.27    0.00     O=c1c2cccnn2c2cccnc12
+  -5.08   -63.28   63.18    0.99     O=C(NCCSc1nccs1)Nc1cccnc1Sc1ccncn1
+  -5.18   -36.36   48.38    0.66     O=C(NCCOc1cccnc1)c1cccnc1
+  -4.28   -33.35   58.30    0.72     O=C(NCCSc1ccccn1)c1ccccn1
+  -5.80   -30.44   51.35    0.64     O=C(CSc1ccccn1)Nc1ccccn1
+  -8.49   -40.47   50.92    0.71     O=C(NCCSc1nccs1)NC1CCOCC1
+  -5.08   -38.45   45.90    0.66     O=C(NCCOc1cccnc1)c1ccccn1
+ -10.89   -25.42   42.04    0.53     Clc1ccc(NC2=NCCN2)cc1
+Step [54/3000]: Train loss: 3042.3012
+
+       Step 54   Fraction valid SMILES: 99.1  Time elapsed: 1.08h Time left: 57.83h
+  Agent    Prior   Target   Score             SMILES
+ -17.88   -66.38  -66.38    0.00     O=C(NC1CCCC1)=C1CCSc2ccccc21
+ -13.91   -38.27   29.82    0.53     c1ccc(CNC2CCc3ccccc32)cc1
+  -9.76   -52.45   27.68    0.63     O=C(NCCc1ccccn1)c1ncccn1
+  -6.00   -40.89   57.42    0.77     O=C(NCCc1nccn1CCc1ccccc1)c1ccccn1
+ -11.29   -64.72   13.36    0.61     O=C1CSc2ccccc2N1CC1CCN(Cc2ccco2)CC1
+ -13.75   -68.02   50.77    0.93     O=C(NCCc1nccn1Cc1ccccn1)c1cccnc1Cc1cccnc1
+  -7.83   -38.28   35.58    0.58     O=C(OCCc1cccnc1)c1ccccn1
+  -6.93   -41.95   59.68    0.79     O=C(NCCc1cccnc1)c1cccnc1Cc1ccccn1
+ -15.01   -54.87   33.45    0.69     O=C1NCCN1CCNC(=O)C1COc2ccccc2O1
+  -4.21   -26.40   59.48    0.67     O=C(NCCSc1nccs1)N1CCOCC1
+Step [55/3000]: Train loss: 3133.9468
+
+       Step 55   Fraction valid SMILES: 100.0  Time elapsed: 1.10h Time left: 57.72h
+  Agent    Prior   Target   Score             SMILES
+  -4.09   -31.62   57.98    0.70     O=C(NCCSc1nccs1)Nc1ccccn1
+  -6.45   -24.81   55.31    0.63     O=C(NCCSc1nccs1)C1CC1
+  -4.68   -30.80   65.71    0.75     O=C(NCCSc1nc[nH]n1)c1ccccc1
+ -11.32   -66.96   28.78    0.75     O=C(Cn1cc(Cc2ccncc2)nn1)Nc1cccnc1
+ -13.61   -83.55    6.05    0.70     O=C(NCC1CCO1)c1nccn1CCc1ccccn1
+  -9.79   -34.05   44.54    0.61     O=C(Nc1nc2ccccc2[nH]1)c1ccccn1
+ -10.44   -52.19   45.22    0.76     O=C(NCCCCc1cccnc1)c1cccnc1COc1cccnc1
+  -5.59   -54.23   43.31    0.76     O=C(NCCSc1nccs1)NC1CCOc2ccccc21
+ -20.50   -43.64   20.75    0.50     O=C(N1CCCSc2ccccc21)c1ccccc1N1CCOCC1
+  -5.82   -23.42   58.76    0.64     O=C(NCCSc1ccccn1)c1ccccc1
+Step [56/3000]: Train loss: 3129.2749
+
+       Step 56   Fraction valid SMILES: 99.2  Time elapsed: 1.12h Time left: 57.67h
+  Agent    Prior   Target   Score             SMILES
+ -12.43   -69.59   34.73    0.81     O=C(NCCc1ncnn1CCc1cccnc1)c1ccccn1
+ -10.30   -38.05   49.12    0.68     O=C(NCCCSc1ccco1)c1cccnc1
+ -18.32   -45.04   49.81    0.74     O=C1NCCN1CCNC(=O)c1ccc(C2CCCC2)cc1
+  -7.56   -39.22   45.38    0.66     O=C(NCCCc1ccccn1)c1ccccc1N1CCOCC1
+  -4.99   -29.93   53.53    0.65     O=C(NCCSc1nc2ccccc2o1)c1ccccc1
+ -11.49   -42.97   53.16    0.75     O=C(NCCSc1cccnn1)c1cccs1
+  -6.14   -35.32   46.34    0.64     O=C(NCCOc1ccccc1)c1ccccn1
+  -9.51   -36.23   59.90    0.75     O=C(NCCSc1nccs1)N1CCc2ccccc2C1
+  -6.92   -47.33   80.67    1.00     O=C(NCCSc1nccs1)Nc1cccnc1Sc1ccccn1
+  -5.66   -46.66   54.46    0.79     O=C(NCCc1nccn1CCc1cccnc1)c1ccccn1
+Step [57/3000]: Train loss: 3178.5738
+
+       Step 57   Fraction valid SMILES: 100.0  Time elapsed: 1.14h Time left: 57.60h
+  Agent    Prior   Target   Score             SMILES
+ -13.12   -59.21   26.42    0.67     O=C(NCCOc1ccccn1)c1ncccc1O
+  -5.50   -40.01   46.77    0.68     O=C(NCCSc1nc2ccccc2o1)c1ccccn1
+  -4.73   -40.47   48.36    0.69     O=C(NCCSc1nccs1)NC1CCOCC1
+  -4.80   -57.61   39.67    0.76     O=C(NCCSc1nccs1)NCC1CCOC1
+ -17.34   -67.71   28.29    0.75     O=C(NCCSCc1ccccc1)c1ccccc1N1CCOc2cc(O)ccc21
+  -8.68   -56.51   41.93    0.77     O=C(NCCc1nccs1)c1cccnc1Cc1ccncc1
+  -6.39   -46.14   61.26    0.84     O=C(NCCSc1nccs1)NCC1CCOCC1
+ -10.38   -41.26   74.96    0.91     O=C(NCCSc1ncnc2[nH]ncc12)c1ccco1
+  -6.48   -23.42   63.11    0.68     O=C(NCCSc1ccccn1)c1ccccc1
+  -5.02   -36.15   67.40    0.81     O=C(NCCSc1ncnc2scnc12)c1ccccc1
+Step [58/3000]: Train loss: 3305.6639
+
+       Step 58   Fraction valid SMILES: 99.1  Time elapsed: 1.15h Time left: 57.48h
+  Agent    Prior   Target   Score             SMILES
+  -4.66   -34.26   51.63    0.67     O=C(NCCc1nccs1)c1ccccn1
+ -16.20   -58.15   33.63    0.72     O=C(c1cccnc1CCc1cccnc1)N1CCCc2ccccc21
+ -10.11   -48.08   48.81    0.76     O=C(NCCc1nccn1C)c1ccccc1Cc1cccnc1
+  -3.87   -31.62   58.49    0.70     O=C(NCCSc1nccs1)Nc1ccccn1
+ -10.13   -25.02   35.53    0.47     c1ccc(Cn2cncn2)cc1
+  -4.24   -29.93   56.47    0.68     O=C(NCCSc1nc2ccccc2o1)c1ccccc1
+  -6.13   -49.99   53.69    0.81     O=C(NCCc1nccs1)c1cccnc1COc1cccnc1
+ -25.89   -57.13  -57.13    0.00     Cc1nonc1CCNCc1ccc(C)cc1
+  -9.04   -49.78   46.22    0.75     O=C(NCCCc1nccs1)c1ccccc1Cc1ccccn1
+  -6.43   -35.31   52.37    0.69     O=C(NCCCN1CCOCC1)c1ccccc1Cc1ccccn1
+Step [59/3000]: Train loss: 3293.6345
+
+       Step 59   Fraction valid SMILES: 100.0  Time elapsed: 1.17h Time left: 57.43h
+  Agent    Prior   Target   Score             SMILES
+ -10.04   -59.27   33.92    0.73     O=C(c1cccnc1SCc1ccccn1)Nc1ccccn1
+  -7.20   -43.56   62.42    0.83     O=C(CSc1ccccn1)Nc1ccccc1Cc1ccccn1
+  -7.22   -51.35   69.36    0.94     O=C(NCCCSc1nccs1)Nc1cccnc1SCc1ccccc1
+ -10.36   -55.35   58.45    0.89     O=C(NCCc1nccs1)Nc1cccc(Cn2ccnc2)c1
+  -6.82   -46.47   45.56    0.72     O=C(NCCCc1ccccn1)c1ccccc1Cc1ccccn1
+  -4.15   -31.62   63.48    0.74     O=C(NCCSc1nccs1)Nc1ccccn1
+  -9.01   -49.63   70.30    0.94     O=C(NCSc1nccs1)Nc1cccnc1Sc1ccccn1
+  -8.26   -49.11   59.43    0.85     O=C(NCCSc1nccs1)NCCc1ccncc1
+ -10.19   -42.74   43.79    0.68     O=C(NCc1ccccn1)c1ccccc1N1CCc2ccccc2C1
+  -5.53   -58.48   60.30    0.93     O=C(NCCSc1nccs1)Nc1cccnc1Cc1ccccn1
+Step [60/3000]: Train loss: 3495.1371
+
+       Step 60   Fraction valid SMILES: 100.0  Time elapsed: 1.19h Time left: 57.37h
+  Agent    Prior   Target   Score             SMILES
+  -6.40   -48.26   56.70    0.82     O=C(NCCSCc1ccccn1)c1ccccc1Cc1cccnc1
+  -5.59   -40.01   46.65    0.68     O=C(NCCSc1nc2ccccc2o1)c1ccccn1
+  -4.36   -48.89   38.41    0.68     O=C(NCCc1nccs1)C1CCN(Cc2ccccn2)CC1
+ -12.05   -73.86   29.57    0.81     O=C(CSc1ccccn1)Nc1ccccc1C(=O)Nc1nc2cccnc2s1
+ -18.69   -43.46   28.86    0.56     NC1CCN(C(=O)N2CCCN(Cc3ccccc3)C2)CC1
+ -15.70   -53.86   37.02    0.71     O=C(NCCCCc1ccccn1)c1cccnc1C(=O)Nc1ccccn1
+  -4.04   -35.88   57.56    0.73     O=C(NCCc1nccs1)c1ccccc1Cc1cccnc1
+  -6.68   -63.27   52.19    0.90     O=C(NCCSc1nccs1)Nc1cccnc1Cc1cccnc1
+  -7.64   -20.53   68.56    0.70     O=C(NCCSc1nccs1)c1ccccc1
+ -14.57   -75.07   22.34    0.76     O=C(NCCCCc1nccs1)C1CCN(C(=O)C2CCOc3ccccc32)CC1
+Step [61/3000]: Train loss: 3298.9597
+
+       Step 61   Fraction valid SMILES: 99.1  Time elapsed: 1.21h Time left: 57.39h
+  Agent    Prior   Target   Score             SMILES
+ -10.54   -47.55  -47.55    0.00     O=C(NCCc1nccs1)C1CCN(Cc2ccc(S(N)(=O)=O)cc2)CC1
+ -16.30   -44.54   55.68    0.78     O=C(NCCc1nccs1)Nc1cc(OCc2ccccn2)ncn1
+ -14.17   -52.32   42.78    0.74     O=C(NCCCSCc1ccccc1)c1cccc2cnccc12
+ -10.77   -45.42   47.25    0.72     O=C(NCCCc1ccncc1)c1ccccc1Cc1ccccc1
+  -4.03   -43.73   44.85    0.69     O=C(NCCc1nccs1)C1CCN(Cc2cccnc2)CC1
+  -6.66   -24.32   43.65    0.53     O=C(Cn1ncc2ccccc21)c1ccccc1
+ -13.13   -42.92   51.93    0.74     O=C(NCCSc1nccs1)C1CCc2c(F)cccc21
+ -10.57   -37.37  -37.37    0.00     O=C(NCCc1ncc[nH]1)c1ccncc1
+  -5.84   -49.26   31.51    0.63     O=C(NCCc1nccs1)C1CCN(Cc2cccs2)CC1
+  -8.57   -49.54   57.86    0.84     O=C(NCCCSc1ncnc2scnc12)c1cccnc1
+Step [62/3000]: Train loss: 3356.5883
+
+       Step 62   Fraction valid SMILES: 99.1  Time elapsed: 1.23h Time left: 57.31h
+  Agent    Prior   Target   Score             SMILES
+ -10.48   -42.56   57.15    0.78     O=C(NCCSc1nccs1)CCc1ccncc1
+  -9.37   -40.84   59.90    0.79     O=C(CSc1nccs1)Nc1cccnc1Sc1ccccc1
+  -5.68   -32.63   58.64    0.71     O=C(NCCN1CCOCC1)c1ccccc1Cc1cccnc1
+  -5.01   -31.57   65.33    0.76     O=C(NCCSc1nccs1)Cc1cccnc1
+  -8.36   -71.25   46.00    0.92     O=C(NCCCc1nccs1)Nc1cccnc1SCc1ccccn1
+  -6.51   -38.97  -38.97    0.00     O=C(NCCCSc1nccs1)C1CCc2ccccc21
+ -22.57   -58.40   25.82    0.66     CSc1nccn1CCN1CCN(c2ccc(C)cc2)CC1
+ -13.56   -74.81   41.55    0.91     O=C(NCSc1cccs1)Nc1cccnc1Cc1cccnc1
+ -12.15   -59.59   38.72    0.77     O=C(Nc1nccs1)Nc1cccnc1CNc1ccccn1
+  -6.32   -46.34  -46.34    0.00     O=C(NCCc1nccs1)C1CCN(Cc2ccncc2)CC1
+Step [63/3000]: Train loss: 3385.4258
+
+       Step 63   Fraction valid SMILES: 100.0  Time elapsed: 1.25h Time left: 57.33h
+  Agent    Prior   Target   Score             SMILES
+ -12.04   -58.14   33.12    0.71     O=C(NCCc1ccncc1)c1cccnc1COc1ccccc1
+  -6.85   -43.56   51.80    0.75     O=C(CSc1ccccn1)Nc1ccccc1Cc1ccccn1
+ -18.31   -46.54   34.99    0.64     O=C(CN(Cc1ccccc1)c1ccco1)c1cccs1
+ -15.22   -55.05   42.36    0.76     O=C(COCCN1CCOCC1)c1cccnc1COc1cccnc1
+ -13.00   -31.39   46.95    0.61     O=C(COCc1ccccc1)Nc1nccs1
+ -16.91   -49.12   51.48    0.79     O=C(CSc1ccccn1)Nc1ccc(Cl)cc1C(=O)c1ccc(F)cc1
+  -7.69   -30.79   61.37    0.72     O=C(NCCc1nccn1CCN1CCOCC1)c1ccccc1
+  -6.39   -31.77   51.43    0.65     O=C(NCCSc1nccs1)C1CCOCC1
+  -4.78   -34.61   62.67    0.76     O=C(NCCSc1nccs1)Cc1cccs1
+  -4.42   -51.35   73.07    0.97     O=C(NCCCSc1nccs1)Nc1cccnc1SCc1ccccc1
+Step [64/3000]: Train loss: 3667.4126
+
+       Step 64   Fraction valid SMILES: 100.0  Time elapsed: 1.27h Time left: 57.26h
+  Agent    Prior   Target   Score             SMILES
+  -7.54   -43.56   56.54    0.78     O=C(CSc1ccccn1)Nc1ccccc1Cc1ccccn1
+  -9.66   -52.50   40.81    0.73     O=C(CSc1ccccc1)Nc1ccccc1Cc1ccccn1
+  -9.46   -47.38   43.63    0.71     O=C(NCCSc1nc2ccccc2o1)c1ccsc1
+  -9.79   -44.29  -44.29    0.00     O=C(NCCc1nccs1)C1CCN(Cc2ccccc2)CC1
+  -7.99   -37.04   44.62    0.64     O=C(NCSc1nc2ccccc2o1)c1ccccc1
+ -19.20   -55.17   16.63    0.56     O=C(Cn1ncc2ccccc21)C1CCSc2ccccc21
+  -6.23   -30.44   57.75    0.69     O=C(CSc1ccccn1)Nc1ccccn1
+  -5.62   -29.25   57.40    0.68     O=C(NCCCc1cccnc1)c1ccccn1
+ -11.70   -42.88   55.04    0.76     O=C(NCCCCCCc1ccccn1)c1ccccc1Cc1cccnc1
+  -6.03   -34.46   58.85    0.73     O=C(NCCSc1nccs1)Cc1ccco1
+Step [65/3000]: Train loss: 3633.6265
+
+       Step 65   Fraction valid SMILES: 100.0  Time elapsed: 1.29h Time left: 57.29h
+  Agent    Prior   Target   Score             SMILES
+ -12.68   -75.55   43.88    0.93     O=C(NCCSc1cccnn1)Nc1cccnc1SCc1cccnc1
+ -10.74   -28.99  -28.99    0.00     O=C(NCCCN1CCCCC1)c1ccccn1
+ -19.90   -59.45  -59.45    0.00     O=C(NC=C1CCN(S(=O)(=O)c2ccccc2)CC1)c1ccccn1
+ -10.98   -53.64   31.22    0.66     O=C(CSc1ccccc1)Nc1nncs1
+ -11.77   -37.30   55.11    0.72     O=C(NCc1nccs1)c1cc(=O)c2ccccc2o1
+ -14.77   -74.92   49.88    0.98     O=C(NCCc1cccs1)Nc1cccnc1Sc1ncnc2scnc12
+ -13.98   -41.48   43.64    0.67     O=C(NCCCN1CCOCC1)c1ccc(S(C)(=O)=O)cc1
+  -9.02   -67.18   58.51    0.98     O=C(NCCOc1nccs1)Nc1cccnc1SCc1cccs1
+ -12.66   -46.71   33.29    0.62     Cc1cccnc1NC(=O)Cc1nccs1
+ -14.08   -41.93   47.92    0.70     O=C(Nc1ccnc(Nc2ccccc2)n1)c1ccccc1
+Step [66/3000]: Train loss: 3528.2554
+
+       Step 66   Fraction valid SMILES: 100.0  Time elapsed: 1.31h Time left: 57.41h
+  Agent    Prior   Target   Score             SMILES
+ -14.79   -50.99   50.26    0.79     O=C(NCCCN1CCOCC1)c1cc(Sc2ccccn2)nc2ccccc12
+  -7.47   -46.80   48.30    0.74     O=C(NCCc1nccs1)Nc1nc2ccccc2s1
+  -6.62   -44.64   48.16    0.73     O=C(CN1CCOCC1)c1cccnc1CCc1cccnc1
+  -8.41   -63.34   44.57    0.84     O=C(NCCCc1cccnn1)c1cccnc1COc1cccnc1
+  -5.51   -25.03   67.26    0.72     O=C(CSc1nccs1)Nc1ccccn1
+ -10.20   -53.31   61.89    0.90     O=C(NCCc1nccn1CCN1CCOCC1)c1cccnc1COc1cccnc1
+  -7.39   -59.87   37.66    0.76     O=C(NCCCc1ccncc1)c1cccnc1CCc1cccnc1
+  -8.51   -46.14   56.90    0.81     O=C(NCCCN1CCCCC1)c1cccnc1CCc1cccnc1
+  -5.66   -27.16   63.46    0.71     O=C(NCCSc1nccs1)c1cccnc1
+  -6.19   -56.96   62.98    0.94     O=C(NCSc1nccs1)Nc1cccnc1SCc1cccnc1
+Step [67/3000]: Train loss: 3757.5142
+
+       Step 67   Fraction valid SMILES: 98.2  Time elapsed: 1.33h Time left: 57.47h
+  Agent    Prior   Target   Score             SMILES
+  -4.89   -53.08   71.34    0.97     O=C(NCCCSc1nccs1)Nc1cccnc1Sc1ccccn1
+  -5.84   -28.70   70.37    0.77     O=C(NCCSc1nc2ccccc2s1)c1cccnc1
+  -6.78   -46.02   49.09    0.74     O=C(NCCCSc1nccs1)Nc1ccncn1
+ -12.98   -76.19   34.40    0.86     O=C(NCCCNCCNc1cccnn1)c1ccccc1Cc1cccnc1
+ -12.55   -59.55   68.45    1.00     O=C(NCCCCCSc1nccs1)Nc1cccnc1S(=O)(=O)c1ccccc1
+  -3.85   -47.68   64.83    0.88     O=C(CSc1nccs1)Nc1cccnc1Sc1cccnc1
+  -8.41   -61.56   36.62    0.77     O=C(NCCCCc1cccnc1)c1ccccc1Cc1ccncn1
+  -5.40   -71.61   54.08    0.98     O=C(NCCCc1nccs1)Nc1cccnc1Sc1cccnc1
+  -6.95   -59.79   46.96    0.83     O=C(NCCCCc1cccnc1)c1cccnc1CCc1ccncc1
+  -6.72   -79.85   23.45    0.81     O=C(NCCCn1ccnn1)c1cccnc1CCc1ccncn1
+Step [68/3000]: Train loss: 3427.4514
+
+       Step 68   Fraction valid SMILES: 97.1  Time elapsed: 1.35h Time left: 57.46h
+  Agent    Prior   Target   Score             SMILES
+ -10.51   -64.15   23.66    0.69     O=C(CN(Cc1ccccn1)c1cccnc1)c1ccccn1
+  -7.27   -51.62   35.67    0.68     O=C(NCCc1nccs1)Nc1cccnn1
+ -18.40   -78.17   31.91    0.86     OCCN(CCNc1nccs1)c1cccnc1Sc1ccncn1
+  -5.23   -43.39   63.75    0.84     O=C(CSc1nccs1)Nc1cccnc1S(=O)(=O)c1ccccc1
+  -7.77   -52.47   42.76    0.74     O=C(NCCCc1cccnc1)c1ccccc1Cc1ccncn1
+ -14.09   -73.62  -73.62    0.00     O=C(CSc1nccs1)Nc1cccn(CCc2cccnc2)n1
+  -5.00   -67.11   60.89    1.00     O=C(NCCSc1nccs1)Nc1cccnc1Sc1cccnn1
+  -4.04   -42.65   67.56    0.86     O=C(CSc1nccs1)Nc1cccnc1Sc1ccccn1
+  -7.71   -46.10   58.86    0.82     O=C(NCCSc1nccs1)NCCc1cccs1
+  -4.81   -59.20   54.98    0.89     O=C(NCCc1nccs1)c1cccnc1CCc1ccncn1
+Step [69/3000]: Train loss: 3326.9586
+
+       Step 69   Fraction valid SMILES: 99.2  Time elapsed: 1.37h Time left: 57.53h
+  Agent    Prior   Target   Score             SMILES
+  -7.61   -74.56   53.44    1.00     O=C(NCCOc1nccs1)Nc1cccnc1Sc1cccnn1
+  -8.74   -31.74   62.85    0.74     O=C(NCCSc1nccs1)c1ccccn1
+  -9.35   -39.89   54.70    0.74     O=C(NCCN1CCCCC1)c1cccnc1CCc1cccnc1
+  -7.54   -41.72   62.73    0.82     O=C(Nc1nccs1)c1cccnc1CCc1ccncc1
+  -7.17   -88.54   22.82    0.87     O=C(NCCCc1ccncn1)c1cccnc1CCc1ccncn1
+  -9.72   -72.72   30.45    0.81     O=C(NCCc1nccs1)c1cccnc1CCN1CCN(Cc2cccnc2)CC1
+ -10.49   -38.29   44.65    0.65     O=C(COCc1cccnc1)Nc1nccs1
+  -7.49   -66.77   34.48    0.79     O=C(NCCCc1ccccn1)c1cccnc1CCc1ccncn1
+  -4.23   -76.64   51.36    1.00     O=C(NCCc1nccs1)Nc1cccnc1Sc1cccnn1
+ -13.43   -45.86   62.17    0.84     O=C(NCCCc1cccnc1)c1cccn1CCCc1cccnc1
+Step [70/3000]: Train loss: 3467.6527
+
+       Step 70   Fraction valid SMILES: 97.3  Time elapsed: 1.40h Time left: 57.70h
+  Agent    Prior   Target   Score             SMILES
+ -11.37   -92.25   24.35    0.91     O=C(NCCc1nccn1CCN1CCc2ccccc21)c1cccnc1CCc1ccncn1
+ -19.51   -63.98   37.14    0.79     O=C(NCCCSCc1cccnc1)c1ccc2nnsc2c1
+  -6.07   -49.41  -49.41    0.00     O=C(CSc1nccs1)Nc1cccnc1S(N)(=O)=O
+ -10.27   -80.24   16.27    0.75     O=C(NCCCn1ccnn1)c1cccnc1C1CCc2cccnc21
+  -5.29   -53.08   74.92    1.00     O=C(NCCCSc1nccs1)Nc1cccnc1Sc1ccccn1
+ -14.45   -97.30   24.55    0.95     O=C(NCCCc1ccns1)Nc1cccnc1Sc1cccs1
+  -6.90   -54.82   48.48    0.81     O=C(NCc1nccs1)c1cccnc1CCc1ccncc1
+  -8.86   -90.79  -90.79    0.00     O=C(NCCCc1nccn1CCCc1cccnc1)c1cccnc1CCc1ccncn1
+ -11.90   -64.05  -64.05    0.00     O=C(NCCSCc1ccncc1)c1cccn(Cc2cccnc2)c1
+  -8.15   -79.35   27.66    0.84     O=C(NCCCCc1nccs1)c1cccnc1CCc1ccncn1
+Step [71/3000]: Train loss: 3073.7062
+
+       Step 71   Fraction valid SMILES: 95.8  Time elapsed: 1.42h Time left: 57.78h
+  Agent    Prior   Target   Score             SMILES
+ -10.76   -47.85   61.08    0.85     O=C(Cc1cccnc1)Nc1cccnc1Sc1nccs1
+  -4.65   -62.52   54.47    0.91     O=C(NCCCSc1nccs1)Nc1cccnc1Sc1cccs1
+  -9.20   -87.61   23.11    0.87     O=C(NCCCNC(=O)c1cccnc1)c1cccnc1CCc1ccncc1
+ -21.02   -101.52  -101.52    0.00     O=C(NCCCCc1cccnc1)c1ccc(CCN2CCOCC3)oc2C1
+  -9.99   -101.38   17.53    0.93     O=C(NCCCCc1nccs1)Nc1ccnnc1Sc1cccnc1
+ -10.99   -56.36   40.79    0.76     O=C(NCCCN1CCOCC1)c1cccc(CNc2nccs2)n1
+ -10.87   -52.55   33.85    0.68     O=C(NCCCN1CCOCC1)c1ccc(-c2ccccn2)nc1
+  -4.47   -52.08   71.57    0.97     O=C(CSc1nccs1)Nc1cccnc1Sc1cccs1
+  -7.97   -43.37   48.79    0.72     O=C(NCCCc1nccs1)Nc1ccncn1
+  -6.43   -34.62   61.00    0.75     O=C(NCCSc1nccs1)Nc1nccs1
+Step [72/3000]: Train loss: 3406.3773
+
+       Step 72   Fraction valid SMILES: 99.1  Time elapsed: 1.44h Time left: 57.83h
+  Agent    Prior   Target   Score             SMILES
+ -18.81   -56.62   43.61    0.78     O=C1CCN1CCNc1cccnc1S(=O)(=O)c1ccc(Cl)cc1
+  -6.73   -40.00   55.36    0.75     O=C(NCCCSc1nccs1)Nc1nccs1
+ -11.55   -65.28   38.27    0.81     O=C(NCc1nccs1)c1cc(CCc2cccnc2)nc2ccccc12
+  -6.71   -42.88   64.51    0.84     O=C(NCCSc1nccs1)NCCc1cccnc1
+  -5.05   -55.74   53.82    0.86     O=C(CSc1nccs1)Nc1cccnc1S(=O)(=O)c1ccccn1
+  -5.94   -51.55   46.88    0.77     O=C(NCCCN1CCOCC1)c1cccnc1CCc1ccncc1
+ -22.90   -49.79   26.63    0.60     COc1cc(OC)cc(Nc2ncccn2)c1C
+ -10.33   -26.64   57.84    0.66     O=C(NCCCc1cccnc1)c1ccco1
+ -15.81   -73.36   39.28    0.88     O=C(NCCCNc1nccs1)c1cccnc1Sc1ccccc1
+ -10.10   -47.85   51.22    0.77     O=C(NCCc1nccs1)c1cccnc1CCCN1CCOCC1
+Step [73/3000]: Train loss: 3382.8429
+
+       Step 73   Fraction valid SMILES: 97.4  Time elapsed: 1.46h Time left: 57.85h
+  Agent    Prior   Target   Score             SMILES
+  -8.65   -51.22   41.58    0.73     O=C(NCCCc1ccncc1)c1cccnc1N1CCCCC1
+ -12.30   -67.10   55.01    0.95     O=C(NCSc1nccs1)c1ccc(CSc2nccs2)nc1
+  -9.36   -65.39   61.20    0.99     O=C(NCc1nccs1)Nc1cccnc1Sc1cccnc1
+  -6.43   -72.17   25.87    0.77     O=C(NCCCc1ccncc1)c1cccnc1CCc1ccncc1
+ -10.89   -53.99   65.69    0.94     O=C(CCCSc1nccs1)Nc1cccnc1Sc1cccnc1
+  -8.38   -58.46   46.11    0.82     O=C(NCc1cccnc1)c1cccnc1Cc1ccncn1
+  -6.30   -45.94   61.45    0.84     O=C(NCc1nccs1)c1cccnc1CCc1cccnc1
+  -7.33   -66.77   48.43    0.90     O=C(NCCCCc1nccs1)c1cccnc1SCc1cccnc1
+  -9.15   -52.39   55.51    0.84     O=C(NCCSc1nccs1)NCCc1ccsc1
+  -5.88   -52.74   57.47    0.86     O=C(NCCCc1cccnc1)c1cccnc1CCc1ccncc1
+Step [74/3000]: Train loss: 3323.2390
+
+       Step 74   Fraction valid SMILES: 100.0  Time elapsed: 1.48h Time left: 57.90h
+  Agent    Prior   Target   Score             SMILES
+  -5.01   -58.55   46.28    0.82     O=C(NCCCc1nccs1)c1cccnc1Sc1cccnc1
+ -10.36   -41.30   60.85    0.80     O=C(Nc1nccs1)c1cccnc1S(=O)(=O)c1ccc(F)cc1
+  -7.28   -60.85   40.27    0.79     O=C(NCSc1nccs1)c1ccccc1Cc1ccncn1
+  -6.32   -37.12   50.81    0.69     O=C(NCCCc1nccs1)c1cccnc1
+ -13.72   -65.99   51.39    0.92     O=C(NCCc1nccs1)c1ccnc(NC2CCN(C(=O)Nc3cccnc3)CC2)c1
+  -8.03   -48.37   43.67    0.72     O=C(Cc1nccs1)c1cccnc1CCc1cccnc1
+  -7.36   -33.04   65.39    0.77     O=C(NCCSc1nccs1)Nc1cccnc1
+ -11.07   -28.57  -28.57    0.00     O=C(NCCSc1nccs1)c1ccc[nH]1
+  -7.28   -51.84   46.08    0.76     O=C(Nc1nccs1)c1cccnc1C1CCc2cccnc21
+ -14.17   -47.14   60.25    0.84     O=C(Nc1nccs1)c1ccc(NC2CCN(Cc3cccnc3)CC2)nc1
+Step [75/3000]: Train loss: 3491.3562
+
+       Step 75   Fraction valid SMILES: 100.0  Time elapsed: 1.51h Time left: 57.95h
+  Agent    Prior   Target   Score             SMILES
+  -9.59   -36.28   43.98    0.63     O=C(NCc1cccnc1)c1ccccn1
+  -6.14   -49.08   57.29    0.83     O=C(NCCSc1ncnc2scnc12)c1cccnc1
+  -5.03   -43.90   59.27    0.81     O=C(Nc1nccs1)c1cccnc1Sc1cccnc1
+  -3.74   -31.75   56.19    0.69     O=C(NCSc1nccs1)c1cccnc1
+  -7.64   -47.69   43.06    0.71     O=C(NCCN1CCCCC1)c1cccnc1Sc1ccccn1
+  -5.39   -55.11   63.67    0.93     O=C(NCCc1nccs1)c1cccnc1Sc1ccncn1
+  -7.78   -44.04   57.72    0.80     O=C(NCCCN1CCOCC1)c1ccc(NC(=O)Cc2cccnc2)cc1
+ -12.62   -47.28   55.89    0.81     Nc1ccc(NC(=S)NCc2nccs2)cc1
+  -7.59   -42.56   53.57    0.75     O=C(NCCSc1nccs1)CCc1ccncc1
+  -3.52   -53.32   52.15    0.82     O=C(NCCc1nccs1)c1cccnc1Sc1cccnc1
+Step [76/3000]: Train loss: 3462.6813
+
+       Step 76   Fraction valid SMILES: 100.0  Time elapsed: 1.53h Time left: 58.01h
+  Agent    Prior   Target   Score             SMILES
+  -8.94   -35.98   60.79    0.76     O=C(NCCN1CCCCC1)c1cccc(NC(=O)c2ccncc2)c1
+  -6.25   -60.85   39.12    0.78     O=C(NCSc1nccs1)c1ccccc1Cc1ccncn1
+  -9.62   -38.20   67.53    0.83     O=C(NCCSc1nccs1)CC1CCN(C(=O)c2cccnc2)CC1
+  -8.36   -22.36   67.11    0.70     O=C(Nc1nccs1)c1ccc(Cn2ccnc2)cc1
+ -13.60   -77.79   32.93    0.87     O=C(NCCCNC(=O)c1cccnc1)c1cccnc1Sc1ccccn1
+  -5.68   -57.34   51.84    0.85     O=C(NCCCc1ccncc1)c1cccnc1Sc1cccnc1
+ -10.76   -52.64   51.29    0.81     O=C(NCCCN1CCOCC1)c1cccc(Nc2nccs2)n1
+ -12.07   -50.91   39.20    0.70     Nc1cccc(NC(=O)CNCc2cccnc2)c1
+  -8.81   -54.30   46.69    0.79     O=C(NCc1nccs1)c1cccnc1Sc1ccccc1
+ -14.45   -81.87   15.80    0.76     Nc1ccc(NCCNc2ccccn2)c2cncnc12
+Step [77/3000]: Train loss: 3438.9861
+
+       Step 77   Fraction valid SMILES: 98.4  Time elapsed: 1.55h Time left: 58.07h
+  Agent    Prior   Target   Score             SMILES
+ -21.27   -78.77    8.01    0.68     CCc1ncncc1CCCN1CCN(Cc2ccno2)CC1
+  -5.68   -37.12   57.73    0.74     O=C(NCCCN1CCCCC1)c1ccccc1Cc1cccnc1
+ -11.48   -58.31   47.29    0.82     O=C(NCCc1cccnc1)c1cccnc1CCc1ccncn1
+ -20.55   -52.91   46.93    0.78     O=C(NCCN1CCCC1)c1ccc(NC2CCNCC2)cn1
+  -9.07   -59.38   66.19    0.98     O=C(NCCOc1nccs1)Nc1cccnc1Sc1cccnc1
+  -8.34   -43.05   49.62    0.72     O=C(NCCCN1CCOCC1)c1ccc(NC(=O)c2cccs2)cc1
+  -5.00   -47.08   58.78    0.83     O=C(Nc1nccs1)c1cccnc1Sc1ccccn1
+  -7.16   -29.23   45.01    0.58     O=C(NCCCN1CCCCC1)c1cccs1
+  -9.56   -72.68   44.05    0.91     O=C(NCCc1nccs1)c1ccc(NC2CCN(C(=O)c3cccnc3)CC2)nc1
+  -8.43   -35.69   59.42    0.74     O=C(NCCSc1nccs1)CCc1cccs1
+Step [78/3000]: Train loss: 3670.6479
+
+       Step 78   Fraction valid SMILES: 100.0  Time elapsed: 1.57h Time left: 58.08h
+  Agent    Prior   Target   Score             SMILES
+  -6.76   -31.75   55.55    0.68     O=C(NCSc1nccs1)c1cccnc1
+  -8.28   -41.06   39.33    0.63     O=C(CSc1ccco1)Nc1nccs1
+  -5.03   -55.00   52.91    0.84     O=C(NCc1nccs1)c1cccnc1Sc1ccccn1
+  -6.00   -46.68   76.58    0.96     O=C(CSc1ccccn1)Nc1cccnc1Sc1cccnc1
+  -5.62   -46.80   57.14    0.81     O=C(NCCCN1CCOCC1)c1cccnc1Sc1ccccn1
+ -21.03   -59.25   42.51    0.80     O=C(NCCCN1CCCCC1)c1ccccc1NC(=O)Nc1cccnn1
+  -4.99   -43.90   64.90    0.85     O=C(Nc1nccs1)c1cccnc1Sc1cccnc1
+  -9.87   -25.47   57.22    0.65     O=C(Nc1nccs1)c1ccccc1C1CCNCC1
+ -13.71   -55.69   38.90    0.74     O=C(NCCCN1CCCC1)c1cccc(CNC(=O)c2ccccc2)c1
+  -7.78   -48.59   60.85    0.86     O=C(NCCCSc1nccs1)CCSc1nccs1
+Step [79/3000]: Train loss: 3683.0629
+
+       Step 79   Fraction valid SMILES: 99.2  Time elapsed: 1.59h Time left: 58.10h
+  Agent    Prior   Target   Score             SMILES
+ -11.05   -66.98  -66.98    0.00     O=C(NCSc1nccs1)NCCSc1ncnc2sccc12
+  -6.10   -49.08   53.58    0.80     O=C(NCCSc1ncnc2scnc12)c1cccnc1
+  -6.79   -31.30   47.93    0.62     O=C(NCCCN1CCCCC1)c1ccccc1N1CCOCC1
+ -16.65   -43.74   47.39    0.71     O=C(Cc1ccsc1)Nc1cccnc1S(=O)(=O)Cc1ccccc1
+ -11.58   -41.35   53.37    0.74     O=C(NCCCN1CCCC1)c1cc(NC(=O)c2cccnc2)ccc1O
+  -9.65   -32.07   65.33    0.76     NS(=O)(=O)c1ccc(NC(=S)N2CCN(c3ccccc3)CC2)cc1
+  -7.61   -36.33   59.28    0.75     O=C(Nc1nccs1)c1ccccc1CCc1cccs1
+  -5.60   -43.89   58.38    0.80     O=C(NCCCSc1ncnc2scnc12)c1ccco1
+ -15.44   -59.05   37.72    0.76     O=C(NCCCN1CCCC1)c1ccc(NC(=O)c2ccsc2)nc1
+ -12.73   -54.91  -54.91    0.00     O=C(c1cccnc1Sc1ccccn1)Nc1ccccn1
+Step [80/3000]: Train loss: 3616.8215
+
+       Step 80   Fraction valid SMILES: 99.1  Time elapsed: 1.61h Time left: 58.10h
+  Agent    Prior   Target   Score             SMILES
+  -6.98   -57.24   48.11    0.82     O=C(NCc1nccs1)c1cccnc1N1CCOc2ccccc21
+ -14.25   -79.94   28.60    0.85     O=C(NCCc1ccco1)c1cccnc1S(=O)(=O)NCc1cccs1
+ -13.58   -50.34   51.04    0.79     O=C(Nc1nccs1)c1ccsc1Sc1cccs1
+  -6.42   -52.47   48.01    0.79     O=C(NCCCc1cccnc1)c1ccccc1Cc1ccncn1
+  -7.22   -44.05   67.19    0.87     O=C(NCCSc1nccs1)NCCc1ccccn1
+  -5.39   -37.12   53.38    0.71     O=C(NCCCN1CCCCC1)c1ccccc1Cc1cccnc1
+ -15.88   -84.82   35.38    0.94     O=C(NCc1nccs1)c1ccsc1CNc1cccnc1SCc1cccnc1
+  -9.58   -74.29   32.59    0.83     O=C(NCCSc1nccs1)NCCCNC(=O)c1cccs1
+  -5.95   -30.42   68.52    0.77     O=C(NCCSc1nccs1)CCc1cccnc1
+  -8.99   -63.89   64.11    1.00     O=C(NCSc1nccs1)Nc1cccnc1S(=O)(=O)c1cccs1
+Step [81/3000]: Train loss: 3587.6699
+
+       Step 81   Fraction valid SMILES: 99.1  Time elapsed: 1.63h Time left: 58.06h
+  Agent    Prior   Target   Score             SMILES
+  -5.80   -57.66   70.34    1.00     O=C(NCCCSc1nccs1)Nc1cccnc1Sc1cccnc1
+  -9.82   -42.95   47.16    0.70     O=C(NCCCN1CCCC1)c1ccccc1Cc1ccco1
+  -5.43   -44.11   58.80    0.80     O=C(NCCSc1nccs1)CCc1nccs1
+  -7.04   -40.87   66.65    0.84     O=C(NCCSc1nccs1)CSc1nccs1
+  -9.15   -41.74   48.76    0.71     O=C(NCCCSc1nccs1)c1ccsc1
+  -9.16   -58.48   37.14    0.75     O=C(NCCCc1nccs1)c1ccccc1CCc1cccs1
+  -5.73   -53.08   73.26    0.99     O=C(NCCCSc1nccs1)Nc1cccnc1Sc1ccccn1
+ -10.45   -65.72   43.33    0.85     O=C(NCCCN1CCOCC1)c1ccccc1Cc1cccnc1S(=O)(=O)c1ccccn1
+  -4.26   -37.09   66.47    0.81     O=C(NCCSc1nccs1)C1CCN(C(=O)c2cccnc2)CC1
+ -14.20   -60.58   51.29    0.87     O=C(CSc1cccc(F)c1)Nc1cccnc1Sc1cccnc1
+Step [82/3000]: Train loss: 3768.7999
+
+       Step 82   Fraction valid SMILES: 99.1  Time elapsed: 1.65h Time left: 58.06h
+  Agent    Prior   Target   Score             SMILES
+ -19.50   -62.64    2.90    0.51     CCCNC(=O)N1CCc2sccc2C1
+  -5.96   -52.13   44.89    0.76     O=C(NCCCSc1nccs1)CCc1ccncc1
+  -5.72   -31.30   51.26    0.64     O=C(NCCCN1CCCCC1)c1ccccc1N1CCOCC1
+ -12.77   -34.70   54.77    0.70     O=C(NCCSc1scnc1)c1ccccc1
+  -8.61   -33.00   63.77    0.76     O=C(Nc1nccs1)c1ccccc1Cc1ccncc1
+  -4.19   -46.10   57.32    0.81     O=C(NCCSc1nccs1)NCCc1cccs1
+ -15.86   -82.08  -82.08    0.00     O=C(NCCSc1nc[nH]n1)c1ccccc1Cc1ccccc1Cc1ccncn1
+  -7.32   -33.52   52.63    0.67     O=C(CSc1ccccn1)Nc1cccs1
+  -4.77   -42.56   54.08    0.75     O=C(NCCSc1nccs1)CCc1ccncc1
+ -19.53   -46.19   20.37    0.52     Cc1c(N=C=S)sc2ccsc12
+Step [83/3000]: Train loss: 3719.4866
+
+       Step 83   Fraction valid SMILES: 99.2  Time elapsed: 1.67h Time left: 58.08h
+  Agent    Prior   Target   Score             SMILES
+  -4.87   -42.77   53.49    0.75     O=C(NCCSc1nccs1)CCc1ccsc1
+  -5.62   -34.55   50.19    0.66     O=C(NCCc1nccs1)c1ccccc1N1CCOCC1
+  -6.27   -53.98   50.59    0.82     O=C(NCCCSc1nccs1)NCCc1ccsc1
+  -5.26   -39.39   65.18    0.82     O=C(NCCCSc1nccs1)CCc1cccnc1
+  -8.26   -40.25   54.98    0.74     O=C(Nc1nccs1)c1ccccc1N1CCN(C(=O)c2cccs2)CC1
+ -12.22   -38.26   57.49    0.75     O=C(NCCN1CCCCC1)c1ccccc1N1CCN(C(=O)CCc2ccccn2)CC1
+  -7.38   -51.19   54.15    0.82     O=C(NCc1nccs1)c1ccccc1Cc1ccncn1
+ -12.80   -67.02   33.84    0.79     O=C(CSCc1ccco1)Nc1cccnc1Sc1cccnc1
+  -9.79   -68.56   46.77    0.90     O=C(NCCCc1nccs1)c1cccnc1S(=O)(=O)Nc1cccnc1
+ -10.19   -42.29   33.87    0.60     NC1CCN(CCSc2nccs2)CC1
+Step [84/3000]: Train loss: 3530.5039
+
+       Step 84   Fraction valid SMILES: 97.3  Time elapsed: 1.69h Time left: 58.06h
+  Agent    Prior   Target   Score             SMILES
+ -10.18   -44.77   40.35    0.67     O=C(CSc1ccccn1)NCc1ccco1
+  -5.00   -39.39   54.69    0.74     O=C(NCCCSc1nccs1)CCc1cccnc1
+ -14.58   -62.18   33.95    0.75     O=C(NCCCN1CCCCC1)c1ccsc1N(Cc1cccs1)c1ccccc1
+  -8.99   -43.56   60.38    0.81     O=C(NCc1nccs1)c1cccc(NC(=O)c2cccs2)c1
+ -10.99   -55.76   33.58    0.70     O=C(NCCN1CCCC1)c1ccccc1CCc1ccsc1
+  -4.03   -44.11   56.24    0.78     O=C(NCCSc1nccs1)CCc1nccs1
+ -14.68   -65.14   48.66    0.89     O=C(NCCc1cccs1)c1ccc(NCc2cccnc2)c2ccsc12
+  -4.60   -42.77   55.28    0.77     O=C(NCCSc1nccs1)CCc1ccsc1
+ -20.07   -95.61   19.33    0.90     O=C(NCCSc1nccs1)CCc1ccncc1CC(=O)NCc1ccco1
+ -15.44   -62.65   42.31    0.82     O=C(NCCSc1nnc[nH]1)c1cccnc1Sc1ccccc1
+Step [85/3000]: Train loss: 3594.0082
+
+       Step 85   Fraction valid SMILES: 99.1  Time elapsed: 1.71h Time left: 58.06h
+  Agent    Prior   Target   Score             SMILES
+ -11.60   -43.98   40.37    0.66     O=C(Nc1ncsc1N1CCCC1)c1cccs1
+ -11.53   -48.42   43.23    0.72     O=C(NCCCc1ccccn1)c1ccccc1N1CCS(=O)(=O)CC1
+  -5.27   -27.63   66.83    0.74     O=C(Nc1nccs1)c1ccccc1CCc1cccnc1
+ -11.70   -56.77   58.04    0.90     O=C(NCCCSc1nccs1)NCCSc1nc[nH]n1
+ -10.58   -36.12   48.74    0.66     O=C(Nc1cccnc1Sc1ccccc1)c1ccccc1
+  -6.25   -41.67   53.05    0.74     O=C(NCc1nccs1)c1ccccc1CCc1cccnc1
+  -5.01   -43.98   58.68    0.80     O=C(NCCSc1ncnc2scnc12)c1ccco1
+ -18.11   -65.99   23.87    0.70     O=C(NCCc1nccs1)C(Cc1ccc[nH]1)c1ccco1
+  -8.43   -50.94  -50.94    0.00     O=C(NCc1nccs1)c1ccccc1N1CCN(C(=O)Cc2cccnc2)CC1
+ -21.82   -89.19   14.62    0.81     O=C(NCCc1nccs1)c1cccc(-c2ccccn2)c1NC(=O)NCc1cccnc1
+Step [86/3000]: Train loss: 3570.9602
+
+       Step 86   Fraction valid SMILES: 97.3  Time elapsed: 1.73h Time left: 58.05h
+  Agent    Prior   Target   Score             SMILES
+  -5.17   -42.77   63.85    0.83     O=C(NCCSc1nccs1)CCSc1nccs1
+  -9.21   -40.45   50.43    0.71     O=C(NCCCN1CCN(C(=O)c2cccnc2)CC1)c1cccs1
+ -11.14   -63.44   48.69    0.88     O=C(NCCCSc1nc[nH]n1)c1ccc(NC2CCN(c3ccccc3)CC2)cc1
+ -12.25   -57.09   45.83    0.80     O=C(NCCSc1nc[nH]n1)c1ccccc1CCN1CCCC1
+ -12.80   -64.73   39.20    0.81     O=C(NCc1nccs1)c1ccc(NCCCN2CCOCC2)cc1N1CCOCC1
+  -8.78   -45.02   63.78    0.85     O=C(Nc1nccs1)c1ccccc1N1CCN(C(=O)Cc2cccs2)CC1
+  -7.84   -43.55  -43.55    0.00     O=C(NCc1cccs1)c1ccccc1N1CCN(C(=O)c2cccnc2)CC1
+  -8.75   -39.38  -39.38    0.00     O=C(NCCCOc1cccnc1)c1cccs1
+  -3.80   -38.63   56.73    0.75     O=C(NCCCN1CCCCC1)c1ccccc1N1CCN(C(=O)c2cccnc2)CC1
+  -4.41   -34.99   62.42    0.76     O=C(NCCSc1nc[nH]n1)c1cccs1
+Step [87/3000]: Train loss: 3360.9546
+
+       Step 87   Fraction valid SMILES: 96.6  Time elapsed: 1.76h Time left: 58.10h
+  Agent    Prior   Target   Score             SMILES
+  -6.93   -62.45   37.52    0.78     O=C(NCCCN1CCCCC1)c1ccccc1N1CCN(C(=O)Cc2cccnc2)CC1=O
+ -11.70   -62.54   36.66    0.77     O=C(NCCCN1CCCCC1)c1ccc(CSc2cccs2)o1
+  -9.42   -17.90   39.83    0.45     c1ccc(Cn2ccnc2)cc1
+  -7.35   -39.93   53.51    0.73     O=C(NCCCSCc1cccnc1)c1ccco1
+  -5.11   -31.77   60.52    0.72     O=C(NCCCSc1nc[nH]n1)c1ccccc1
+ -12.68   -52.31   32.17    0.66     O=C(NCCCc1nccs1)CC1(c2ccccc2)CC1
+  -8.82   -43.53   54.78    0.77     O=C(NCCCN1CCCCC1)c1ccccc1NCCc1cccnc1
+  -4.54   -30.50   65.76    0.75     O=C(Nc1nccs1)c1ccccc1N1CCN(C(=O)c2cccnc2)CC1
+  -6.44   -44.10   47.68    0.72     O=C(NCCN1CCCCC1)c1ccccc1N1CCN(C(=O)c2cccs2)CC1
+  -5.38   -42.96   61.49    0.82     O=C(NCCCSc1nc[nH]n1)c1ccccc1N1CCOCC1
+Step [88/3000]: Train loss: 3510.8179
+
+       Step 88   Fraction valid SMILES: 97.3  Time elapsed: 1.78h Time left: 58.17h
+  Agent    Prior   Target   Score             SMILES
+ -19.00   -118.64  -118.64    0.00     O=C(NCCCc1nccs1)NCCNc1ccccc1N1CCN(C(=O)Cc2cccnc2)CC1=O
+ -12.91   -35.16   33.07    0.53     CCN1CCN(C(=O)Cc2cccs2)CC1
+ -19.74   -77.43  -77.43    0.00     O=C(NCCSc1ncnccn1)NCCCc1ccccn1
+ -23.95   -83.94   23.46    0.84     CS(=O)(=O)NCCNCCN(Cc1ccccc1)CCc1cccnc1
+  -9.44   -46.19   56.21    0.80     O=C(NCCCN1CCOCC1)c1cccc(NCc2cccnc2)c1
+ -14.97   -63.59   39.45    0.81     O=C(Nc1nccs1)c1ccc(NCCCN2CCCCC2)cc1N1CCCC1
+  -5.61   -60.63   67.37    1.00     O=C(NCCCSc1nc[nH]n1)Nc1cccnc1Sc1cccnc1
+  -4.55   -35.16   61.73    0.76     O=C(NCCCSc1nc[nH]n1)c1ccco1
+  -8.28   -55.79   47.63    0.81     O=C(NCCCN1CCCCC1)c1cccc(NCc2cccs2)n1
+ -26.18   -91.41   25.46    0.91     Fc1cccc(Nc2ccccc2NCCNC2CCN(Cc3ccccn3)CC2)n1
+Step [89/3000]: Train loss: 3592.0228
+
+       Step 89   Fraction valid SMILES: 99.1  Time elapsed: 1.80h Time left: 58.21h
+  Agent    Prior   Target   Score             SMILES
+  -9.89   -46.69   54.05    0.79     O=C(NCSc1nc[nH]n1)c1ccccc1N1CCOCC1
+  -5.78   -44.80   60.29    0.82     O=C(NCCCSc1nc[nH]n1)c1ccccc1N1CCNCC1
+  -8.53   -31.65   35.16    0.52     O=C(Nc1ccccc1N1CCCCC1)c1ccccc1
+  -8.74   -65.04   55.92    0.94     O=C(NCCc1nccs1)Nc1ccccc1Sc1ccccn1
+  -5.69   -48.31   59.47    0.84     O=C(NCCCSc1nc[nH]n1)NCCc1ccccn1
+  -6.37   -42.09   60.44    0.80     O=C(NCCSc1nc[nH]n1)c1ccccc1N1CCNCC1
+  -9.95   -57.95   30.88    0.69     O=C(NCCCN1CCCCC1)c1ccc(-c2ccccc2)cc1N
+ -12.51   -59.79   31.99    0.72     COc1ccccc1CCNC(=O)c1ccccc1Sc1ccccn1
+  -6.42   -42.96   58.16    0.79     O=C(NCCCSc1nc[nH]n1)c1ccccc1N1CCOCC1
+  -6.29   -53.26   56.30    0.86     O=C(NCCSc1nc[nH]n1)CCN1CCN(C(=O)c2ccccc2)CC1
+Step [90/3000]: Train loss: 3352.3543
+
+       Step 90   Fraction valid SMILES: 99.1  Time elapsed: 1.82h Time left: 58.24h
+  Agent    Prior   Target   Score             SMILES
+  -7.86   -53.33   58.67    0.88     O=C(CSc1ccccc1)Nc1cccnc1Sc1cccnc1
+ -11.75   -58.81   38.47    0.76     O=C(NCCCCc1ccccn1)c1ccccc1N1CCN(C(=O)c2cccs2)CC1
+  -8.47   -31.00   35.95    0.52     O=C(Nc1ccccc1N1CCOCC1)c1ccccc1
+  -9.65   -80.82   36.81    0.92     O=C(NCCCSc1nc[nH]n1)NCCCNC(=O)c1ccccc1
+  -4.02   -44.49   73.66    0.92     O=C(NCCCSc1nc[nH]n1)NCCc1cccnc1
+  -9.88   -59.84   40.00    0.78     O=C(NCCCN1CCCCC1)c1ccc(CSc2ccccn2)s1
+ -10.58   -50.43   56.96    0.84     O=C(NCCCCSc1nc[nH]n1)Nc1ccccc1N1CCOCC1
+ -10.24   -58.38   38.90    0.76     O=C(NCCCN1CCCCC1)c1cccc(NCCNc2ccccn2)c1
+  -6.68   -55.79   44.69    0.79     O=C(NCCCN1CCCCC1)c1cccc(NCc2cccs2)n1
+ -13.88   -62.86   34.93    0.76     O=C(CSc1sccc1Cc1ccccc1)NCc1ccc[nH]1
+Step [91/3000]: Train loss: 3434.5817
+
+       Step 91   Fraction valid SMILES: 100.0  Time elapsed: 1.85h Time left: 58.38h
+  Agent    Prior   Target   Score             SMILES
+ -17.32   -48.14   45.42    0.73     O=C(NCCN1CCCCC1)c1ccnc(Oc2ccccc2)n1
+  -6.08   -42.29   57.68    0.78     O=C(NCCCN1CCCCC1)c1ccccc1N1CCN(C(=O)CCc2ccccn2)CC1
+  -8.10   -48.51   50.69    0.77     O=C(NCCCN1CCCCC1)c1ccccc1N1CCN(C(=O)CCCn2cccn2)CC1
+ -11.75   -41.50  -41.50    0.00     O=C(NCCSc1cccnc1)c1ccccc1N
+ -13.05   -68.92   28.61    0.76     O=C(NCCc1nccs1)CCc1scnc1C1CC1
+ -11.53   -54.79   49.53    0.81     O=C(NCCSc1nc[nH]n1)CCNCC1CCc2ccccc21
+  -5.75   -56.93   69.15    0.99     O=C(NCCCSc1nc[nH]n1)Nc1cccnc1Sc1ccccn1
+ -10.33   -48.62   45.20    0.73     O=C(NCCCN1CCCCC1)c1ccsc1NC(=O)c1cccs1
+ -11.10   -43.38   50.95    0.74     O=C(NCCN1CCCCC1)c1ccccc1N1CCN(C(=O)c2ccc(F)cc2)CC1
+  -7.96   -57.21   58.76    0.91     O=C(NCCCSc1nc[nH]n1)CCN1CCN(C(=O)CCc2cccnc2)CC1
+Step [92/3000]: Train loss: 3498.4357
+
+       Step 92   Fraction valid SMILES: 100.0  Time elapsed: 1.87h Time left: 58.43h
+  Agent    Prior   Target   Score             SMILES
+ -19.88   -46.74   49.65    0.75     Cc1n[nH]c(SCC(=O)NCCc2cccnc2)n1
+  -7.30   -43.79   39.54    0.65     O=C(NCCCN1CCCCC1)c1ccc2ccccc2c1
+  -6.24   -57.23   43.00    0.78     O=C(NCCCN1CCCCC1)c1cccc(NCc2ccccc2)n1
+ -10.82   -75.61   37.29    0.88     O=C(NCCCSc1nc[nH]n1)NCCNCCc1ccco1
+  -5.28   -50.08   67.30    0.92     O=C(NCCCSc1nc[nH]n1)NCCc1cccs1
+  -9.82   -57.23   61.05    0.92     O=C(NCCCSc1nc[nH]n1)CCN1CCN(C(=O)CCc2ccccc2)CC1
+  -8.89   -52.21   40.46    0.72     O=C(NCCSc1ccco1)C1CCN(C(=O)c2ccccn2)CC1
+ -14.23   -55.60   35.54    0.71     O=C(Cc1cccnc1)Nc1ccccc1CCN1CCCCC1
+  -5.15   -58.68   51.40    0.86     O=C(NCCCSc1nc[nH]n1)NCCc1ccsc1
+  -7.85   -49.27   41.86    0.71     O=C(Nc1nccs1)c1ccccc1Sc1ccccn1
+Step [93/3000]: Train loss: 3276.4391
+
+       Step 93   Fraction valid SMILES: 97.4  Time elapsed: 1.89h Time left: 58.47h
+  Agent    Prior   Target   Score             SMILES
+  -8.97   -74.57   21.82    0.75     O=C(NCCCN1CCCCC1)c1ccc(Sc2cccs2)nc1
+  -3.68   -44.49   65.46    0.86     O=C(NCCCSc1nc[nH]n1)NCCc1cccnc1
+  -5.57   -35.70   57.74    0.73     O=C(NCCSc1nc[nH]n1)CCN1CCOCC1
+  -7.29   -53.02   37.73    0.71     O=C(CSc1ccco1)NCCc1cccnc1
+ -24.63   -54.71   43.72    0.77     O=C(Nc1ccc(NC(=O)c2ccncc2)cc1)C1CCN(C(=O)c2ccncc2)CC1
+  -7.26   -33.43   45.42    0.62     O=C(NCCSc1ccco1)c1ccco1
+ -10.92   -35.64  -35.64    0.00     OCCN1CCN(CCn2cccn2)CC1
+  -8.53   -61.64   46.39    0.84     O=C(NCCCN1CCCCC1)c1ccsc1NCCc1cccnc1
+ -11.29   -64.93   49.50    0.89     O=C(NCCc1nccs1)NCCN1CCN(c2cccnc2)CC1
+ -10.08   -40.05   48.14    0.69     O=C(NCc1cccnc1)c1ccccc1N1CCNCC1
+Step [94/3000]: Train loss: 3312.6338
+
+       Step 94   Fraction valid SMILES: 99.2  Time elapsed: 1.91h Time left: 58.52h
+  Agent    Prior   Target   Score             SMILES
+  -5.48   -48.31   59.98    0.85     O=C(NCCCSc1nc[nH]n1)NCCc1ccccn1
+  -8.04   -56.26   71.74    1.00     O=C(NCCSc1cccnc1)Nc1cccnc1Sc1cccnc1
+ -10.11   -54.14   42.50    0.75     O=C(NCCCN1CCCCC1)c1cccc(NC(=O)Cc2cccs2)c1
+ -20.53   -68.93   43.58    0.88     O=C(NCCOc1ncccn1)CC1CCN(C(=O)NCCc2cccnc2)CC1
+  -6.08   -55.90   34.73    0.71     O=C(NCCCN1CCOCC1)c1ccc(NCc2ccco2)nc1
+  -5.44   -39.93   49.16    0.70     O=C(NCCCSCc1cccnc1)c1ccco1
+  -3.54   -44.49   61.11    0.82     O=C(NCCCSc1nc[nH]n1)NCCc1cccnc1
+  -8.84   -39.76   42.04    0.64     O=C(NCCc1cccnc1)CCN1CCOCC1
+  -6.98   -53.68   61.13    0.90     O=C(NCCCSc1nc[nH]n1)NCCc1ccncc1
+ -13.83   -46.68   43.30    0.70     O=C(NCCCCN1CCOCC1)c1ccc(Cl)cc1N1CCCCC1
+Step [95/3000]: Train loss: 3233.3943
+
+       Step 95   Fraction valid SMILES: 100.0  Time elapsed: 1.94h Time left: 58.57h
+  Agent    Prior   Target   Score             SMILES
+ -13.55   -61.86   35.68    0.76     O=C(NCCN1CCCCC1)c1ccnc(OCc2cccnc2)n1
+  -4.82   -47.32   55.72    0.81     O=C(NCCCN1CCOCC1)c1ccc(NCc2cccnc2)nc1
+ -17.83   -30.57  -30.57    0.00     OC(/C=C/c1ccccn1)c1ccc(F)cc1
+  -7.03   -42.42   47.95    0.71     O=C(NCCCN1CCOCC1)c1ccc(-c2cccnc2)s1
+  -5.54   -29.38   54.08    0.65     O=C(NCCN1CCOCC1)c1ccccc1N1CCOCC1
+  -6.03   -47.55   47.17    0.74     O=C(NCCCN1CCOCC1)c1ccc(NS(C)(=O)=O)cc1
+  -7.96   -48.40   54.13    0.80     O=C(NCCN1CCCCC1)c1ccc(NCCc2cccnc2)nc1
+ -11.45   -66.32   60.01    0.99     O=C(NCCCSCc1cccs1)Nc1cccnc1Sc1ccccn1
+ -13.03   -47.14   24.28    0.56     OCCc1scnc1CCN1CCCC1
+  -5.84   -47.72   61.33    0.85     O=C(NCCSc1nc[nH]n1)NCCc1cccnc1
+Step [96/3000]: Train loss: 3346.0886
+
+       Step 96   Fraction valid SMILES: 99.1  Time elapsed: 1.96h Time left: 58.57h
+  Agent    Prior   Target   Score             SMILES
+  -9.08   -48.62   43.92    0.72     O=C1NCCN1CCNC1CCN(C(=O)c2ccccn2)CC1
+  -8.38   -42.04   53.32    0.75     O=C1NCCN1CCNC1CCN(C(=O)c2cccnc2)CC1
+  -6.68   -62.50   57.56    0.94     O=C(NCCCSc1nc[nH]n1)NCCc1ccncn1
+  -5.16   -24.36   50.01    0.58     O=C(Nc1nccs1)CCN1CCOCC1
+  -7.74   -44.73   54.09    0.77     O=C(NCCSc1ccco1)NCCN1CCOCC1
+  -6.22   -43.47   50.36    0.73     O=C(NCCN1CCOCC1)c1cccnc1Sc1ccccn1
+ -17.00   -60.87   34.37    0.74     Cn1cncc1CN1CCN(CCCSc2nccs2)CC1
+  -5.67   -50.41   19.74    0.55     O=C(NCCCN1CCOCC1)c1ccc(F)cc1N1CCOCC1
+ -14.69   -40.53   49.59    0.70     O=C(NCCCCN1CCOCC1)c1ccc(CS(C)(=O)=O)cc1
+ -12.65   -78.10   10.60    0.69     O=C(NCCCN1CCOCC1)c1ccsc1CCNC(=O)CC1CCCC1
+Step [97/3000]: Train loss: 3311.8642
+
+       Step 97   Fraction valid SMILES: 99.1  Time elapsed: 1.98h Time left: 58.54h
+  Agent    Prior   Target   Score             SMILES
+ -20.94   -96.77  -28.54    0.53     [C-]#[N+]C1c2ccccc2CCN1C(=O)Cc1ccccn1
+ -13.39   -45.19   43.26    0.69     O=C(NC1CCCCC1)c1ccc(Sc2cccnc2)cc1
+ -14.33   -67.60   40.82    0.85     O=C(NCC1CCOCC1)c1ccc(NS(=O)(=O)Cc2cccnc2)s1
+  -5.26   -39.49   54.20    0.73     O=C(NCCN1CCOCC1)c1ccc(NCCN2CCOCC2)nc1
+ -10.67   -22.77   49.17    0.56     CN1CCN(C(=O)CCc2cccnc2)CC1
+  -7.88   -39.38   52.65    0.72     O=C(NCCSc1cccnc1)c1ccsc1
+  -5.92   -60.48   64.45    0.98     O=C(NCCSc1ccco1)Nc1cccnc1Sc1cccnc1
+  -5.15   -45.73   70.75    0.91     O=C(CSc1ccccn1)Nc1cccnc1Sc1ccccn1
+  -4.73   -30.88   56.03    0.68     O=C(NCCSc1cccnc1)c1ccco1
+  -6.11   -44.60   66.89    0.87     O=C(NCCCSc1nc[nH]n1)NCCN1CCOCC1
+Step [98/3000]: Train loss: 3333.3269
+
+       Step 98   Fraction valid SMILES: 99.1  Time elapsed: 2.00h Time left: 58.53h
+  Agent    Prior   Target   Score             SMILES
+ -15.16   -52.37   49.90    0.80     O=C(NCCCN1CCOCC1)c1cccc(CNS(=O)(=O)c2ccc(F)cc2)n1
+  -6.59   -44.26  -44.26    0.00     O=C(NCCN1CCOCC1)c1cccc(NC(=O)Cc2cccnc2)c1
+  -5.70   -33.35   54.33    0.69     O=C(NCCSc1cccnc1)c1cccnc1
+  -4.56   -30.88   56.55    0.68     O=C(NCCSc1cccnc1)c1ccco1
+  -5.40   -46.80   56.24    0.81     O=C(NCCCN1CCOCC1)c1cccnc1Sc1ccccn1
+ -12.42   -41.94  -41.94    0.00     O=C(NCCSc1cccnc1)c1ccccc1)c1ccco1
+ -14.22   -70.91   41.60    0.88     O=C(NCCCSc1nc[nH]n1)CCc1scnc1CCN1CCOCC1
+ -16.64   -87.73   21.58    0.85     O=C1CC(NS(=O)(=O)c2cccnc2)CCN1CCOCCOc1ccccc1
+  -4.92   -39.49   57.27    0.76     O=C(NCCN1CCOCC1)c1ccc(NCCN2CCOCC2)nc1
+  -4.09   -47.32   48.04    0.75     O=C(NCCCN1CCOCC1)c1ccc(NCc2cccnc2)nc1
+Step [99/3000]: Train loss: 3172.4380
+
+       Step 99   Fraction valid SMILES: 100.0  Time elapsed: 2.02h Time left: 58.50h
+  Agent    Prior   Target   Score             SMILES
+  -5.56   -45.89   47.55    0.73     O=C(NCCCN1CCOCC1)c1ccc(Oc2cccnc2)s1
+  -5.51   -52.15   64.07    0.91     O=C(NCCCSc1nc[nH]n1)C1CCN(C(=O)CCc2cccnc2)CC1
+ -10.87   -50.23   52.30    0.80     O=C(NCCN1CCNCC1)c1cccnc1Sc1ccccn1
+  -4.59   -30.88   57.19    0.69     O=C(NCCSc1cccnc1)c1ccco1
+  -6.41   -35.66   46.00    0.64     O=C(NCCOc1cccnc1)c1ccco1
+  -5.82   -29.55  -29.55    0.00     O=C(NCCCN1CCOCC1)c1ccc(F)cc1
+  -4.48   -42.43   61.25    0.81     O=C(NCCN1CCOCC1)c1ccc(NCc2cccnc2)nc1
+  -5.12   -46.73   49.14    0.75     O=C(CSc1ccccn1)NCCc1cccnc1
+  -4.79   -44.49   68.79    0.88     O=C(NCCCSc1nc[nH]n1)NCCc1cccnc1
+ -17.49   -46.24   66.15    0.88     O=C(NCCCSc1nc[nH]n1)C1CCCN1C(=O)Cc1ccccn1
+Step [100/3000]: Train loss: 3410.2572
+
+       Step 100   Fraction valid SMILES: 100.0  Time elapsed: 2.04h Time left: 58.46h
+  Agent    Prior   Target   Score             SMILES
+  -8.87   -31.16   57.93    0.70     O=C(NCCCc1cccnc1)c1ccccc1N1CCOCC1
+  -7.97   -43.89   58.00    0.80     O=C(NCCN1CCOCC1)c1ccc(NCc2ccccc2)nc1
+  -5.14   -46.98   49.92    0.76     O=C(NCCCN1CCOCC1)c1cccnc1Sc1cccnc1
+  -5.73   -39.93   44.42    0.66     O=C(NCCCSCc1cccnc1)c1ccco1
+ -15.96   -34.13   32.94    0.52     CN1CCN(C(=O)COc2ccccc2)C1
+  -7.05   -59.95   53.97    0.89     O=C(NCc1cccnc1)Nc1cccnc1Sc1cccnc1
+  -6.89   -40.80   56.35    0.76     O=C(NCCCSc1nc[nH]n1)Cc1cccnc1
+ -14.18   -43.32   39.37    0.65     O=C(NCCCN1CCOCC1)c1cc(Cl)ccn1
+  -8.49   -45.81   53.14    0.77     O=C(NCCN1CCOCC1)c1ccc(CS(=O)(=O)c2cccnc2)o1
+ -10.58   -39.32   68.59    0.84     NS(=O)(=O)NCCN1CCN(C(=O)CCc2cccnc2)CC1
+Step [101/3000]: Train loss: 3119.1650
+
+       Step 101   Fraction valid SMILES: 100.0  Time elapsed: 2.06h Time left: 58.45h
+  Agent    Prior   Target   Score             SMILES
+  -7.91   -50.33   25.19    0.59     O=C(NCCN1CCOCC1)c1ccsc1C1CC1
+  -8.15   -32.47   55.46    0.69     O=C(NCCN1CCOCC1)c1ccc(Oc2ccccc2)cc1
+  -6.28   -31.10   60.04    0.71     O=C(NCCN1CCOCC1)c1ccc(Oc2cccnc2)cc1
+  -5.92   -36.15   64.08    0.78     O=C(NCCSc1ncnc2scnc12)c1ccccc1
+  -6.48   -50.41   26.78    0.60     O=C(NCCCN1CCOCC1)c1ccc(F)cc1N1CCOCC1
+  -4.75   -39.48   59.08    0.77     O=C(NCCN1CCOCC1)c1ccc(CSc2cccnc2)o1
+ -16.45   -40.50   32.46    0.57     OC1CCN(CSc2nccs2)CC1
+ -13.43   -38.22   48.18    0.68     OCCN1CCN(CCCSc2nccs2)CC1
+  -7.53   -43.10   39.59    0.65     O=C(NCc1nccs1)CCN1CCOCC1
+ -15.96   -44.16   41.09    0.67     NC(=O)CSc1nc2ccncc2s1
+Step [102/3000]: Train loss: 3265.3870
+
+       Step 102   Fraction valid SMILES: 97.5  Time elapsed: 2.08h Time left: 58.44h
+  Agent    Prior   Target   Score             SMILES
+  -9.98   -30.34   35.71    0.52     O=C1NCN(Cc2cccnc2)C1
+  -4.76   -39.48   59.20    0.77     O=C(NCCN1CCOCC1)c1ccc(CSc2cccnc2)o1
+ -16.10   -28.23   46.65    0.58     c1ccc(CCNCc2cccnc2)cc1
+  -5.62   -22.82   42.72    0.51     O=C(Nc1nccs1)N1CCOCC1
+  -4.96   -36.68   55.36    0.72     O=C(NCCCSc1nc[nH]n1)CC1CCOCC1
+ -10.79   -40.17   25.88    0.52     O=c1/c(=C/c2cccnc2)sc2ccccc12
+  -8.48   -49.30   59.88    0.85     O=C(NCCN1CCOCC1)c1ccc(NC2CCN(c3ccccc3)CC2)nc1
+  -4.84   -43.07   55.62    0.77     O=C(NCCN1CCOCC1)c1cccnc1Sc1cccnc1
+  -6.79   -37.05   57.67    0.74     O=C(NCCN1CCOCC1)c1ccc(OCc2cccnc2)cc1
+  -4.84   -49.08   57.16    0.83     O=C(NCCSc1ncnc2scnc12)c1cccnc1
+Step [103/3000]: Train loss: 2981.6653
+
+       Step 103   Fraction valid SMILES: 100.0  Time elapsed: 2.10h Time left: 58.42h
+  Agent    Prior   Target   Score             SMILES
+ -11.74   -58.92   32.60    0.71     O=C(NCCSc1nc[nH]n1)COC1CCOC1
+  -7.16   -35.70   63.24    0.77     O=C(NCCSc1nc[nH]n1)CCN1CCOCC1
+  -5.40   -45.89   46.52    0.72     O=C(NCCCN1CCOCC1)c1ccc(Oc2cccnc2)s1
+  -5.17   -47.17   41.66    0.69     O=C(NCCCSc1nc[nH]n1)CC1CCOC1
+  -7.73   -20.35   57.98    0.61     NS(=O)(=O)NCCCN1CCOCC1
+ -10.26   -33.24   48.04    0.63     O=C(NCCCN1CCOCC1)c1cccc(F)c1N1CCOCC1
+  -8.57   -48.48   48.93    0.76     O=C(NCCCN1CCOCC1)c1cccc(Cc2ccccn2)n1
+  -6.21   -54.08   52.29    0.83     O=C(NCCCSc1nc[nH]n1)CC1CCN(C(=O)CCc2cccnc2)CC1
+  -4.85   -36.15  -36.15    0.00     O=C(NCCSc1ncnc2scnc12)c1ccccc1
+ -11.37   -52.74   54.01    0.83     O=C(NC1CCOCC1)c1ccc(NS(=O)(=O)c2cccnc2)nc1
+Step [104/3000]: Train loss: 3079.6962
+
+       Step 104   Fraction valid SMILES: 100.0  Time elapsed: 2.12h Time left: 58.42h
+  Agent    Prior   Target   Score             SMILES
+ -16.35   -47.27   24.16    0.56     OC1OC(n2cnc3ccccc32)C(O)C1O
+  -6.09   -50.12   53.69    0.81     O=C(CSc1ccccn1)Nc1ccccc1Sc1ccccn1
+ -21.05   -98.84  -98.84    0.00     O=C(NCCSc1ncncc1OCc1ccco1)C1CCCN1C(=O)CCSCc1ccccc1
+ -15.13   -43.22   66.22    0.86     Nc1nc(NCc2cccnc2)nc(Nc2cccnc2)n1
+  -6.20   -56.29   45.35    0.79     O=C(NCCN1CCOCC1)c1ccc(Sc2cccnc2)s1
+  -9.55   -51.36   52.07    0.81     O=C(Nc1ccccc1N1CCOCC1)c1cccnc1Sc1cccnc1
+  -4.24   -45.73   57.43    0.81     O=C(CSc1ccccn1)Nc1cccnc1Sc1ccccn1
+  -8.36   -31.66   55.50    0.68     O=C(NCCCSc1ccccn1)c1cccnc1
+ -11.32   -54.47   38.59    0.73     O=C(NCCCN1CCOCC1)C1CCN(C(=O)CCc2nccs2)CC1
+ -14.91   -31.37   54.00    0.67     OCC(CSc1ccccn1)NCCc1cccnc1
+Step [105/3000]: Train loss: 3330.9707
+
+       Step 105   Fraction valid SMILES: 98.4  Time elapsed: 2.14h Time left: 58.41h
+  Agent    Prior   Target   Score             SMILES
+  -9.27   -59.19   49.61    0.85     O=C(NCCc1ccccn1)c1cccnc1Sc1cccnc1
+  -7.82   -49.61   61.36    0.87     O=C(NCCc1cccnc1)c1cccnc1Sc1cccnc1
+ -10.26   -71.91   31.13    0.81     O=C(NCCSc1ncncc1)c1ccccc1Sc1ccccn1
+ -15.84   -68.76   17.51    0.67     O=C(NCOc1nccs1)NC1CCOc2ccccc12
+  -9.10   -50.15   55.32    0.82     O=C(NCCN1CCOCC1)c1ccc(NCCOc2cccnc2)cc1
+  -5.61   -46.68   75.94    0.96     O=C(CSc1ccccn1)Nc1cccnc1Sc1cccnc1
+  -8.95   -55.97   48.61    0.82     O=C(NCCSc1nc[nH]n1)CC1CCN(C(=O)C2CCCO2)CC1
+ -11.87   -50.38   53.56    0.81     O=C(NCC1CCOCC1)c1ccnc(NC(=O)Cc2cccnc2)n1
+  -8.14   -60.81   54.26    0.90     O=C(NCCSc1nc[nH]n1)CC1CCN(C(=O)CCCc2cccnc2)CC1
+  -8.10   -35.65   51.39    0.68     O=C(NCCOc1ccccc1)c1ccccc1N1CCOCC1
+Step [106/3000]: Train loss: 3160.5363
+
+       Step 106   Fraction valid SMILES: 96.7  Time elapsed: 2.16h Time left: 58.43h
+  Agent    Prior   Target   Score             SMILES
+ -18.43   -51.07   64.64    0.90     Oc1cccc(Nc2nccnc2NCc2cccnc2)n1
+ -10.64   -41.14   39.63    0.63     O=C(NCSc1nc[nH]n1)C1CC1
+ -12.72   -68.02   41.30    0.85     O=C(NCCN1CCOCC1)c1ccc(NC(=O)c2cccnc2Sc2ccccn2)nc1
+  -8.94   -47.01   37.98    0.66     Nc1ccc(NC(=S)N2CCOCC2)nc1
+  -8.18   -37.53   44.26    0.64     O=C(NCCc1ccccn1)c1ccccc1N1CCOCC1
+  -6.27   -53.57   46.27    0.78     O=C(NCCSc1cccnc1)c1ccccc1Sc1ccccn1
+  -8.89   -37.75   41.86    0.62     OCCN1CCN(C(=O)CCCCc2cccnc2)CC1
+  -6.60   -61.51   35.77    0.76     O=C(NCCOc1cccnc1)c1ccccc1Sc1ccccn1
+ -12.83   -44.42   48.26    0.72     O=C(NCCN1CCOCC1)c1ccc(OCc2ccccc2)cc1OC(F)(F)F
+  -6.13   -14.90   60.49    0.59     NS(=O)(=O)NCCN1CCOCC1
+Step [107/3000]: Train loss: 3393.2046
+
+       Step 107   Fraction valid SMILES: 96.7  Time elapsed: 2.18h Time left: 58.41h
+  Agent    Prior   Target   Score             SMILES
+  -8.13   -28.05   35.70    0.50     OCCN1CCN(C(=O)c2ccccn2)CC1
+ -11.62   -55.88   40.63    0.75     O=C(NCCCSc1nc[nH]n1)C1CCN(C(=O)C2CCCO2)CC1
+ -13.12   -54.21   55.62    0.86     O=C(NCCSc1nc[nH]n1)C1CCN(C(c2ccccc2)c2ccccc2)CC1
+ -19.96   -72.00   34.24    0.83     O=C(NCC1CCOCC1)c1ccc(-c2cccs2)nc1Sc1cccnc1
+  -6.32   -59.95   57.42    0.92     O=C(NCc1cccnc1)Nc1cccnc1Sc1cccnc1
+  -9.00   -35.99   40.17    0.60     O=C(NCCc1ccccn1)c1ccco1
+ -17.03   -95.45  -95.45    0.00     O=C(NCCCSc1nc[nH]n1)NS(=O)C1CCN(C(=O)c2cccnc2S(=O)(=O)Cc2ccccc2)CC1
+ -12.05   -33.49   50.74    0.66     O=C(NCSc1ccccn1)c1cccs1
+  -6.36   -52.61   69.50    0.95     O=C(NCCSc1cccnc1)Nc1cccnc1Sc1ccccn1
+  -7.43   -36.45   53.41    0.70     O=C(CSc1ccccn1)Nc1nccs1
+Step [108/3000]: Train loss: 3305.6981
+
+       Step 108   Fraction valid SMILES: 98.3  Time elapsed: 2.20h Time left: 58.38h
+  Agent    Prior   Target   Score             SMILES
+ -11.86   -67.30   19.48    0.68     O=C(NC1CCOC1)c1ccnc(OCc2cccnc2)n1
+  -7.43   -46.33   50.44    0.76     O=C(NCc1ccccc1)Nc1cccnc1Sc1cccnc1
+ -13.18   -50.83   23.02    0.58     O=C(NC1CCOCC1)c1sccc1N1CCOCC1
+  -5.20   -47.08   54.68    0.80     O=C(Nc1nccs1)c1cccnc1Sc1ccccn1
+  -8.38   -44.38   36.90    0.63     OCCN1CCN(C(=O)CCc2nccs2)CC1
+ -12.23   -45.38   48.70    0.74     O=C1NCCN1CCN1CCN(C(=O)CCN2CCOCC2)CC1
+ -19.93   -90.45   14.51    0.82     Oc1sc(Nc2ccccc2)nc1Sc1cccnc1Sc1ccccn1
+  -6.42   -57.92   46.27    0.81     O=C(NCCN1CCOCC1)c1ccc(NCc2cccnc2)nn1
+  -8.89   -54.93   60.40    0.90     O=C(NCCSc1ccncc1)c1cccnc1Sc1ccccn1
+ -13.18   -33.11   49.20    0.64     CN1CCN(C(=O)CNC(=O)CCc2cccnc2)CC1
+Step [109/3000]: Train loss: 3180.1307
+
+       Step 109   Fraction valid SMILES: 100.0  Time elapsed: 2.22h Time left: 58.36h
+  Agent    Prior   Target   Score             SMILES
+  -5.34   -42.38   50.55    0.73     O=C(NCCN1CCOCC1)c1ccc(OCc2ccccc2)cn1
+ -12.75   -37.17   60.75    0.76     O=C(Nc1nccs1)c1ccc(N2CCOCC2)cc1Oc1ccccc1
+  -6.39   -21.43   47.18    0.54     O=C1NCCN1CCN1CCOCC1
+ -10.27   -43.87   51.75    0.75     O=C(NCCOCCN1CCOCC1)c1ccc(OCc2ccccc2)cn1
+ -12.91   -65.13   40.09    0.82     O=S(=O)(c1cccnc1Sc1ccncn1)c1cccnc1
+  -6.08   -63.95   59.96    0.97     O=C(NCCSc1nc[nH]n1)Nc1ccccc1Sc1ccccn1
+ -10.87   -40.80   33.18    0.58     O=C1CSCN1CCN1CCc2ccccc2C1
+  -8.74   -43.62   40.99    0.66     O=S(=O)(c1ccccn1)c1ccccc1N1CCOCC1
+ -18.67   -57.54   36.80    0.74     CCSCCN1CCN(C(=O)CCSc2ccccn2)CC1
+ -16.32   -89.03   28.85    0.92     O=C(NCCSc1nc[nH]n1)CCC1CCCCN1C(=O)CCSc1ccccn1
+Step [110/3000]: Train loss: 3414.3016
+
+       Step 110   Fraction valid SMILES: 99.2  Time elapsed: 2.24h Time left: 58.37h
+  Agent    Prior   Target   Score             SMILES
+  -9.68   -20.91   39.89    0.47     O=C1CNCCN1CCN1CCOCC1
+  -4.49   -49.27   51.21    0.79     O=C(Nc1nccs1)c1ccccc1Sc1ccccn1
+  -5.07   -53.57   53.95    0.84     O=C(NCCSc1cccnc1)c1ccccc1Sc1ccccn1
+ -19.85   -88.55  -88.55    0.00     O=C(NCCCN1CCOCC1)c1ccc2c(NC(=O)CN3CCOCC3)cccc21
+  -8.12   -33.96   37.08    0.56     OC(Cc1cccnc1)c1cccnc1
+  -8.88   -57.24   57.45    0.90     O=C(NCCc1ncccn1)Nc1cccnc1Sc1ccccn1
+ -10.80   -59.11   66.59    0.98     O=C(NCCSc1nc[nH]n1)NCCSc1ccccn1
+ -11.19   -54.28   50.55    0.82     O=C(NCc1cccnc1)c1ccc(NC(=O)Cc2ccccc2)nc1
+  -8.77   -60.88   51.64    0.88     O=C(Nc1nccs1)c1ccc(Nc2ccccc2OCc2ccccc2)nn1
+  -9.54   -40.47   35.31    0.59     O=C(NCCc1ccco1)c1ccccc1N1CCOCC1
+Step [111/3000]: Train loss: 3438.8957
+
+       Step 111   Fraction valid SMILES: 100.0  Time elapsed: 2.26h Time left: 58.34h
+  Agent    Prior   Target   Score             SMILES
+  -4.74   -53.81   70.35    0.97     O=C(NCCSc1nc[nH]n1)Nc1cccnc1Sc1ccccn1
+  -6.65   -55.53   60.82    0.91     O=C(NCCSc1cccnc1)c1cccnc1Sc1ccccn1
+ -16.54   -49.34   14.02    0.50     Cn1cncc1CN1CCOCC1(c1ccccc1)c1ccccc1
+  -5.27   -53.57   57.92    0.87     O=C(NCCSc1cccnc1)c1ccccc1Sc1ccccn1
+ -17.91   -66.52   40.49    0.84     O=C(NCCSc1nc[nH]n1)NC(=O)c1ccc(C2CCOCC2)cc1
+  -6.36   -14.37   29.41    0.34     OCCN1CCOCC1
+  -7.97   -40.91   51.38    0.72     O=C(NCCCN1CCOCC1)c1ccc(OCc2cccnc2)cc1
+  -7.43   -37.39   61.56    0.77     O=C(NCCSc1nc[nH]n1)CCc1cccnc1
+ -11.51   -40.62   51.41    0.72     O=C(Nc1cccnc1SCc1cccnc1)c1ccco1
+ -15.26   -60.85   55.63    0.91     O=C(NCSc1ccccn1)c1ccc(NC(=O)Cc2cccnc2)cn1
+Step [112/3000]: Train loss: 3558.2761
+
+       Step 112   Fraction valid SMILES: 96.7  Time elapsed: 2.28h Time left: 58.38h
+  Agent    Prior   Target   Score             SMILES
+  -8.29   -36.70   43.05    0.62     O=C(CSc1ccccc1)Nc1ccccn1
+  -5.77   -22.36   65.83    0.69     O=C(Nc1nccs1)c1ccc(Cn2ccnc2)cc1
+  -9.28   -53.92   52.70    0.83     O=C(NCCSc1cccnc1)c1cccnc1Nc1ccccc1
+ -20.46   -78.49   34.67    0.88     O=C(NCCc1ncco1)Nc1ccc(SCCOc2cccnc2)cn1
+  -8.41   -28.13   64.92    0.73     O=C(Nc1nccs1)c1ccc(NC(=O)c2cccnc2)cc1
+ -10.48   -61.66   42.66    0.81     O=C(NCCSc1ccncc1)c1cccnc1Nc1ccccn1
+  -5.86   -36.17   59.19    0.75     O=C(Nc1nccs1)c1ccc(NCc2ccccc2)nc1
+ -10.86   -22.78   36.10    0.46     COc1ccccc1/C=N/N1CCOCC1
+  -9.15   -69.89  -69.89    0.00     O=C(CSc1sccc1Cc1ccccc1)Nc1cccnc1Sc1ccccn1
+ -12.83   -65.79   32.38    0.77     O=C(NCCN1CCOCC1)c1ccc(OCc2cccnc2F)cc1OC
+Step [113/3000]: Train loss: 3827.5709
+
+       Step 113   Fraction valid SMILES: 98.3  Time elapsed: 2.31h Time left: 58.39h
+  Agent    Prior   Target   Score             SMILES
+ -11.14   -42.82   41.91    0.66     O=C(Nc1ncsc1N1CCOCC1)c1cccnc1
+ -14.44   -61.33   31.60    0.73     O=C(Cc1ccsc1)Nc1ccc(-n2cccn2)nc1
+ -11.49   -55.47   36.82    0.72     O=C(NCCN1CCOCC1)c1ccnc(NC(=O)C2CCOC2)c1
+ -10.68   -59.25   40.47    0.78     O=C(CSc1ccccn1)NCCc1nccs1
+  -8.37   -38.61   61.10    0.78     O=C(NCCN1CCOCC1)c1ccc(CS(=O)(=O)c2ccc(F)cc2)nc1
+  -7.14   -32.48   57.89    0.71     O=C(NCCCSc1cccnc1)c1ccco1
+ -18.61   -57.05   45.61    0.80     O=C(NC[C@H]1CCCN1)CCN(Cc1cccnc1)c1cccnc1
+  -4.65   -39.67   57.49    0.76     O=C(NCCSc1cccnc1)c1ccccc1N1CCOCC1
+ -13.11   -39.70   53.87    0.73     O=S(=O)(Nc1ccc(OCc2cccnc2)cc1)c1ccco1
+ -11.58   -31.83   38.70    0.55     O=C(COC(=O)Cc1ccccc1)c1ccccc1
+Step [114/3000]: Train loss: 3516.6769
+
+       Step 114   Fraction valid SMILES: 97.6  Time elapsed: 2.33h Time left: 58.42h
+  Agent    Prior   Target   Score             SMILES
+ -20.25   -78.40  -78.40    0.00     O=C(NCCc1nccn1CCc1cccnc1)c1ccccc1NC(=O)NCc1ccccn1
+  -9.55   -53.88   49.28    0.81     O=S(=O)(Cc1ccccn1)Nc1cccnc1Sc1cccnc1
+  -8.67   -42.37   51.07    0.73     O=C(Nc1nccs1)c1ccc(-c2cccnc2)cn1
+ -10.29   -44.49   53.05    0.76     O=C(NCCCN1CCOCC1)c1ccc(Cn2ccnc2)cc1OC
+  -8.23   -47.47  -47.47    0.00     O=C(NCCN1CCOCC1)c1ccc(Nc2ncccn2)nc1OC
+  -9.39   -38.58   50.12    0.69     O=C(NCS(=O)(=O)c1cccnc1)c1cccnc1
+  -6.75   -44.72   60.75    0.82     O=C(NCSc1nc[nH]n1)c1ccc(Cn2ccnc2)cc1
+ -20.67   -67.80  -67.80    0.00     O=C(NCCc1nccs1)c1ccnc(Nc2ccc(Nc4ccccc4)cc3)cn2)c1
+  -9.15   -40.54   52.00    0.72     OCCCN1CCN(C(=O)CSc2cccnc2)CC1
+  -8.06   -58.73   36.24    0.74     O=C(NC1CCOCC1)c1ccc(NCc2cccnc2)nn1
+Step [115/3000]: Train loss: 3436.3642
+
+       Step 115   Fraction valid SMILES: 97.6  Time elapsed: 2.35h Time left: 58.43h
+  Agent    Prior   Target   Score             SMILES
+ -13.17   -55.41   52.37    0.84     O=C(NCC1CCOCC1)c1ccc(NS(=O)(=O)c2cccnc2)nc1
+  -9.38   -46.33   36.36    0.65     O=C(NC1CCOCC1)c1ccc(OCc2ccccn2)nc1
+ -19.69   -64.84   53.43    0.92     O=C(NCCc1ncc(CSc2cccnc2)s1)c1ccccn1
+ -11.99   -36.70   28.20    0.51     OCCN1CCN(C(=O)C2CCOCC2)CC1
+  -5.52   -40.85   52.85    0.73     O=C(NCCc1ncccn1)c1ccc(Cn2ccnc2)cc1
+  -7.27   -40.05   61.19    0.79     OCCN1CCN(C(=O)c2cccnc2SCc2cccnc2)CC1
+  -7.52   -40.50   53.96    0.74     O=C(NCCSc1ncccn1)c1ccccc1N1CCOCC1
+  -9.38   -39.35   53.32    0.72     Nc1nc(Nc2cccnc2)cc(N2CCOCC2)n1
+ -10.42   -46.08   62.72    0.85     O=C(NCCCCSc1nc[nH]n1)c1ccc(Cn2ccnc2)cc1
+  -9.31   -71.61   54.72    0.99     O=C(NCCCc1nccs1)Nc1cccnc1Sc1cccnc1
+Step [116/3000]: Train loss: 3831.7154
+
+       Step 116   Fraction valid SMILES: 100.0  Time elapsed: 2.37h Time left: 58.44h
+  Agent    Prior   Target   Score             SMILES
+  -8.68   -48.37   56.97    0.82     O=C(Cc1ccncc1)Nc1cccnc1Sc1ccccn1
+  -6.76   -38.52   57.10    0.75     O=C(NCCSc1nc[nH]n1)Nc1ccccn1
+  -9.25   -30.53   52.16    0.65     O=C(CSCc1ccccc1)Nc1nccs1
+ -10.98   -55.68   47.74    0.81     O=C(Nc1nccs1)c1ccc(-c2cccnc2)cc1NCc1ccco1
+ -20.81   -89.25  -89.25    0.00     O=C(NCSc1cccnc1)Nc1ccc(NC(=O)NCc2ccc[nH]2)cc1
+ -17.45   -82.39   37.03    0.93     O=C(NCc1ncccn1)Nc1cccnc1Sc1ccc(-c2ccccc2)nn1
+ -10.94   -47.33   36.76    0.66     O=C(Cc1ccccn1)NCCc1ccccn1
+ -10.31   -72.58   55.42    1.00     O=C(NCCCc1ncc[nH]1)Nc1cccnc1Sc1cccnc1
+ -11.45   -61.63   43.20    0.82     Nc1ccc(NC(=S)NCCc2cccnc2)nc1
+  -9.15   -69.20   45.10    0.89     O=C(NCc1cccnc1)c1cccnc1Nc1cccnc1Sc1ccccn1
+Step [117/3000]: Train loss: 3812.1540
+
+       Step 117   Fraction valid SMILES: 100.0  Time elapsed: 2.39h Time left: 58.45h
+  Agent    Prior   Target   Score             SMILES
+  -5.77   -35.84   48.89    0.66     O=C(NCCc1nccs1)Nc1nccs1
+ -13.34   -84.10   18.43    0.80     O=C(NCCCc1ncccn1)Nc1ccc(Cn2ccnc2)c(F)c1
+ -17.00   -59.93   49.90    0.86     O=C(NCCSc1nccs1)Oc1cccnc1Sc1ccccn1
+ -14.42   -50.34   40.03    0.71     O=C(OCc1ccccn1)C1CCN(C(=O)CCc2cccnc2)CC1
+  -7.82   -30.69   40.86    0.56     Nc1ncnc(N2CCOCC2)n1
+ -10.55   -71.57   47.99    0.93     O=C(NCSCc1ccco1)Nc1cccnc1Sc1ccccn1
+  -6.24   -43.53   61.04    0.82     O=C(Nc1nccs1)c1ccc(NC(=O)NCc2cccnc2)cc1
+  -7.48   -53.99  -53.99    0.00     O=C(NCCCSc1ccccn1)Nc1cccnc1Sc1cccnc1
+  -5.61   -53.81   65.23    0.93     O=C(NCCSc1nc[nH]n1)Nc1cccnc1Sc1ccccn1
+  -4.49   -47.33   79.90    0.99     O=C(NCCSc1nccs1)Nc1cccnc1Sc1ccccn1
+Step [118/3000]: Train loss: 3882.4028
+
+       Step 118   Fraction valid SMILES: 98.3  Time elapsed: 2.41h Time left: 58.48h
+  Agent    Prior   Target   Score             SMILES
+  -6.24   -57.73   58.11    0.90     O=C(NCc1cccnc1)Nc1cccnc1Sc1ccccn1
+ -36.79   -106.48  -106.48    0.00     NC(=O)[C@H](NC(=O)CSc1ncccn1)Nc1ccccc1Sc1ccccn1)c1ccc(F)cc1
+  -8.30   -41.69   63.53    0.82     O=C(NCSc1nccs1)c1ccc(Cn2ccnc2)cc1
+  -4.20   -47.33   64.42    0.87     O=C(NCCSc1nccs1)Nc1cccnc1Sc1ccccn1
+  -9.21   -28.48   78.78    0.84     O=C(NCCNS(=O)(=O)c1ccc(F)cc1)c1cccnc1
+  -9.00   -59.96   46.28    0.83     O=C(NCCSc1nccs1)NCCOc1cccnc1
+ -12.26   -39.59   84.70    0.97     NS(=O)(=O)NCCN1CCN(C(=O)CNC(=O)c2cccnc2)CC1
+  -7.09   -56.37   64.97    0.95     O=C(NCCSc1nccs1)Nc1ccccc1Sc1ccccn1
+  -9.50   -46.60   46.97    0.73     O=C(NCCS(=O)(=O)NCc1cccnc1)c1cccnc1
+ -21.69   -43.69   51.93    0.75     CN(CCN1CCOCC1)c1ccsc1S(=O)(=O)CCCc1ccccn1
+Step [119/3000]: Train loss: 4213.5921
+
+       Step 119   Fraction valid SMILES: 97.4  Time elapsed: 2.44h Time left: 58.50h
+  Agent    Prior   Target   Score             SMILES
+  -8.78   -40.48   71.13    0.87     O=C(CSc1ccccn1)Nc1cccc(Cn2ccnc2)c1
+  -5.79   -36.15   52.17    0.69     O=C(NCSc1nccs1)Nc1ccccn1
+ -26.06   -99.41  -99.41    0.00     O=C(Nc1nccs1)c1ccc(-c2cccnc2)nc1Oc1cccc(C(=O)N(CCS(=O)(=O)c2ccccc2)c2ccccc2)c1
+ -19.49   -103.71   14.82    0.93     O=C(NCCCc1nccs1)NS(=O)(=O)c1cccc(C(=O)NCc2ccco2)n1
+  -7.41   -29.73   61.27    0.71     O=C(CSc1nccs1)Nc1ccccc1N1CCOCC1
+ -15.24   -32.92  -32.92    0.00     NS(=O)(=O)c1ccc(CNC(=O)NCCN2CCOCC2)cc1
+  -4.58   -53.18  -53.18    0.00     O=C(NCCSc1nccs1)Nc1cccnc1Sc1cccnc1
+  -7.76   -33.01   57.10    0.70     O=C(NCCSCc1cccnc1)c1cccnc1
+ -27.64   -74.06   28.98    0.81     O=C(NCCSCOC(=O)NCC(=O)NCCc1ccccc1)c1ccco1
+ -13.43   -36.30   56.11    0.72     O=C(Nc1nccs1)c1cccc(NC(=O)C2CCCC2)c1
+Step [120/3000]: Train loss: 3906.9266
+
+       Step 120   Fraction valid SMILES: 97.4  Time elapsed: 2.46h Time left: 58.48h
+  Agent    Prior   Target   Score             SMILES
+ -14.25   -58.51   35.32    0.73     O=C(Nc1ccc(Nc2ccccn2)nc1)c1cccnc1
+ -10.08   -34.28   47.51    0.64     O=C(COC(=O)CNC(=O)c1ccccc1)c1ccccc1
+ -19.07   -51.07   34.95    0.67     O=C1CCCN1CCc1nccn1CCc1ccccc1
+  -4.61   -31.62   61.69    0.73     O=C(NCCSc1nccs1)Nc1ccccn1
+  -5.03   -62.93   58.67    0.95     O=C(NCCc1nccs1)Nc1cccnc1Sc1cccnc1
+ -11.34   -33.33   63.69    0.76     O=C(Nc1nccs1)c1ccc(-c2ccc(CN3CCOCC3)cc2)s1
+ -21.86   -66.57   34.04    0.79     c1ccc(CNc2ccc(S(N)(=O)=O)s2)nc1
+ -13.45   -37.29   34.78    0.56     O=C1CSCN1C(=O)CCCN1CCOCC1
+  -8.74   -61.00   57.66    0.93     O=C(NCCSCc1ccccn1)Nc1cccnc1Sc1cccnc1
+  -8.90   -67.86   50.67    0.93     O=C(NCSc1cccnc1)Nc1ccccc1Sc1ccccn1
+Step [121/3000]: Train loss: 3622.8595
+
+       Step 121   Fraction valid SMILES: 96.0  Time elapsed: 2.48h Time left: 58.48h
+  Agent    Prior   Target   Score             SMILES
+ -13.44   -43.80   48.49    0.72     O=C(NC(=O)c1ccsc1)c1ccc(Cn2ccnc2)cc1
+ -24.63   -52.02   63.05    0.90     O=S(=O)(NCCOCCSc1nc[nH]n1)CCc1ccccn1
+ -13.90   -82.44  -82.44    0.00     O=C(NCCSc1nccs1)NC(=O)CCc1nccs1)Nc1cccnc1
+  -9.86   -46.35   44.91    0.71     O=C(NCCCSCc1ccccn1)Nc1ccccn1
+ -18.45   -61.88   54.86    0.91     O=C(Nc1nccs1)c1ccc(Cn2cncc2NC(=O)c2ccc(Cl)cn2)cc1
+  -7.75   -55.65   48.54    0.81     O=C(NCCCc1nccs1)NCCc1ccccn1
+ -15.78   -60.56  -60.56    0.00     O=C(NCCSc1nccs1)Nc1cc(F)cc(F)c1)c1ccco1
+  -8.86   -47.54   51.27    0.77     O=C(NCCCN1CCOCC1)c1ccnc(NC(=O)Cc2ccccc2)n1
+ -13.21   -57.20   70.29    1.00     O=C(NCCSc1nccs1)Nc1ccc(CCSc2nccs2)cc1
+ -15.35   -64.18   32.46    0.75     O=C(NCc1nccs1)Nc1ccncc1N(Cc1ccccc1)c1ccccc1
+Step [122/3000]: Train loss: 3615.7110
+
+       Step 122   Fraction valid SMILES: 99.2  Time elapsed: 2.50h Time left: 58.47h
+  Agent    Prior   Target   Score             SMILES
+ -11.64   -38.95   51.03    0.70     O=C1CNCCN1CCN1CCN(C(=O)c2cccnc2)CC1
+ -12.03   -50.93   62.23    0.88     O=C(NCc1cccc(F)c1)Nc1cccnc1Sc1ccccn1
+  -9.25   -47.95   58.29    0.83     O=C(NCCSc1nccs1)NCCC1CCOCC1
+  -5.53   -56.94  -56.94    0.00     O=C(NCCCc1nccs1)Nc1ccc(Cn2ccnc2)cc1
+  -9.06   -49.20   54.22    0.81     O=C(NCCc1nccs1)Nc1cc(Cc2cccnc2)ccn1
+  -5.03   -62.93   65.07    1.00     O=C(NCCc1nccs1)Nc1cccnc1Sc1cccnc1
+ -10.00   -42.84   47.27    0.70     O=C(NCSCc1cccnc1)c1ccccc1
+ -16.24   -43.60   22.06    0.51     NC(=O)c1ccoc1N1CCOCC1
+ -13.31   -45.27   78.12    0.96     O=C(NCCc1cccnc1)Nc1ccc(S(=O)(=O)Nc2cccnc2)cc1
+ -14.29   -54.22   56.37    0.86     O=C(COC(=O)c1ccco1)Nc1cccnc1Sc1cccnc1
+Step [123/3000]: Train loss: 3710.0871
+
+       Step 123   Fraction valid SMILES: 100.0  Time elapsed: 2.52h Time left: 58.55h
+  Agent    Prior   Target   Score             SMILES
+  -7.97   -50.13   47.40    0.76     O=C(NCCCN1CCOCC1)c1ccc(NC(=O)c2ccccn2)nc1
+ -19.48   -74.79   43.09    0.92     O=C(CCNCCc1ccccn1)Nc1cccnc1S(=O)(=O)c1ccccn1
+ -11.23   -48.56   43.34    0.72     O=C(NCCSCc1ccco1)NCCCN1CCOCC1
+  -8.00   -68.41   41.67    0.86     O=C(NCCSCc1nccs1)Nc1ccc(C(=O)N2CCOCC2)cn1
+ -11.52   -59.51   44.94    0.82     O=C(NCCCSCc1nccs1)NCCN1CCOCC1
+ -11.44   -44.23   65.60    0.86     O=C(NCCOc1nccs1)NCCc1cccnc1
+  -6.15   -39.73   74.44    0.89     O=C(NCCSc1cccnc1)Nc1ccc(S(=O)(=O)N2CCOCC2)cc1
+  -8.74   -29.39   45.88    0.59     O=C(Nc1nccs1)c1ccsc1
+  -8.20   -55.52   47.26    0.80     O=C(NCc1nccs1)Nc1ccc(-c2cccnc2)cn1
+  -9.89   -26.87   60.94    0.69     O=C(NCCCS(=O)(=O)c1ccc(Cl)cc1)c1ccccn1
+Step [124/3000]: Train loss: 3640.5525
+
+       Step 124   Fraction valid SMILES: 99.2  Time elapsed: 2.55h Time left: 58.58h
+  Agent    Prior   Target   Score             SMILES
+  -6.58   -30.43   55.46    0.67     O=C(Nc1nccs1)c1ccc(-n2ccnc2)cc1
+  -9.95   -45.65   46.25    0.72     O=C(Cc1ccncc1)Nc1ccc(Cn2ccnc2)cc1
+ -18.72   -76.40   39.57    0.91     O=C(Nc1nccs1)c1cccc(CN(Cc2cccnc2)C2CCN(C(=O)c3ccsc3)CC2)n1
+ -16.59   -70.35   41.65    0.88     O=C(NCSc1ccncc1)Nc1ccccc1NC(=O)Cc1cccnc1
+ -13.19   -45.69  -45.69    0.00     O=C(NCCCc1nccs1)Nc1cc(Cl)cc(Cn2ccnc2)c1
+  -9.40   -56.56   53.14    0.86     O=C(Cn1ncc2ccccc21)Nc1cccnc1Sc1ccccn1
+  -7.92   -37.59   58.41    0.75     O=C(NCCCCSc1cccnc1)c1cccnc1
+ -12.42   -60.09   52.42    0.88     O=C(NCCSCCc1cccnc1)Nc1cccc(Cn2ccnc2)c1
+  -5.64   -39.45   68.84    0.85     O=C(Nc1nccs1)c1ccsc1NCc1cccnc1
+  -5.41   -22.36   65.83    0.69     O=C(Nc1nccs1)c1ccc(Cn2ccnc2)cc1
+Step [125/3000]: Train loss: 3667.2907
+
+       Step 125   Fraction valid SMILES: 99.2  Time elapsed: 2.57h Time left: 58.62h
+  Agent    Prior   Target   Score             SMILES
+ -11.69   -38.44   73.18    0.87     O=C(CSc1nccs1)Nc1ccc(NC(=O)Cc2ccccc2)cc1
+  -7.24   -41.86  -41.86    0.00     O=C(CSc1nccs1)Nc1ccc(Cl)c(Cn2ccnc2)c1
+  -7.87   -60.74   47.81    0.85     O=C(NCCCc1nccs1)Nc1cc(Cc2cccnc2)ccn1
+  -6.74   -43.01   57.59    0.79     O=C(NCCCS(=O)(=O)c1cccnc1)c1ccccn1
+  -6.84   -64.96   38.08    0.81     O=C(NCCSCc1nccs1)Nc1ccc(-c2cccnc2)cn1
+  -8.61   -65.49   48.81    0.89     O=C(NCCc1nccs1)Nc1ccccc1Cc1cccnc1
+  -9.54   -38.61   59.44    0.77     O=C(NCCN1CCOCC1)c1ccc(CS(=O)(=O)c2ccc(F)cc2)nc1
+  -7.69   -56.72   57.58    0.89     O=C(NCSCc1cccnc1)Nc1ccc(S(=O)(=O)N2CCOCC2)cc1
+ -23.19   -101.15  -101.15    0.00     O=C(NCCSCc1ccncc1)Nc1ccc(Cn2ccnc2[S+](=O)[O-])cc1
+  -4.65   -39.73   78.54    0.92     O=C(NCCSc1cccnc1)Nc1ccc(S(=O)(=O)N2CCOCC2)cc1
+Step [126/3000]: Train loss: 3991.1139
+
+       Step 126   Fraction valid SMILES: 98.3  Time elapsed: 2.59h Time left: 58.67h
+  Agent    Prior   Target   Score             SMILES
+ -11.67   -37.70   47.04    0.66     Oc1ccc(CCNCCc2cccnc2)cc1
+  -8.33   -46.33  -46.33    0.00     O=C(NCc1ccccc1)Nc1cccnc1Sc1cccnc1
+ -10.01   -40.21   63.08    0.81     O=C(NCCCSc1ccccn1)Nc1ccc(-c2cccnc2)cc1
+ -12.66   -58.74   49.93    0.85     O=C(NCS(=O)(=O)c1ccc(-c2ccccc2)cc1)Nc1cccc(C(=O)N2CCOCC2)c1
+ -14.01   -44.89   58.28    0.81     O=C(Nc1nccs1)c1ccc(Cn2cc(C(=O)O)cn2)cc1
+  -8.73   -37.25   64.25    0.79     O=C(NCc1nccs1)Nc1cc(-c2cccnc2)ccn1
+ -17.23   -47.13   54.11    0.79     O=C(NCc1nccs1)c1cc(-c2nccs2)ccn1
+ -16.63   -61.71   45.29    0.84     O=C(NCCCS(=O)(=O)c1ccc(-c2cccnc2)cc1)CCc1ccsc1
+  -5.33   -47.08   54.17    0.79     O=C(Nc1nccs1)c1cccnc1Sc1ccccn1
+  -6.52   -29.95   54.28    0.66     O=C(NCCS(=O)(=O)c1ccccc1)c1cccnc1
+Step [127/3000]: Train loss: 4106.2922
+
+       Step 127   Fraction valid SMILES: 98.4  Time elapsed: 2.61h Time left: 58.69h
+  Agent    Prior   Target   Score             SMILES
+ -12.46   -68.81   59.19    1.00     O=C(NCSCc1cccnc1)Nc1ccc(S(=O)(=O)Nc2nccs2)cc1
+ -10.79   -37.30   59.85    0.76     O=C(Nc1nccs1)c1cccnc1SCc1ccccc1
+ -23.72   -82.74   31.95    0.90     N=S(=O)(Nc1ccc(Sc2ccncn2)s1)c1cccnc1
+  -3.84   -39.73   70.09    0.86     O=C(NCCSc1cccnc1)Nc1ccc(S(=O)(=O)N2CCOCC2)cc1
+ -11.18   -52.45   41.50    0.73     O=C(NCc1cccnc1)c1ccccc1NCCc1cccnc1
+  -8.94   -47.70   52.40    0.78     O=C(NCCS(=O)(=O)NCc1cccnc1)c1cccs1
+ -14.29   -59.48   43.69    0.81     O=C(Nc1nccs1)Nc1ccccc1C(=O)NCCc1ccccn1
+ -16.60   -45.93   73.88    0.94     O=C(CSc1ncncc1NCc1ccccc1)Nc1ccccc1N1CCOCC1
+  -8.39   -45.87   51.92    0.76     O=C(NCCCc1ccccn1)Nc1ccc(C(=O)N2CCOCC2)cc1
+  -6.37   -51.92   51.38    0.81     O=C(NCCSc1cccnc1)Nc1cccc(C(=O)N2CCOCC2)c1
+Step [128/3000]: Train loss: 3950.6089
+
+       Step 128   Fraction valid SMILES: 100.0  Time elapsed: 2.64h Time left: 58.71h
+  Agent    Prior   Target   Score             SMILES
+  -5.19   -47.08   54.17    0.79     O=C(Nc1nccs1)c1cccnc1Sc1ccccn1
+  -6.39   -49.66   52.36    0.80     O=C(NCCSc1cccnc1)Nc1ccccc1N1CCOCC1
+ -10.01   -63.69   38.71    0.80     O=C(NCCSCc1ccco1)Nc1cc(-c2cccnc2)ccn1
+  -9.42   -57.78   55.25    0.88     O=C(NCc1ccccn1)Nc1ccccc1Sc1ccccn1
+  -5.88   -39.06   54.00    0.73     O=C(NCCS(=O)(=O)c1cccnc1)c1cccnc1
+ -12.59   -46.78   59.97    0.83     O=C(CSc1nccs1)NCCCSc1cccnc1
+  -9.00   -39.38   51.50    0.71     O=C(NCCSc1cccnc1)c1ccsc1
+  -5.26   -43.63   62.10    0.83     O=C(NCCSCc1ccccn1)Nc1ccc(S(=O)(=O)N2CCOCC2)cc1
+  -8.07   -34.52   56.36    0.71     O=C1NCCN1CCN1CCN(C(=O)c2cccnc2)CC1
+  -6.11   -39.34   64.09    0.81     O=C(CSc1nccs1)Nc1ccc(-c2cccnc2)cc1
+Step [129/3000]: Train loss: 3856.9057
+
+       Step 129   Fraction valid SMILES: 100.0  Time elapsed: 2.66h Time left: 58.70h
+  Agent    Prior   Target   Score             SMILES
+ -12.62   -53.27   65.89    0.93     O=C(NCCc1nccs1)Nc1cccc(NC(=O)Cc2cccnc2)c1
+ -14.53   -59.78   31.49    0.71     Cc1sc(NC(=O)N2CCOCC2)nc1CCc1ccccn1
+ -14.02   -38.82   76.90    0.90     O=C(NCCCc1cccnc1)Nc1ccc(Nc2nccs2)cc1
+ -18.61   -37.15   53.22    0.71     O=C(Nc1nccs1)CCN1C(=O)CSC1=O
+  -8.87   -45.18   63.62    0.85     O=C(NCCc1nccs1)c1cccnc1S(=O)(=O)Cc1ccccn1
+ -12.92   -62.52   48.46    0.87     O=C(NCCSc1cccnn1)Nc1ccc(-c2ccsc2)cc1
+  -7.09   -41.31   52.51    0.73     O=C(NCSc1ccccn1)Nc1ccccc1N1CCOCC1
+ -17.58   -72.64   22.72    0.75     O=C(NCc1cccs1)Nc1ccc(Nc2ccccc2)nn1
+  -6.38   -32.42   79.96    0.88     O=C(NCCSc1nccs1)Nc1ccc(-c2cccnc2)cc1
+ -12.44   -51.84   61.57    0.89     O=C(CSc1nccs1)Nc1cc(Sc2cccnc2)sc1
+Step [130/3000]: Train loss: 3925.5453
+
+       Step 130   Fraction valid SMILES: 100.0  Time elapsed: 2.68h Time left: 58.68h
+  Agent    Prior   Target   Score             SMILES
+ -11.31   -48.26   46.08    0.74     O=C(NCCSCN1CCOCC1)c1ccc(C(=O)N2CCOCC2)s1
+  -6.87   -27.92   56.18    0.66     O=C(NCCCS(=O)(=O)Cc1ccccc1)c1cccnc1
+ -10.19   -47.85   50.20    0.77     O=C(CSCc1ccccc1)Nc1ccc(Cn2ccnc2)cc1
+ -12.80   -53.90   49.01    0.80     O=C(NCCCc1ccccc1)Nc1cc(Sc2cccnc2)ccn1
+  -9.11   -41.67   61.89    0.81     O=C(NCCc1cccnc1)Nc1ccc(Cn2ccnc2)cc1
+ -10.51   -47.29  -47.29    0.00     O=C(NCCSc1cccs1)Nc1cccc(C(=O)N2CCOCC2)c1
+  -6.63   -39.32   71.65    0.87     O=C(CSc1nccs1)Nc1ccc(S(=O)(=O)N2CCOCC2)s1
+ -10.63   -46.70   44.56    0.71     O=C(NCS(=O)(=O)c1ccc(-c2ccsc2)cc1)c1ccccc1
+ -16.64   -35.13   56.26    0.71     CN(CCNS(=O)(=O)c1ccccc1)c1ccccn1
+  -7.39   -27.92   56.43    0.66     O=C(NCCCS(=O)(=O)Cc1ccccn1)c1ccccc1
+Step [131/3000]: Train loss: 4015.6803
+
+       Step 131   Fraction valid SMILES: 100.0  Time elapsed: 2.70h Time left: 58.66h
+  Agent    Prior   Target   Score             SMILES
+  -5.52   -44.64   63.52    0.85     O=C(NCCSCc1ccco1)Nc1ccc(S(=O)(=O)N2CCOCC2)cc1
+ -26.15   -88.76   29.13    0.92     O=C(NCCSCCSc1ccco1)Nc1ccccc1N(CCCS1)CCOCC1
+  -5.89   -14.90   56.26    0.56     NS(=O)(=O)NCCN1CCOCC1
+  -9.08   -40.60  -40.60    0.00     NS(=O)(=O)NCCCSc1ccccn1
+ -16.77   -74.09   26.26    0.78     O=C(NCc1ccccc1)NCc1cccnc1C(=O)NCCc1ccccc1
+ -16.54   -92.22   -5.69    0.68     Nc1ccc(C(=NS(=O)(=O)c2ccccn2)c2ccccc2)cc1
+  -7.29   -40.46   51.83    0.72     O=C(NCCCSc1ccccn1)Nc1ccccc1N1CCOCC1
+ -12.63   -65.63   41.63    0.84     O=C(NCCc1ccccc1N1CCOCC1)c1cccnc1Sc1ccccn1
+  -7.54   -47.40   60.89    0.85     O=C(NCCCSCc1cccnc1)Nc1ccc(S(=O)(=O)N2CCOCC2)cc1
+ -19.10   -65.88  -65.88    0.00     O=C(NCc1ccccc1)N/C(=N/c1ccccc1)Nc1cccnc1Sc1ccccn1
+Step [132/3000]: Train loss: 3792.7335
+
+       Step 132   Fraction valid SMILES: 99.2  Time elapsed: 2.72h Time left: 58.66h
+  Agent    Prior   Target   Score             SMILES
+  -6.12   -36.03   54.98    0.71     O=C(NCCCS(=O)(=O)NCc1ccccc1)c1ccccc1
+  -7.76   -34.40  -34.40    0.00     O=C(Nc1nccs1)c1ccsc1N1CCOCC1
+ -11.51   -46.80   43.19    0.70     O=C(NCCSC1CCN(C(=O)c2ccccn2)CC1)c1ccco1
+  -5.76   -22.36   65.83    0.69     O=C(Nc1nccs1)c1ccc(Cn2ccnc2)cc1
+  -8.51   -37.79   61.15    0.77     O=C(NCCc1nccs1)c1ccc(-c2nccs2)cc1
+  -4.72   -31.64   63.47    0.74     O=C(NCCS(=O)(=O)NCc1ccccc1)c1ccccc1
+  -8.25   -54.50   53.02    0.84     O=C(NCCSCc1cccnc1)c1ccccc1CCc1ccccn1
+  -9.06   -38.95   58.97    0.76     O=C(NCCN1CCOCC1)c1ccc(NC(=O)Cc2ccccc2)s1
+  -5.01   -21.90   63.22    0.67     O=C(NCCCS(=O)(=O)Cc1ccccc1)c1ccccc1
+ -11.18   -42.35  -42.35    0.00     O=C(NCCSc1ccccn1)Nc1ccc(-c2ccccc2)cc1
+Step [133/3000]: Train loss: 3857.8669
+
+       Step 133   Fraction valid SMILES: 98.3  Time elapsed: 2.74h Time left: 58.66h
+  Agent    Prior   Target   Score             SMILES
+  -8.28   -50.76   51.76    0.80     O=C(NCCSCc1cccnc1)c1ccccc1NCc1ccccn1
+ -12.52   -46.01   40.78    0.68     O=C(Nc1nccs1)Nc1ccccc1-c1cccnc1
+ -14.58   -44.50   55.21    0.78     Cc1cc(NC(=O)NCc2cccnc2)sc1N
+  -4.72   -26.66   50.65    0.60     O=C(NCCSCc1ccccc1)c1ccccc1
+  -9.15   -43.66   51.70    0.75     O=C(CSc1cccnc1)NCCc1ccccn1
+  -9.03   -39.39   37.79    0.60     O=C(NCc1ccccc1)Nc1ccc(-c2ccccn2)cc1
+  -5.51   -41.53   48.45    0.70     O=C(NCCSCc1ccccc1)c1ccccc1N1CCOCC1
+  -6.90   -41.10   60.66    0.80     NS(=O)(=O)NCCN1CCN(C(=O)Cc2cccnc2)CC1
+  -7.29   -34.52   56.61    0.71     O=C1NCCN1CCN1CCN(C(=O)c2cccnc2)CC1
+  -9.52   -64.62   63.13    1.00     O=C(NCCCSCc1ccccn1)Nc1cccnc1Sc1ccccn1
+Step [134/3000]: Train loss: 3812.7585
+
+       Step 134   Fraction valid SMILES: 97.3  Time elapsed: 2.76h Time left: 58.64h
+  Agent    Prior   Target   Score             SMILES
+  -7.18   -38.71   59.47    0.77     O=C(NCCCS(=O)(=O)c1ccc(-c2cccnc2)cc1)c1ccccc1
+  -8.63   -39.45   53.10    0.72     O=C(NCCCSCc1ccccn1)c1cccs1
+ -20.59   -37.07   49.46    0.68     O=C1CN(C(=S)N2CCN(c3ccccc3)CC2)C(=O)N1
+  -5.43   -26.66   50.14    0.60     O=C(NCCSCc1ccccc1)c1ccccc1
+  -5.21   -30.43   56.87    0.68     O=C(Nc1nccs1)c1ccc(-n2ccnc2)cc1
+  -7.77   -27.30   62.69    0.70     O=C(NCCSCCS(=O)(=O)Cc1ccccc1)c1ccccc1
+ -21.16   -98.44   17.65    0.91     NS(=O)(=O)NCN1CCN(Cc2cc(-c3cccnc3)sn2)CC1
+  -5.40   -41.53   47.30    0.69     O=C(NCCSCc1ccccc1)c1ccccc1N1CCOCC1
+ -12.94   -48.68   45.78    0.74     O=C(NCc1ccccn1)NCc1cccnc1
+  -5.99   -34.39   60.97    0.75     O=C(NCCCSc1cccnc1)c1cccnc1
+Step [135/3000]: Train loss: 3661.3386
+
+       Step 135   Fraction valid SMILES: 99.2  Time elapsed: 2.78h Time left: 58.64h
+  Agent    Prior   Target   Score             SMILES
+ -27.51   -54.41   36.21    0.71     Cc1ccc(Cc2ccccn2)nc1SCc1ccc(Br)cc1
+ -10.44   -34.94  -34.94    0.00     O=C(NC[C@H](NS(=O)(=O)c1ccccc1)c1cccnc1
+  -8.42   -56.09   48.36    0.82     O=C(NCCSCc1cccnc1)c1ccc(-c2cccnc2)s1
+  -8.40   -31.41   62.55    0.73     O=C(NCCSCCS(=O)(=O)Cc1ccccn1)c1ccccc1
+  -4.01   -29.51   57.02    0.68     O=C(NCCCSc1cccnc1)c1ccccc1
+ -12.45   -42.32   57.39    0.78     O=C(NCCCc1cccnc1)Nc1cc(-c2ccccn2)ncn1
+  -7.51   -41.19   43.16    0.66     O=C(CSCc1ccccc1)NCCc1ccccn1
+  -8.90   -36.81   51.38    0.69     O=C(NCS(=O)(=O)c1ccc(-c2ccccc2)cc1)c1ccccc1
+  -7.41   -41.87   56.82    0.77     O=C(NCCSCc1cccnc1)CCN1CCOCC1
+ -12.13   -44.30   53.75    0.77     O=C(NCCOCCN1CCOCC1)c1ccccc1CCc1cccnc1
+Step [136/3000]: Train loss: 3660.6716
+
+       Step 136   Fraction valid SMILES: 99.2  Time elapsed: 2.80h Time left: 58.61h
+  Agent    Prior   Target   Score             SMILES
+  -5.63   -31.07   57.89    0.69     O=C(NCCCSCc1ccccn1)c1ccccc1
+  -7.59   -39.39   61.85    0.79     O=C(NCCCSc1nccs1)CCc1cccnc1
+  -8.10   -31.64   51.82    0.65     O=C(NCCSCCc1ccccn1)c1ccccc1
+  -6.96   -35.93   43.69    0.62     O=C(NCCCSCc1ccco1)c1ccccc1
+  -6.19   -40.21   59.24    0.78     O=C(NCCCSc1ccccn1)Nc1ccc(-c2cccnc2)cc1
+  -4.87   -30.43   56.48    0.68     O=C(Nc1nccs1)c1ccc(-n2ccnc2)cc1
+  -9.92   -50.31   45.56    0.75     O=C(NCc1ccccc1)c1ccccc1NCCc1ccccn1
+  -8.97   -51.21   55.41    0.83     O=C(NCCSCc1cccnc1)C1CCN(C(=O)c2cccnc2)CC1
+  -5.69   -53.24   53.51    0.83     O=C(NCCSCc1cccnc1)c1cccnc1Sc1ccccn1
+  -5.49   -38.20   59.98    0.77     O=C(CSc1nccs1)NCCc1ccccn1
+Step [137/3000]: Train loss: 3559.1259
+
+       Step 137   Fraction valid SMILES: 97.4  Time elapsed: 2.82h Time left: 58.59h
+  Agent    Prior   Target   Score             SMILES
+ -13.66   -60.82   33.39    0.74     O=S(=O)(Cc1cccnc1)c1cccnc1CCc1ccccn1
+  -5.15   -24.73   53.99    0.62     O=C(Nc1nccs1)c1ccccc1N1CCOCC1
+  -6.60   -51.65   50.37    0.80     O=C(NCCCSc1nccs1)CCc1nccs1
+  -6.21   -49.20   61.91    0.87     O=C(NCCSCc1cccnc1)c1ccccc1NCc1ccccc1
+  -6.27   -55.25   50.60    0.83     O=C(NCCc1nccs1)c1ccccc1Sc1cccnc1
+  -5.02   -33.22   62.14    0.75     NS(=O)(=O)NCCN1CCN(C(=O)c2cccnc2)CC1
+ -11.50   -41.01   50.76    0.72     O=C(NCCSCc1ccccc1)c1cccnc1N1CCOCC1
+ -19.38   -64.41  -64.41    0.00     O=C(NCCSCc1ccccn1)CC(Nc1ccc(-c2cccnc2)cc1)c1ccccc1
+  -9.24   -34.28   45.08    0.62     O=C(NC(=O)c1ccccc1)c1ccccc1N1CCOCC1
+  -8.23   -51.71   57.73    0.86     O=C(NCCc1nccs1)Nc1ccc(-c2cccn2C)cc1
+Step [138/3000]: Train loss: 3478.6785
+
+       Step 138   Fraction valid SMILES: 98.4  Time elapsed: 2.85h Time left: 58.62h
+  Agent    Prior   Target   Score             SMILES
+  -7.61   -48.11   52.49    0.79     O=C(NCCCc1nccs1)c1cccnc1S(=O)(=O)Cc1ccccc1
+  -4.80   -34.55   57.87    0.72     O=C(NCCc1nccs1)c1ccccc1N1CCOCC1
+  -5.98   -51.65   48.96    0.79     O=C(NCCCSc1nccs1)CCc1nccs1
+ -13.33   -43.08   49.85    0.73     NS(=O)(=O)c1ccc(Cn2ncc(-c3cccnc3)cc2=O)cc1
+ -10.05   -25.46   55.82    0.63     O=C(CCS(=O)(=O)c1ccc(F)cc1)c1ccccc1
+ -11.89   -70.64   28.05    0.77     O=C1NCCN1S(=O)(=O)c1ccc(-c2nccs2)s1
+ -16.72   -81.17  -81.17    0.00     O=C(NCCSCc1cccn1CCCc1nccs1)c1cccnc1SCc1ccccc1
+ -10.18   -53.48   37.66    0.71     O=C(NCc1ccccn1)c1ccccc1NCCc1ccccc1
+  -5.63   -36.21   57.87    0.74     O=C(Nc1nccs1)c1ccc(-c2cccnc2)s1
+ -10.05   -44.60   58.31    0.80     O=C(NCCc1nccs1)c1ccccc1NC(=O)c1cccs1
+Step [139/3000]: Train loss: 3577.6201
+
+       Step 139   Fraction valid SMILES: 99.2  Time elapsed: 2.87h Time left: 58.64h
+  Agent    Prior   Target   Score             SMILES
+  -7.01   -59.65   45.95    0.82     O=C(NCCCc1nccs1)c1cccnc1Sc1ccccn1
+ -12.11   -36.75   37.10    0.58     O=NN1CCN(C(=O)Cc2cccnc2)CC1
+ -14.61   -48.56   38.23    0.68     O=C(Cc1ccncc1)NCCCc1ccccn1
+  -9.39   -52.23  -52.23    0.00     O=C(NCc1cccnc1N1CCOCC1
+  -9.82   -55.86   42.96    0.77     O=C(CSc1nccs1)c1ccccc1NCc1ccccn1
+ -11.20   -59.82   32.72    0.72     O=C(NCSc1cccnc1Nc1ccccc1)c1ccccc1
+ -17.52   -55.15   30.73    0.67     O=C([C@@H]1CCc2cccnc21)Nc1ccc(-c2cccnc2)cc1
+ -10.96   -50.49   38.34    0.69     O=C(c1nccs1)c1ccc(-c2cccnc2)s1
+ -12.77   -62.86   35.19    0.77     O=C(NCCc1cccnc1)c1cccnc1Nc1ccccc1N1CCOCC1
+  -4.77   -38.67  -38.67    0.00     O=C(NCCc1nccs1)c1ccc(-c2cccnc2)cc1
+Step [140/3000]: Train loss: 3362.5848
+
+       Step 140   Fraction valid SMILES: 99.2  Time elapsed: 2.89h Time left: 58.69h
+  Agent    Prior   Target   Score             SMILES
+  -8.80   -24.32  -24.32    0.00     O=C(Cn1ncc2ccccc21)c1ccccc1
+ -14.54   -60.69   34.92    0.75     O=C(NCCCc1ccncc1)c1cccnc1CN1CCCC1
+ -16.85   -55.19  -55.19    0.00     O=C(CCCSc1nccs1)c1cccnc1COc1cccnc1
+ -10.23   -50.17   43.65    0.73     O=C(NCCN1CCOCC1)c1ncc(-c2cccnc2)s1
+  -8.37   -50.12   48.31    0.77     O=C(NCCc1nccs1)c1ccc(-c2ccnn2C)cc1
+ -36.83   -80.68   24.79    0.82     Cc1ccc(SC2=C(O)CC(Cc3ccccc3)N=C2N)s1
+ -21.68   -56.30   37.14    0.73     COc1ccc(-c2nccn2C)cc1NS(=O)(=O)c1cccnc1
+  -7.05   -45.62   61.39    0.84     O=C(NCCCc1cccnc1)c1ccccc1NCc1ccccn1
+  -9.13   -62.17   45.10    0.84     O=C(NCCCSc1nccs1)Cc1cccnc1Sc1ccccn1
+  -8.56   -39.11   43.32    0.64     O=C(CCc1nccs1)c1ccccc1N1CCOCC1
+Step [141/3000]: Train loss: 3384.6751
+
+       Step 141   Fraction valid SMILES: 100.0  Time elapsed: 2.92h Time left: 58.75h
+  Agent    Prior   Target   Score             SMILES
+  -7.64   -57.60   29.57    0.68     O=C(CSc1nccs1)CCc1nccs1
+ -15.42   -53.63   41.73    0.75     COc1ccccc1NCCCN1CCN(C(=O)CCc2ccccn2)CC1
+ -10.98   -49.32   38.24    0.68     O=C(NCCCCc1nccs1)c1ccccc1N1CCOCC1
+  -6.31   -44.34   62.66    0.84     O=C(NCCCSc1nccs1)CC1CCN(C(=O)c2cccnc2)CC1
+ -24.66   -116.43  -116.43    0.00     O=C(NCCS(=O)(=O)Cc1cccnc1C(=O)NCc1ccncc1)c1ccccc1-c1ccccc1
+  -4.57   -37.79  -37.79    0.00     O=C(NCCc1nccs1)c1ccc(-c2nccs2)cc1
+ -13.45   -69.24   38.03    0.84     O=C(NCCSCc1cccnc1)c1ccc(-c2cccnc2F)cc1
+ -12.43   -67.68   31.13    0.77     O=C(NCCCNS(=O)(=O)c1ccccc1)c1ccc(-c2cccnc2)cc1
+  -6.84   -62.73   55.80    0.93     O=C(NCCCSc1nccs1)c1cccnc1Sc1ccccn1
+ -11.69   -34.19   41.20    0.59     Sc1nnc(Cc2cccnc2)s1
+Step [142/3000]: Train loss: 3286.1350
+
+       Step 142   Fraction valid SMILES: 99.2  Time elapsed: 2.94h Time left: 58.80h
+  Agent    Prior   Target   Score             SMILES
+  -9.68   -62.90   44.87    0.84     O=C(NCCCc1nccn1CCc1ccccn1)c1cccnc1
+ -13.28   -48.69   48.46    0.76     O=C(NCSc1ncccn1)CCc1ccccn1
+ -11.05   -51.54   60.21    0.87     NS(=O)(=O)NCCN1CCN(CCCSc2nccs2)CC1
+  -7.74   -41.32   48.28    0.70     O=C(NCCS(=O)(=O)c1ccccc1)c1ccccc1N1CCOCC1
+ -13.60   -57.36   29.17    0.68     c1ccc(CCNC2CCN(C(=O)c3cccnc3)CC2)s1
+  -8.96   -47.86   47.76    0.75     O=C1NCCN1CCN1CCN(C(=O)CSc2cccnc2)CC1
+  -5.54   -53.22   55.96    0.85     O=C(NCCCSc1nccs1)c1ccc(-c2cccnc2)s1
+ -10.84   -25.86   70.27    0.75     O=C(NCCCSc1nccn1Cc1ccccc1)c1ccccc1
+ -12.43   -53.47   50.85    0.81     O=C(CSc1nccs1)NCCOc1cccnc1
+ -30.06   -115.05   -9.83    0.82     FC(F)=C(Nc1cccnc1Nc1ccccc1)CCN1CCN(C(=O)Cc2ccccn2)CC1
+Step [143/3000]: Train loss: 3263.5358
+
+       Step 143   Fraction valid SMILES: 99.2  Time elapsed: 2.97h Time left: 58.83h
+  Agent    Prior   Target   Score             SMILES
+ -13.54   -59.44   34.26    0.73     O=C(NCCOCCc1nccs1)c1cccnc1N1CCOCC1
+ -11.35   -54.21   46.91    0.79     NS(=O)(=O)NCCN1CCN(C(=O)c2nccs2)CC1
+ -14.46   -50.56   35.33    0.67     N=C1Sc2cccnc2N1CCc1cccnc1
+  -7.73   -42.49   55.94    0.77     O=C(NCCc1nccs1)c1ccccc1NC(=O)c1ccccc1
+  -9.37   -60.87   45.88    0.83     O=C(NCCN1CCOCC1)c1ccc(C(=O)NCCc2cccnc2)s1
+ -11.23   -59.52   39.43    0.77     O=C(NCCCc1cccnc1)CCN1CCN(Cc2cccnc2)CC1
+  -7.04   -44.15   58.12    0.80     O=C(NCCc1nccn1CCCc1cccnc1)c1cccnc1
+  -4.35   -47.23   55.68    0.80     O=C(NCCc1nccs1)c1ccc(-c2cccnc2)s1
+  -5.64   -52.15   59.98    0.88     O=C(NCCCc1nccs1)c1ccc(-c2cccnc2)s1
+ -10.79   -45.43   53.13    0.77     O=C(NCCCSc1nccn1Cc1ccccn1)c1ccccn1
+Step [144/3000]: Train loss: 3432.3221
+
+       Step 144   Fraction valid SMILES: 99.2  Time elapsed: 2.99h Time left: 58.84h
+  Agent    Prior   Target   Score             SMILES
+ -11.87   -84.37   26.86    0.87     O=C(NCCc1ccncn1)c1cccnc1CSc1cccnn1
+  -8.99   -48.57   46.03    0.74     O=C(NCCSC1CCN(C(=O)c2cccnc2)CC1)c1ccccn1
+ -20.13   -63.32   13.48    0.60     O=C(NCCCN1CCCCC1)C1CCSC1=O
+ -11.30   -38.52   64.39    0.80     O=C(CSc1nccn1Cc1ccccn1)Nc1ccccn1
+  -9.31   -67.61   45.80    0.89     O=C(NCCSCCc1nccs1)c1cccnc1Sc1ccccn1
+  -6.64   -55.11   63.29    0.93     O=C(NCCc1nccs1)c1cccnc1Sc1ccncn1
+ -11.68   -84.82   19.38    0.81     O=C(NCCSCc1nccs1)c1cccnc1S1CCc2ccccc21
+  -6.83   -53.19   38.59    0.72     O=C(NCCS(=O)(=O)c1ccc(F)cn1)c1cccnc1
+  -6.14   -49.45   66.65    0.91     O=C(Nc1nccs1)c1cccnc1S(=O)(=O)Cc1cccnc1
+ -14.49   -50.33   33.51    0.65     Nc1ccc(-c2nc(-c3ccccn3)nc3cccnc23)cc1
+Step [145/3000]: Train loss: 3275.1447
+
+       Step 145   Fraction valid SMILES: 99.2  Time elapsed: 3.01h Time left: 58.84h
+  Agent    Prior   Target   Score             SMILES
+  -5.64   -47.23   57.60    0.82     O=C(NCCc1nccs1)c1ccc(-c2cccnc2)s1
+  -8.54   -49.42   54.13    0.81     O=S(=O)(Cc1nccs1)c1ccc(-c2cccnc2)s1
+  -7.67   -42.87   55.18    0.77     O=C(NCCCN1CCOCC1)c1cccnc1SCc1cccnc1
+ -17.32   -55.03   29.45    0.66     O=C1CSCN1C(=S)SCc1ccccc1
+  -8.29   -45.06   48.00    0.73     O=C1CSCN1CCN1CCN(C(=O)c2cccnc2)CC1
+ -10.96   -54.16   48.63    0.80     O=C(NCCCOc1ncccn1)NCCc1cccnc1
+  -9.95   -61.77   42.94    0.82     O=C(NCCCSc1nccs1)CCC1CCN(C(=O)c2cccnc2)CC1
+ -13.55   -55.79   38.80    0.74     O=C(NCc1cccnc1N1CCOCC1)c1cccnc1S(=O)(=O)Cc1ccccc1
+  -5.77   -49.45   61.65    0.87     O=C(Nc1nccs1)c1cccnc1S(=O)(=O)Cc1cccnc1
+ -28.09   -50.81   16.78    0.53     SC1=NNC2=C1Nc1ccccc12
+Step [146/3000]: Train loss: 3395.4280
+
+       Step 146   Fraction valid SMILES: 98.3  Time elapsed: 3.03h Time left: 58.83h
+  Agent    Prior   Target   Score             SMILES
+ -10.93   -39.57   66.28    0.83     O=C(Nc1nccs1)c1ccccc1NCC1CCNCC1
+ -10.85   -43.66   50.55    0.74     O=C(NCCc1nccn1S(=O)(=O)c1ccccc1)c1ccccc1
+  -5.68   -49.18   65.38    0.89     O=C(NCCc1nccs1)c1ccccc1NCc1cccnc1
+ -10.35   -63.35   34.57    0.76     O=C(NCCCN1CCOCC1)CCN1CCN(C(=O)Cc2cccnc2)CC1
+  -4.60   -22.76   67.74    0.71     O=C(NCCS(=O)(=O)c1ccc(F)cc1)c1ccccc1
+  -5.22   -43.56   56.54    0.78     O=C(NCCc1nccn1CCc1cccnc1)c1cccnc1
+  -6.15   -45.18   54.27    0.78     O=C(NCc1nccn1CCc1ccccn1)c1cccnc1
+ -20.46   -80.24   21.39    0.79     O=C(Cn1ncnc1Cc1cccnc1)CSc1cccnc1
+  -5.00   -45.18   55.05    0.78     O=C(NCCc1nccs1)c1cccnc1S(=O)(=O)Cc1ccccn1
+ -11.50   -54.27   37.12    0.71     O=C(Nc1nccs1)C(Cc1cccnc1)c1cccnc1
+Step [147/3000]: Train loss: 3149.9215
+
+       Step 147   Fraction valid SMILES: 97.4  Time elapsed: 3.05h Time left: 58.83h
+  Agent    Prior   Target   Score             SMILES
+  -4.98   -43.56   56.41    0.78     O=C(NCCc1nccn1CCc1cccnc1)c1cccnc1
+  -9.20   -61.69   36.49    0.77     O=C(Nc1nccs1)c1cccnc1N(Cc1ccccn1)c1cccnc1
+  -9.88   -46.10   26.22    0.56     Cc1nccn1CCNC(=S)N1CCOCC1
+  -7.53   -47.88   54.65    0.80     O=C(NCc1cccnc1)c1cccnc1SCc1cccnc1
+  -9.67   -32.01  -32.01    0.00     O=C(NCCc1nccs1)c1cccnc1
+  -8.32   -56.62   50.65    0.84     O=C(NCCS(=O)(=O)c1ccc(-c2cccnc2)s1)c1ccccn1
+  -7.12   -42.23   54.67    0.76     O=C(NCc1nccn1CCc1cccnc1)c1ccccn1
+  -4.97   -39.06   54.00    0.73     O=C(NCCS(=O)(=O)c1cccnc1)c1cccnc1
+  -4.31   -44.02   63.24    0.84     O=C(Nc1nccs1)c1cccnc1S(=O)(=O)Cc1ccccn1
+ -13.13   -63.06   37.42    0.79     O=C(NCCOCCc1nccn1Cc1cccnc1)c1cccnc1
+Step [148/3000]: Train loss: 3366.5718
+
+       Step 148   Fraction valid SMILES: 99.1  Time elapsed: 3.07h Time left: 58.81h
+  Agent    Prior   Target   Score             SMILES
+ -11.78   -63.20   42.27    0.82     O=C(NCCSCc1nccn1CCCn1ccnc1)c1cccnc1
+ -21.53   -77.54   41.75    0.93     O=C(NCCc1cccnc1)c1cccnc1Nc1ccc(F)cc1Sc1cccnc1
+  -5.73   -36.21   57.75    0.73     O=C(Nc1nccs1)c1ccc(-c2cccnc2)s1
+  -9.79   -39.47   65.11    0.82     O=C(Nc1nccs1)c1ccnc(NC(=O)c2cccnc2)c1
+  -7.46   -47.86   56.98    0.82     O=C1NCCN1CCN1CCN(C(=O)CSc2cccnc2)CC1
+  -4.36   -25.35   66.42    0.72     O=C(NCCS(=O)(=O)c1ccc(F)cc1)c1cccnc1
+  -9.15   -63.17   48.19    0.87     O=C1NCCN1CCN1CCN(C(=O)c2cccnc2SCc2cccnn2)CC1
+  -5.16   -38.61   64.18    0.80     O=C(NCc1nccn1CCc1cccnc1)c1cccnc1
+  -5.04   -53.19   41.27    0.74     O=C(NCCS(=O)(=O)c1ccc(F)cn1)c1cccnc1
+  -4.33   -44.02   62.47    0.83     O=C(Nc1nccs1)c1cccnc1S(=O)(=O)Cc1ccccn1
+Step [149/3000]: Train loss: 3426.0526
+
+       Step 149   Fraction valid SMILES: 100.0  Time elapsed: 3.09h Time left: 58.80h
+  Agent    Prior   Target   Score             SMILES
+  -9.44   -54.62   43.43    0.77     CSc1nccn1CCN1CCN(C(=O)Cc2cccnc2)CC1
+ -13.51   -78.77   40.53    0.93     O=C(NCCCSc1nccs1)c1ccncc1NCc1cccnc1
+  -5.23   -33.34   62.28    0.75     O=C(NCCc1nccn1CCN1CCOCC1)c1cccnc1
+  -3.07   -36.04   63.93    0.78     O=C(NCCSc1nccn1Cc1cccnc1)c1cccnc1
+  -4.89   -29.02   68.13    0.76     O=C(NCCSc1nccn1CCN1CCOCC1)c1cccnc1
+  -7.39   -55.67   42.25    0.76     O=C1NCCN1CCN1CCN(C(=O)NCc2cccnc2)CC1
+ -12.25   -30.91   38.46    0.54     CCN1CCN(C(=O)Nc2cccnc2)CC1
+  -4.10   -39.60   59.22    0.77     O=C(NCCSc1nccn1Cc1ccccn1)c1cccnc1
+ -19.42   -52.29  -52.29    0.00     O=C(CS(=O)(=O)c1ccc(F)cc1)N1CCN(Cc2cccnc2)CC1
+ -10.23   -72.75   44.12    0.91     O=C(NC[C@H]1CCCN1)CCN1CCN(C(=O)c2cccnc2Sc2cccnc2)CC1
+Step [150/3000]: Train loss: 3559.8412
+
+       Step 150   Fraction valid SMILES: 98.1  Time elapsed: 3.11h Time left: 58.77h
+  Agent    Prior   Target   Score             SMILES
+  -9.85   -41.80   49.72    0.71     Nc1ncnc(N2CCN(CCn3cccn3)CC2)n1
+ -10.70   -72.94   31.64    0.82     O=C(NCSCc1nccn1CCc1cccnc1)c1cccnc1
+  -7.05   -44.66   55.31    0.78     O=C1NCCN1CCN1CCN(C(=O)COc2cccnc2)CC1
+  -5.57   -39.84  -39.84    0.00     O=C(NCCc1nccn1Cc1cccnc1)c1cccnc1
+ -14.92   -67.21   35.83    0.81     O=P(Nc1nccs1)c1cccnc1S(=O)(=O)Cc1cccnc1
+  -6.24   -50.32   36.08    0.68     O=C(NCCS(=O)(=O)c1ccccn1)c1cccnc1
+  -9.08   -44.58   46.30    0.71     Nc1nc(Nc2cccnc2)sc1N1CCOCC1
+  -8.15   -66.78   40.61    0.84     O=C(NCCSCc1nccs1)c1cccnc1N1CCNCC1
+  -4.23   -43.57   57.04    0.79     O=C(NCCSc1nccn1-c1cccnc1)c1cccnc1
+  -4.10   -29.02   69.15    0.77     O=C(NCCSc1nccn1CCN1CCOCC1)c1cccnc1
+Step [151/3000]: Train loss: 3327.4384
+
+       Step 151   Fraction valid SMILES: 98.3  Time elapsed: 3.14h Time left: 58.77h
+  Agent    Prior   Target   Score             SMILES
+ -11.48   -60.85   50.51    0.87     O=S(=O)(Cc1ccncc1)c1cccnc1S(=O)(=O)Cc1ccccn1
+ -14.50   -71.58   22.63    0.74     O=S(=O)(Cc1nccn1CCN1CCOCC1)CCc1ccncc1
+ -14.74   -85.26   30.83    0.91     O=C(NCCCSCc1nccs1)c1cccnc1NCCc1nccs1
+  -3.96   -36.04   64.05    0.78     O=C(NCCSc1nccn1Cc1cccnc1)c1cccnc1
+ -19.89   -93.76   11.20    0.82     O=C1NCCN1CCN1CCN(C(=O)c2ccccn2)n2cnnc21
+  -4.07   -46.28   62.52    0.85     O=C(Nc1nccs1)c1cccnc1NCc1cccnc1
+ -13.13   -41.82   65.06    0.83     S=C(Nc1cccnc1)Nc1ccc(-c2cccnc2)s1
+ -10.61   -71.12   27.18    0.77     O=C(NCCSc1ccnnc1)CCc1nccs1
+  -7.98   -57.28   46.65    0.81     O=C(NCCSCc1nccn1CCc1cccnc1)c1cccnc1
+ -11.39   -69.53   29.79    0.78     Nc1ccc(-c2nccnc2)cc1NCc1cccnc1
+Step [152/3000]: Train loss: 3557.1997
+
+       Step 152   Fraction valid SMILES: 99.1  Time elapsed: 3.16h Time left: 58.75h
+  Agent    Prior   Target   Score             SMILES
+  -7.46   -52.63   26.09    0.62     O=S(=O)(c1ccccn1)c1ccccc1N1CCNCC1
+  -8.45   -37.92   49.38    0.68     O=C(NCc1nccs1)c1ccccc1N1CCOCC1
+ -14.93   -74.92   29.53    0.82     O=C(Nc1nccs1)c1cccnc1N1CCN(C(=O)CN2C(=O)CSc3cccnc32)CC1
+  -6.09   -22.36   65.96    0.69     O=C(Nc1nccs1)c1ccc(Cn2ccnc2)cc1
+ -10.60   -52.30   29.24    0.64     O=C(Cn1ncc2ccccc21)Nc1cccnc1N1CCOCC1
+  -3.67   -46.28   65.85    0.88     O=C(Nc1nccs1)c1cccnc1NCc1cccnc1
+ -11.04   -58.73   44.95    0.81     O=C(NCCc1ccncc1)c1cccnc1N1CCN(C(=O)Cc2cccnc2)CC1
+  -6.18   -49.49   55.34    0.82     O=C(NCCSc1nccn1Cc1cccnc1)c1cccnn1
+  -7.10   -61.69   36.23    0.76     O=C(Nc1nccs1)c1cccnc1N(Cc1ccccn1)c1cccnc1
+  -7.58   -54.92   42.23    0.76     O=C(NCSc1nccn1Cc1cccnc1)c1cccnn1
+Step [153/3000]: Train loss: 3546.0302
+
+       Step 153   Fraction valid SMILES: 97.4  Time elapsed: 3.18h Time left: 58.74h
+  Agent    Prior   Target   Score             SMILES
+  -5.53   -38.75   69.03    0.84     O=C(Nc1nccs1)c1ccccc1NCc1cccnc1
+  -6.17   -36.43   42.17    0.61     O=C1NCCN1S(=O)(=O)c1ccc(F)cc1
+ -10.10   -47.84   44.58    0.72     O=C(NCSCc1cccnc1)c1ccccn1
+ -19.61   -70.84  -70.84    0.00     O=C(Nc1nccs1)c1cccnc1Nc1ccc(C(F)(F)F)cc1NCCc1cccnc1
+ -11.18   -53.90   45.30    0.77     O=C(Cc1cccnc1)c1cccnc1S(=O)(=O)Cc1ccccn1
+ -16.50   -48.51   31.36    0.62     O=S1(=O)CN=CNN1CCN1CCOCC1
+  -4.97   -28.83   51.81    0.63     O=C(Nc1nccs1)c1ccccc1N1CCNCC1
+ -10.65   -40.93   45.86    0.68     Nc1ncnc(N2CCN(CCn3ccnc3)CC2)n1
+ -22.80   -109.02    9.51    0.93     O=C(NC(=S)Nc1ncccn1)c1cccnc1N1CCN(S(=O)(=O)c2cccnc2)CC1
+ -16.11   -58.32  -58.32    0.00     O=C(Nn1c(SCc2cccnc2)ccn1
+Step [154/3000]: Train loss: 3474.3182
+
+       Step 154   Fraction valid SMILES: 100.0  Time elapsed: 3.20h Time left: 58.74h
+  Agent    Prior   Target   Score             SMILES
+  -6.19   -22.76   61.98    0.66     O=C(NCCS(=O)(=O)c1ccc(F)cc1)c1ccccc1
+ -16.73   -31.41   34.90    0.52     NS(=O)(=O)N1CCNCC1
+  -5.46   -22.36   65.58    0.69     O=C(Nc1nccs1)c1ccc(Cn2ccnc2)cc1
+  -9.73   -61.61   34.26    0.75     O=C(NCc1ccncc1)c1cccnc1NCc1ccccn1
+  -5.28   -24.26   51.52    0.59     O=C(Nc1nccs1)c1ccccn1
+  -4.06   -29.02   71.97    0.79     O=C(NCCSc1nccn1CCN1CCOCC1)c1cccnc1
+ -16.44   -66.89   43.83    0.87     O=C(NCCCN1CCCN(CCNS(=O)(=O)c2cccnc2)CC1)c1cccnc1
+  -5.81   -39.60   56.28    0.75     O=C(NCCSc1nccn1Cc1ccccn1)c1cccnc1
+  -9.94   -35.85   56.70    0.72     O=C(NCCCSc1nccs1)Cc1cccnc1
+  -9.14   -34.04   57.60    0.72     O=S(=O)(c1cccnc1)c1ccc(Cn2ccnc2)cc1
+Step [155/3000]: Train loss: 3629.0165
+
+       Step 155   Fraction valid SMILES: 98.3  Time elapsed: 3.22h Time left: 58.73h
+  Agent    Prior   Target   Score             SMILES
+  -6.10   -39.67   54.16    0.73     O=C(NCCSc1cccnc1)c1ccccc1N1CCOCC1
+ -20.00   -73.19   36.64    0.86     Cc1cccnc1NC(=O)c1cccnc1N1CCN(C(=O)Cc2ccncc2)CC1
+  -7.09   -32.93   42.33    0.59     O=C(NCc1cccnc1)c1ccco1
+  -6.13   -44.80   60.67    0.82     O=C(NCCSc1nccn1CCc1cccnc1)c1ccccn1
+  -9.85   -68.09   28.80    0.76     O=S(=O)(Cc1ccccn1)c1ccccc1NCCc1cccnc1
+  -7.38   -32.03   64.74    0.76     O=C(NCCSc1nccn1CCCN1CCOCC1)c1cccnc1
+ -10.05   -39.42   46.08    0.67     O=C(NCCS(=O)(=O)c1cccc(F)c1)c1ccccc1
+  -9.04   -62.98  -62.98    0.00     O=C(NCCSc1cccnn1)Nc1ccc(F)c(F)c1
+ -20.27   -39.25   36.02    0.59     O=S(=O)(c1ccccc1)c1ccc(F)cc1C(=O)c1ccccc1
+  -8.53   -49.44   41.18    0.71     O=C(NCCS(=O)(=O)c1ccccn1)c1ccccn1
+Step [156/3000]: Train loss: 3492.6906
+
+       Step 156   Fraction valid SMILES: 98.4  Time elapsed: 3.24h Time left: 58.73h
+  Agent    Prior   Target   Score             SMILES
+ -10.44   -64.20   53.56    0.92     O=S(=O)(Nc1ccc(S(=O)(=O)c2cccnc2)cc1)CSc1cccnc1
+ -18.87   -87.81  -87.81    0.00     Nc1nc(N[C@H]2c3ccccc3S(=O)(=O)N(Cc3ccccn3)c3ccccc32)nc1
+  -8.62   -53.14   47.47    0.79     O=S(=O)(Nc1cccnc1Sc1ccccn1)c1ccco1
+ -10.89   -51.71   47.24    0.77     O=C(NCc1ncco1)c1cccnc1Nc1ccc(F)cc1
+  -6.03   -34.88   45.89    0.63     O=C(NCCc1cccnc1)c1ccccc1N1CCNCC1
+  -5.79   -41.04   55.99    0.76     O=C(NCSc1nccn1CCN1CCOCC1)c1ccco1
+  -4.70   -49.12   54.18    0.81     O=C(NCCSc1nccn1CCc1ccccn1)c1ccccn1
+  -9.90   -34.77   44.46    0.62     O=C(NCc1nccs1)c1ccncc1
+  -9.12   -45.97   47.98    0.73     O=C(NCCc1nccs1)c1ccccc1NCCN1CCOCC1
+ -16.93   -68.90  -68.90    0.00     O=S(=O)(c1ccc(F)cc1)N1CCN(CCNS(=O)(=O)c2cccnc2)CC1
+Step [157/3000]: Train loss: 3581.6703
+
+       Step 157   Fraction valid SMILES: 100.0  Time elapsed: 3.26h Time left: 58.71h
+  Agent    Prior   Target   Score             SMILES
+  -7.06   -56.43   33.30    0.70     O=C(NCCSc1nccnc1)c1ccc(F)cc1
+ -17.44   -64.60   27.17    0.72     NN=C1SCN(NS(=O)(=O)c2ccccc2)C1
+  -7.69   -45.22   66.39    0.87     O=C(NCCc1cccnc1)Nc1ccc(-c2cccnc2)cc1
+  -9.40   -61.36   39.76    0.79     O=S(=O)(Cc1nccs1)c1cccnc1Nc1ccccn1
+ -13.76   -42.94   64.97    0.84     S=C(Nc1cccnc1)Nc1cccc(Cn2ccnc2)c1
+  -8.75   -33.83   53.72    0.68     O=C(NCCSc1cccnn1)c1ccc(F)cc1
+ -10.67   -39.47   64.08    0.81     O=C(NCSc1nccs1)c1cccc(Cn2ccnc2)c1
+  -6.24   -21.36   49.17    0.55     O=C(Nc1nccs1)c1ccco1
+ -10.46   -60.33   36.44    0.76     O=C(NCCSc1cccnn1)c1ccccc1N1CCSCC1
+  -9.68   -43.46   46.40    0.70     O=C(Nc1ccccn1)c1ccccc1NCc1cccnc1
+Step [158/3000]: Train loss: 3587.8918
+
+       Step 158   Fraction valid SMILES: 100.0  Time elapsed: 3.28h Time left: 58.68h
+  Agent    Prior   Target   Score             SMILES
+  -6.89   -36.08   60.05    0.75     O=C(NCSc1nccn1CCN1CCOCC1)c1ccccc1
+  -6.83   -34.51   66.87    0.79     O=C(Nc1nccs1)c1cccnc1Nc1cccnc1
+  -9.41   -40.12   41.42    0.64     O=C(Cc1cccnc1)Nc1ccccc1N1CCNCC1
+  -8.28   -38.38   44.18    0.64     O=C(NCSc1ccncc1)c1ccco1
+  -9.66   -43.60   53.04    0.75     O=C(NCCCN1CCOCC1)c1ccccc1Nc1cccnc1
+  -6.90   -37.49   61.45    0.77     O=C(NCCSc1nccn1CCn1ccnc1)c1ccco1
+  -7.24   -52.63   25.20    0.61     O=S(=O)(c1ccccn1)c1ccccc1N1CCNCC1
+  -7.49   -42.84   29.22    0.56     Nc1ccc(-c2cccnc2)s1
+  -8.59   -28.16   56.06    0.66     O=C(NCS(=O)(=O)c1ccc(F)cc1)c1ccco1
+ -11.17   -37.48   35.61    0.57     CN1CCN(S(=O)(=O)c2cccs2)CC1
+Step [159/3000]: Train loss: 3734.3885
+
+       Step 159   Fraction valid SMILES: 99.2  Time elapsed: 3.30h Time left: 58.66h
+  Agent    Prior   Target   Score             SMILES
+ -11.03   -40.02   39.47    0.62     O=C(NCCCc1ccco1)c1ccccn1
+  -6.49   -25.83   49.43    0.59     O=C(NCc1nccs1)c1ccc(F)cc1
+ -13.66   -51.92   51.12    0.81     O=S(=O)(Nc1ccc(S(=O)(=O)c2ccccc2)cc1)CCc1ccccn1
+  -7.11   -44.74   67.77    0.88     O=C(NCCc1cccnc1)Nc1ccc(S(=O)(=O)N2CCOCC2)cc1
+ -11.44   -47.12   52.59    0.78     O=C(NCCSc1cccnc1)c1ccccc1C(=O)N1CCOCC1
+  -6.36   -36.76   56.29    0.73     O=C(NCCSc1cccnc1)c1ccccn1
+ -14.92   -58.43   22.98    0.64     S=c1[nH]nc(-c2ccccc2)n1Cc1ccccn1
+ -15.29   -55.55   37.12    0.72     Cc1nc(Nc2ccccn2)ccc1S(=O)(=O)c1ccccn1
+  -9.20   -48.04   60.50    0.85     O=S(=O)(Nc1ccc(S(=O)(=O)c2cccnc2)s1)c1ccc(F)cc1
+ -18.90   -58.28   48.85    0.84     O=C(NCCc1nccs1)c1ccccc1SCc1cccs1
+Step [160/3000]: Train loss: 3898.8280
+
+       Step 160   Fraction valid SMILES: 100.0  Time elapsed: 3.32h Time left: 58.65h
+  Agent    Prior   Target   Score             SMILES
+  -5.46   -39.73   73.55    0.88     O=C(NCCSc1cccnc1)Nc1ccc(S(=O)(=O)N2CCOCC2)cc1
+ -10.72   -53.48   70.42    0.97     O=C(NCCCSc1cccnc1)Nc1cccnc1Sc1ccccn1
+ -17.94   -69.23   58.52    1.00     O=C(NCCc1cccnc1)c1ccccc1N1CCN(C(=O)CSc2cccnc2)NC1
+ -14.54   -66.24   47.55    0.89     O=C(NCCCc1cccnc1)Nc1ccc(Sc2cccnc2)s1
+  -4.62   -37.01   60.91    0.76     O=C(Nc1nccs1)c1ccccc1NCc1ccccn1
+  -6.18   -38.82   47.84    0.68     O=C(NCSc1cccnc1)c1ccco1
+  -5.57   -40.23   63.06    0.81     O=C(Nc1nccs1)c1ccccc1NCCc1ccccn1
+  -9.54   -36.96  -36.96    0.00     O=C(Nc1nccs1)c1ccc(S(=O)(=O)c2ccc(F)cc2)nc1
+ -13.80   -36.46   37.91    0.58     COc1cccc(Nc2nccs2)n1
+  -4.66   -52.72   59.54    0.88     O=C(NCCSc1cccnc1)c1ccccc1NCc1ccccn1
+Step [161/3000]: Train loss: 3968.1138
+
+       Step 161   Fraction valid SMILES: 99.2  Time elapsed: 3.35h Time left: 58.63h
+  Agent    Prior   Target   Score             SMILES
+ -13.27   -56.68   51.99    0.85     O=C(NCCSCc1ccccc1)Nc1ccc(Sc2cccnc2)cc1
+  -6.25   -37.29   82.52    0.94     O=C(NCSc1nccs1)Nc1ccc(S(=O)(=O)N2CCOCC2)cc1
+  -6.67   -16.56   54.36    0.55     O=C(Nc1nccs1)c1ccccc1
+ -15.83   -70.04   25.70    0.75     O=C(NCCN1CCCC1)c1ccccc1NCCOc1ccccn1
+  -8.36   -47.57   51.38    0.77     O=C(NCCSc1cccnc1)c1ccc2ccccc2c1
+  -8.67   -49.62   58.41    0.84     O=C(Nc1nccs1)c1cccnc1NCc1ccccn1
+  -8.65   -47.83   43.69    0.71     O=C(NCCN1CCOCC1)c1ccccc1Nc1ccccc1
+  -6.64   -64.60   46.37    0.87     O=C(NCCSc1cccnc1)Nc1ccccc1Sc1ccccn1
+  -6.72   -29.92   57.51    0.68     O=C(NCCSc1ccccn1)c1cccs1
+  -8.57   -31.77   51.81    0.65     O=C(NCSc1ncco1)c1ccco1
+Step [162/3000]: Train loss: 3908.1199
+
+       Step 162   Fraction valid SMILES: 97.6  Time elapsed: 3.37h Time left: 58.60h
+  Agent    Prior   Target   Score             SMILES
+ -16.85   -48.38   36.36    0.66     Clc1ccc(Cn2ncc(Nc3ccccn3)n2)cc1
+ -13.61   -45.62   45.65    0.71     O=S(=O)(Nc1cccnc1)c1ccc(-c2ccccc2)cc1
+ -10.50   -44.92   33.80    0.62     Nc1ccc(Nc2nccs2)nc1
+  -8.15   -25.93   72.63    0.77     O=S(=O)(Nc1nccs1)c1ccc(Cn2ccnc2)cc1
+  -6.54   -25.76   63.45    0.70     O=C(NCCSc1nccs1)c1cccs1
+ -10.21   -21.76   56.58    0.61     O=C(Nc1nccs1)c1cccc(C(F)(F)F)c1
+ -11.10   -44.21   46.67    0.71     O=C(Cc1cccnc1)Nc1ccccc1NCCN1CCOCC1
+  -8.66   -22.16  -22.16    0.00     O=S(=O)(NS(=O)(=O)c1ccccc1)c1ccccc1
+ -10.93   -45.55   54.29    0.78     O=S(=O)(Nc1ccc(SCc2ccncc2)cc1)c1ccccc1
+ -25.34   -42.84   36.52    0.62     O=C(NS(N)=S)c1ccc(F)cc1F
+Step [163/3000]: Train loss: 3695.3153
+
+       Step 163   Fraction valid SMILES: 97.5  Time elapsed: 3.39h Time left: 58.59h
+  Agent    Prior   Target   Score             SMILES
+ -10.64   -57.15   51.65    0.85     O=C(NCCSc1cccnc1)c1ccccc1S(=O)(=O)c1ccccn1
+  -5.80   -39.29   53.77    0.73     O=C(NCSc1nccs1)CCN1CCOCC1
+ -10.80   -45.96   60.15    0.83     O=C(NCCCSc1nccs1)CC1CCN(C(=O)c2ccccn2)CC1
+  -5.98   -48.43   62.29    0.87     O=C(NCCc1ccco1)Nc1ccc(S(=O)(=O)N2CCOCC2)cc1
+ -11.34   -44.63   28.84    0.57     Nc1ccc(-c2nccs2)nc1
+  -8.24   -16.56   54.61    0.56     O=C(Nc1nccs1)c1ccccc1
+  -8.19   -24.61   62.82    0.68     NS(=O)(=O)c1ccc(S(=O)(=O)N2CCN(c3ccccc3)CC2)cc1
+ -11.25   -33.80   75.90    0.86     O=C(NCc1ccccc1)Nc1ccccc1S(=O)(=O)Cc1ccccc1
+ -16.10   -58.74   45.84    0.82     O=C(NCCc1nccs1)NCC1CCOc2ccccc21
+  -7.98   -56.90   46.01    0.80     O=C(NCSc1nccnc1NCc1ccccc1)c1ccco1
+Step [164/3000]: Train loss: 3870.3328
+
+       Step 164   Fraction valid SMILES: 100.0  Time elapsed: 3.41h Time left: 58.59h
+  Agent    Prior   Target   Score             SMILES
+ -15.61   -46.35   61.94    0.85     O=S(=O)(Nc1ccc(S(=O)(=O)Nc2ccc(F)cc2)nc1)c1ccc(F)cc1
+ -11.13   -41.00   52.95    0.73     O=C(Nc1cccc(S(=O)(=O)NCc2ccco2)c1)c1ccccc1
+ -12.44   -43.47   74.93    0.93     O=C(NCCSc1nccs1)Nc1cccc(S(=O)(=O)N2CCCCC2)c1
+  -8.74   -52.44   50.60    0.81     O=C(NCSc1nccs1)c1ccccc1NCCc1ccccn1
+ -13.60   -55.76   65.46    0.95     O=C(NCCSc1nccs1)Nc1ccc(CSc2cccnc2)cc1
+  -7.49   -63.01   52.96    0.91     O=C(NCSc1nccs1)Nc1ccc(Cn2ccnc2)s1
+  -8.65   -44.82   61.16    0.83     O=C(NCCCN1CCOCC1)c1ccc(S(=O)(=O)N2CCS(=O)(=O)C2)cc1
+ -14.98   -49.64   35.99    0.67     O=C(NSCNC(=O)c1ccccc1)c1ccc(F)cc1
+ -17.89   -76.30   32.11    0.85     O=C(NCCSc1nccs1)CCN1CCCC1CNc1ccccc1
+ -11.14   -50.38   39.47    0.70     O=C(c1ccco1)Nc1cccnc1Sc1ccccn1
+Step [165/3000]: Train loss: 3806.6304
+
+       Step 165   Fraction valid SMILES: 99.2  Time elapsed: 3.43h Time left: 58.59h
+  Agent    Prior   Target   Score             SMILES
+  -6.71   -39.44   48.62    0.69     O=C(NCCCN1CCOCC1)c1ccc(S(=O)(=O)N2CCOCC2)cc1
+ -11.99   -55.47   59.35    0.90     S=C(NCCc1ccccn1)Nc1ccc(S(=O)(=O)N2CCOCC2)cc1
+ -13.77   -39.45   45.28    0.66     O=C(Nc1nccs1)NC1CCN(c2ccccc2)CC1
+  -8.35   -50.58   53.35    0.81     O=C(NCSc1ncccn1)NCCN1CCOCC1
+  -8.16   -42.51   51.19    0.73     O=C(NCCN1CCOCC1)c1ccccc1NCc1ccccn1
+ -10.28   -55.75   57.28    0.88     O=C(NCCSc1ccccn1)Nc1ccccc1S(=O)(=O)Cc1cccs1
+  -4.45   -28.37   86.83    0.90     O=C(NCCSc1nccs1)Nc1ccc(S(=O)(=O)N2CCOCC2)cc1
+  -6.57   -64.17   53.98    0.92     O=C(NCCSc1ccco1)Nc1ccccc1Sc1ccccn1
+ -10.59   -45.09   67.81    0.88     O=S(=O)(NCCc1cccnc1)Nc1ccc(S(=O)(=O)N2CCOCC2)cc1
+ -13.35   -35.03   25.51    0.47     Oc1ccc(-c2ccccn2)cc1
+Step [166/3000]: Train loss: 3854.8406
+
+       Step 166   Fraction valid SMILES: 99.2  Time elapsed: 3.45h Time left: 58.58h
+  Agent    Prior   Target   Score             SMILES
+  -5.59   -43.32   70.73    0.89     O=C(NCCc1nccs1)Nc1ccc(S(=O)(=O)N2CCOCC2)cc1
+  -4.60   -28.37   96.55    0.98     O=C(NCCSc1nccs1)Nc1ccc(S(=O)(=O)N2CCOCC2)cc1
+ -14.32   -36.55   42.30    0.62     O=C(Cn1sc2ccccc21)Nc1ccccc1
+  -4.70   -39.45   59.87    0.78     O=C(NCCSc1nccs1)NCCN1CCOCC1
+  -5.40   -22.72   53.69    0.60     NS(=O)(=O)c1ccc(Cn2ccnc2)cc1
+ -14.04   -37.40   45.80    0.65     O=C(CCSc1ccccn1)NCCN1CCOCC1
+  -9.57   -55.20   47.59    0.80     O=C(NCCCN1CCOCC1)c1cccc(CSc2nccs2)n1
+  -6.63   -51.75   41.56    0.73     O=C(NCCCN1CCOCC1)c1ccc(S(=O)(=O)N2CCN(c3ccccc3)CC2)cc1
+  -7.77   -29.17  -29.17    0.00     O=C(NCCS(=O)(=O)c1ccccc1)c1ccco1
+ -12.03   -59.57   37.83    0.76     O=C(NCSCc1ccccn1)Nc1ccc(F)cc1
+Step [167/3000]: Train loss: 3904.5125
+
+       Step 167   Fraction valid SMILES: 98.3  Time elapsed: 3.47h Time left: 58.59h
+  Agent    Prior   Target   Score             SMILES
+ -11.52   -58.10   21.77    0.62     O=C(NCCSc1ccco1)CCN1CC=CCC1
+  -5.85   -37.65   57.33    0.74     O=C(Nc1nccs1)Nc1ccc(Cn2ccnc2)cc1
+  -9.72   -48.05   43.47    0.71     O=C(NCCN1CCOCC1)c1cccc(CN2CCOCC2=O)c1
+ -14.11   -36.04   54.71    0.71     O=C(Nc1nccs1)C1CCN(C(=O)Cc2ccccn2)CC1
+ -15.57   -37.31   49.60    0.68     CN1CCN(CCCNS(=O)(=O)Cc2cccnc2)CC1
+ -12.15   -84.55   20.54    0.82     O=C(NCCCN1CCCCC1)c1ccc(NC(=O)CN2CCN(S(=O)(=O)c3cccnc3)CC2)nc1
+  -9.10   -57.74   53.62    0.87     O=C(Nc1cccnc1)Nc1ccc(S(=O)(=O)N2CCN(Cc3ccco3)CC2)nc1
+ -13.87   -63.57   25.13    0.69     O=C(NCSc1ccco1)Nc1ccccc1C(=O)Nc1ccc(F)cc1
+ -10.13   -66.48   47.06    0.89     O=C(NCCCSc1nccs1)NCCN1CCN(C(=O)Cc2cccnc2)CC1
+ -10.01   -55.65   43.93    0.78     O=C(NCCCc1nccs1)NCCc1ccccn1
+Step [168/3000]: Train loss: 3807.5670
+
+       Step 168   Fraction valid SMILES: 99.2  Time elapsed: 3.50h Time left: 58.61h
+  Agent    Prior   Target   Score             SMILES
+  -9.25   -53.65   48.62    0.80     O=C(NCCCNS(=O)(=O)c1cccs1)c1cccs1
+ -15.89   -65.68   50.16    0.90     O=C(NCCNC(=O)CSc1ccco1)Nc1ccc(S(=O)(=O)N2CCOCC2)cc1
+  -8.15   -56.98   55.40    0.88     O=C(NCSc1cccnc1)Nc1cccc(Cn2ccnc2)c1
+ -13.82   -45.35   22.24    0.53     c1ccc(Nc2cccnn2)nc1
+  -6.17   -54.68   47.72    0.80     O=C(NCCCN1CCOCC1)c1ccc(S(=O)(=O)N2CCN(C)CC2)s1
+  -8.03   -49.02   46.85    0.75     O=C(Nc1nccs1)Nc1cccc(Cn2ccnc2)c1
+  -9.05   -26.80   50.64    0.61     O=C(NCCN1CCOCC1)c1ccccn1
+  -5.57   -22.72   60.86    0.65     NS(=O)(=O)c1ccc(Cn2ccnc2)cc1
+  -6.36   -54.32   40.15    0.74     O=C(NCCCN1CCCCC1)c1ccc(Cn2ccnc2)s1
+  -6.85   -55.54   46.35    0.80     O=C(NCCSCc1ccco1)Nc1ccc(Cn2ccnc2)cc1
+Step [169/3000]: Train loss: 3833.3428
+
+       Step 169   Fraction valid SMILES: 100.0  Time elapsed: 3.52h Time left: 58.65h
+  Agent    Prior   Target   Score             SMILES
+ -12.58   -75.34   31.02    0.83     O=C(NCCCN1CCOCC1)c1ccnc(NC(=O)NS(=O)(=O)c2ccc(F)cc2)n1
+  -9.31   -46.66   51.39    0.77     O=C(NCCOc1ncccn1)NCCN1CCOCC1
+  -4.75   -47.73   56.07    0.81     O=C(NCSc1nccs1)NCCN1CCOCC1
+  -7.34   -53.69   43.97    0.76     O=C(Nc1nccs1)Nc1ccc(Cn2ccnc2)s1
+ -13.02   -56.07   49.28    0.82     O=C(CSc1nccs1)NCC1CCN(CCc2cccnc2)CC1
+ -15.32   -71.34   47.45    0.93     O=C(NCCSc1nccs1)Nc1ccc(CCCCc2nccs2)nc1
+  -4.44   -39.45   62.56    0.80     O=C(NCCSc1nccs1)NCCN1CCOCC1
+  -8.16   -47.72   68.25    0.91     O=C(NCc1nccs1)Nc1ccc(S(=O)(=O)N2CCNCC2)cc1
+  -8.90   -47.52   42.85    0.71     O=C(NCCCSc1nccs1)NCCN1CCCC1
+ -10.86   -45.63   58.18    0.81     O=C(Nc1nccs1)NCCN1CCN(C(=O)Cn2ccnc2)CC1
+Step [170/3000]: Train loss: 3629.9550
+
+       Step 170   Fraction valid SMILES: 99.2  Time elapsed: 3.55h Time left: 58.67h
+  Agent    Prior   Target   Score             SMILES
+  -6.94   -59.15   52.47    0.87     O=C(NCCc1cccnc1)Nc1ccc(Cn2ccnc2)s1
+  -8.94   -34.05   45.82    0.62     NS(=O)(=O)c1ccc(Cn2nccn2)cc1
+ -11.35   -65.69   60.26    0.98     O=C(NCSc1nccs1)Nc1ccc(S(=O)(=O)NCc2ccco2)cc1
+  -9.85   -49.58   46.03    0.75     O=C(NCCCCc1cccs1)NCCN1CCOCC1
+  -8.12   -44.12   66.08    0.86     O=C(NCCCc1cccnc1)Nc1ccc(S(=O)(=O)Nc2cccnc2)cc1
+  -7.10   -41.02   54.47    0.75     O=C(NCCCN1CCOCC1)c1cccnc1S(=O)(=O)Cc1ccccn1
+  -7.93   -40.96   50.82    0.72     O=C(NCCN1CCOCC1)c1ccccc1NC(=O)c1ccco1
+  -8.32   -54.59   48.06    0.80     O=C(NCCCN1CCOCC1)c1cccc(CSc2cccnc2)n1
+  -8.47   -50.43   43.27    0.73     O=C(NCCCN1CCCCC1)c1ccccc1NC(=O)Nc1ccccc1
+ -13.05   -36.31   42.15    0.61     O=C(Cc1ccncc1)Nc1nccs1
+Step [171/3000]: Train loss: 3876.9252
+
+       Step 171   Fraction valid SMILES: 96.7  Time elapsed: 3.57h Time left: 58.69h
+  Agent    Prior   Target   Score             SMILES
+  -8.06   -50.45   54.89    0.82     O=C(NCCc1cccs1)Nc1ccc(Cn2ccnc2)cc1
+ -19.37   -50.79   59.93    0.87     O=C(NCCCCCN1CCCCC1)c1cccc(C(=O)NCCNc2cccnc2)c1
+ -23.40   -84.99  -84.99    0.00     O=C(c1cccs1)Nc1ccc(CN2CCCSc2ccccn2)cc1
+ -15.59   -68.68   34.74    0.81     O=C(CCCNS(=O)(=O)c1cccs1)Nc1ccc(C(=O)O)cc1
+ -10.26   -30.21   45.43    0.59     O=C(Nc1nccs1)Cc1cccs1
+  -5.93   -34.97   64.23    0.77     O=C(NCCN1CCOCC1)c1cccnc1Nc1ccc(F)cc1
+  -4.61   -52.00   40.55    0.72     O=C(NCCCN1CCOCC1)c1ccc(Cn2ccnc2)s1
+ -19.06   -64.01   36.85    0.79     O=C(NCCCN1CCCCC1)c1ccc(NCc2ccnc(F)c2)nc1
+ -12.86   -54.47   27.96    0.64     CCn1ccnc1SCC(=O)Nc1ccccc1
+ -11.86   -44.90   58.91    0.81     O=C(NCCc1cccnc1)Nc1ccc2snnc2c1
+Step [172/3000]: Train loss: 3581.2667
+
+       Step 172   Fraction valid SMILES: 98.4  Time elapsed: 3.59h Time left: 58.75h
+  Agent    Prior   Target   Score             SMILES
+  -5.10   -47.42   48.07    0.75     O=C(NCCN1CCOCC1)c1ccc(Cn2ccnc2)s1
+  -8.45   -48.38   54.40    0.80     O=C(NCCc1ccccn1)Nc1ccc(Cn2ccnc2)cc1
+ -14.30   -91.03  -91.03    0.00     O=C(Cn1ccnc1)Nc1cccc(S(=O)(=O)Nc2scnc1)cc1
+  -6.79   -69.03   48.09    0.92     O=C(NCCSc1ccco1)Nc1ccc(S(=O)(=O)Nc2oncc2)cc1
+  -7.04   -37.65   55.92    0.73     O=C(Nc1nccs1)Nc1ccc(Cn2ccnc2)cc1
+ -11.28   -51.45   46.09    0.76     O=C(Nc1cccnc1)Nc1ccc(Cn2nccn2)cc1
+  -8.44   -68.48   44.42    0.88     O=C(CSCc1cccs1)Nc1ccc(S(=O)(=O)Nc2cccnn2)cc1
+  -5.64   -44.05   59.51    0.81     O=C(NCCSc1nccs1)NCCc1ccccn1
+  -6.10   -60.64   54.43    0.90     O=C(NCCSCc1ccco1)Nc1ccc(S(=O)(=O)Nc2cccnn2)cc1
+  -8.26   -56.05   61.71    0.92     O=C(NCc1nccs1)Nc1ccc(C(=O)N2CCOCC2)s1
+Step [173/3000]: Train loss: 3823.5682
+
+       Step 173   Fraction valid SMILES: 98.4  Time elapsed: 3.62h Time left: 58.75h
+  Agent    Prior   Target   Score             SMILES
+  -6.34   -39.35   54.35    0.73     O=C(NCCS(=O)(=O)c1cccs1)c1cccs1
+ -12.22   -35.35   54.12    0.70     CN1CCN(S(=O)(=O)CCNS(=O)(=O)c2ccc(F)cc2)CC1
+ -11.95   -41.72   60.17    0.80     O=C(OCCN1CCNCC1)c1cccnc1S(=O)(=O)Cc1cccs1
+  -6.11   -59.93   68.07    1.00     O=C(NCSc1cccnc1)Nc1ccc(S(=O)(=O)Nc2cccnn2)cc1
+ -10.16   -53.17   42.96    0.75     O=C(Cc1cccnc1)Nc1cccnc1S(=O)(=O)Cc1cccnc1
+ -14.79   -51.53   50.74    0.80     O=C(Cc1ccccn1)Nc1cccc(C(=O)Nc2cccnn2)c1
+ -16.94   -55.39   56.61    0.88     O=C(NCCSc1cccnn1)Nc1ccc(C(=O)Nc2ccccc2)cc1
+  -9.24   -58.41   53.20    0.87     O=C(CSc1ccccn1)Nc1cccnc1S(=O)(=O)c1cccs1
+ -15.36   -36.93   53.31    0.70     O=C(CNCCN1CCOCC1)NS(=O)(=O)c1ccc(F)cc1
+ -10.13   -71.88   36.41    0.85     O=C(NCSCc1ccccc1)Nc1ccc(Cn2ccnc2)s1
+Step [174/3000]: Train loss: 3706.6438
+
+       Step 174   Fraction valid SMILES: 98.3  Time elapsed: 3.64h Time left: 58.78h
+  Agent    Prior   Target   Score             SMILES
+ -12.06   -73.97   35.73    0.86     O=C(NCCSc1ccco1)Nc1ccccc1Sc1cccs1
+ -15.23   -61.96   35.45    0.76     O=C(Nc1nccs1)Cc1ccccc1Sc1ccccn1
+ -12.08   -58.70   31.16    0.70     O=C(CNCCc1cccs1)NCc1cccs1
+  -6.66   -45.19   67.84    0.88     O=C(NCCSc1cccnc1)Nc1ccc(-c2cccnc2)cc1
+  -8.34   -48.23   51.10    0.78     O=C(NCCSc1ccco1)NCCc1ccccn1
+  -7.80   -40.12   65.48    0.82     O=C(NCCN1CCCCC1)c1cccnc1S(=O)(=O)Cc1cccnc1
+  -9.40   -54.35   58.04    0.88     O=C(NCCCCc1cccnc1)Nc1ccc(C(=O)Nc2cccnn2)cc1
+ -11.70   -42.06   55.48    0.76     O=C(CCc1nccs1)NS(=O)(=O)c1ccccc1
+ -15.37   -33.50   44.20    0.61     O=C(COc1ccc(Cl)cc1)Nc1ccco1
+ -13.34   -46.07   49.55    0.75     O=C(NCCCCOc1nccs1)NCCc1ccccn1
+Step [175/3000]: Train loss: 3752.6759
+
+       Step 175   Fraction valid SMILES: 99.2  Time elapsed: 3.66h Time left: 58.78h
+  Agent    Prior   Target   Score             SMILES
+ -12.02   -47.26   42.73    0.70     O=C(CCSc1nccs1)NCc1ccsc1
+ -13.50   -60.89   46.37    0.84     O=C(OCCc1ccccn1)Nc1ccc(C(=O)NCc2cccnc2)cc1
+  -9.76   -51.77   48.71    0.79     O=C(NCSc1cccnc1)NCc1cccs1
+ -10.72   -59.10   52.13    0.87     O=C(NCSc1cccnc1)c1cccnc1Nc1cccnc1
+  -6.31   -35.07   61.06    0.75     O=C(NCCN1CCCCC1)c1cccnc1Nc1ccc(F)cc1
+ -11.74   -55.64   55.97    0.87     O=C(NCCCSc1nccs1)NCc1ccncn1
+  -8.78   -42.66   71.65    0.89     O=C(NCCN1CCOCC1)Nc1ccc(S(=O)(=O)Nc2cccnn2)cc1
+  -9.76   -50.39   63.27    0.89     O=C(CSc1nccs1)Nc1ccccc1Sc1cccnc1
+  -5.38   -34.97   63.72    0.77     O=C(NCCN1CCOCC1)c1cccnc1Nc1ccc(F)cc1
+  -7.65   -73.22   47.61    0.94     O=C(NCCc1cccnc1)Nc1ccc(C(=O)NCc2cccnc2)s1
+Step [176/3000]: Train loss: 4181.8156
+
+       Step 176   Fraction valid SMILES: 96.8  Time elapsed: 3.68h Time left: 58.79h
+  Agent    Prior   Target   Score             SMILES
+ -17.84   -56.65   48.18    0.82     OCCN(CCOc1cccnc1)CCSc1nccs1
+  -6.16   -50.64   49.20    0.78     O=C(NCCN1CCOCC1)c1ccccc1Sc1cccnc1
+ -15.68   -46.58   17.67    0.50     Sc1nccn2ccnc12
+  -7.28   -56.26   71.74    1.00     O=C(NCCSc1cccnc1)Nc1cccnc1Sc1cccnc1
+  -6.33   -53.24   74.76    1.00     O=C(NCSc1nccs1)Nc1ccc(C(=O)Nc2cccnn2)cc1
+ -11.56   -40.22   60.39    0.79     O=C(Oc1ccccc1)Nc1ccc(C(=O)Nc2cccnn2)cc1
+  -9.98   -41.66   56.77    0.77     O=C(NCCc1nccs1)NCCN1CCOCC1
+  -7.97   -43.85   75.57    0.93     O=C(NCCSc1ccco1)Nc1ccc(S(=O)(=O)Nc2ccccn2)cc1
+ -21.93   -49.54  -49.54    0.00     O=C(Nc1nccs1)NC1CCn2cccn2C1
+  -6.18   -54.03   67.44    0.95     O=C(NCCSc1nccs1)Nc1ccc(C(=O)NCc2cccnc2)cc1
+Step [177/3000]: Train loss: 4038.5780
+
+       Step 177   Fraction valid SMILES: 99.2  Time elapsed: 3.71h Time left: 58.78h
+  Agent    Prior   Target   Score             SMILES
+ -12.86   -62.72   44.93    0.84     O=C(NCCCN1CCCOCC1)c1cccnc1S(=O)(=O)Cc1ccncc1
+  -5.35   -37.44   79.04    0.91     O=C(NCCSc1nccs1)Nc1ccc(C(=O)Nc2cccnc2)cc1
+  -7.93   -60.35   67.65    1.00     O=C(NCCCSc1nccs1)Nc1ccc(C(=O)NCc2cccnc2)cc1
+  -9.74   -38.74   58.02    0.76     O=C(Cc1ccccn1)Nc1ccc(C(=O)Nc2ccccc2)cc1
+ -15.61   -46.74   35.30    0.64     Oc1cccc(F)c1S(=O)(=O)Nc1cccnc1
+  -5.41   -34.56   65.92    0.79     O=C(Nc1nccs1)Nc1ccc(C(=O)Nc2cccnc2)cc1
+  -9.20   -54.16   45.55    0.78     O=C(Nc1cccnc1)c1cccnc1S(=O)(=O)c1cccs1
+ -11.22   -53.90   67.70    0.95     O=C(NCCSc1cccnc1)Nc1ccc(Nc2ccccn2)cc1
+  -6.73   -59.99   60.20    0.94     O=C(NCCCc1cccnc1)Nc1ccc(C(=O)NCc2cccnc2)cc1
+  -7.83   -41.54   46.90    0.69     NS(=O)(=O)c1ccccc1Nc1ccccn1
+Step [178/3000]: Train loss: 4104.5573
+
+       Step 178   Fraction valid SMILES: 100.0  Time elapsed: 3.73h Time left: 58.79h
+  Agent    Prior   Target   Score             SMILES
+ -10.88   -53.29   54.74    0.84     O=C(NCSc1nccs1)c1cccnc1Nc1ccccc1
+  -6.58   -40.09   68.07    0.85     O=C(NCSc1ccccn1)Nc1ccc(-c2cccnc2)cc1
+  -9.29   -53.72   50.22    0.81     O=C(Nc1ccccn1)Nc1ccc(S(=O)(=O)Nc2cccnn2)cc1
+  -5.15   -58.34   69.66    1.00     O=C(NCSc1cccnc1)Nc1ccc(C(=O)Nc2cccnn2)cc1
+  -8.82   -59.22   43.05    0.80     O=C(Cc1cccnc1)Nc1ccc(C(=O)NCc2ccccn2)cc1
+ -19.39   -106.67  -106.67    0.00     O=C(NCSc1nccs1)Nc1ccc2oc(NC3CCN(C(=O)OC(C)(C)C)CC3)nc2c1
+ -11.63   -42.37   50.30    0.72     O=C(NCSc1nccs1)CCc1ccco1
+  -5.87   -53.24   74.76    1.00     O=C(NCSc1nccs1)Nc1ccc(C(=O)Nc2cccnn2)cc1
+ -11.80   -51.62   18.14    0.55     O=C(Cn1ccnc1)NCc1ccco1
+  -8.37   -57.51   36.31    0.73     O=C(NCCN1CCCCC1)c1ccccc1Sc1cccs1
+Step [179/3000]: Train loss: 4475.8428
+
+       Step 179   Fraction valid SMILES: 97.4  Time elapsed: 3.75h Time left: 58.75h
+  Agent    Prior   Target   Score             SMILES
+  -3.56   -48.97   68.28    0.92     O=C(NCSc1cccnc1)Nc1ccc(C(=O)Nc2cccnc2)cc1
+  -9.37   -49.42   69.75    0.93     O=S(=O)(NCCc1cccnc1)Nc1ccc(C(=O)Nc2cccnc2)cc1
+  -6.34   -36.93   62.78    0.78     O=C(NCSc1nccs1)NCc1ccccc1
+  -7.83   -34.48   58.58    0.73     O=C(Nc1cccnc1)c1ccc(Cn2ccnc2)cc1
+ -14.80   -47.97   38.94    0.68     O=C(NC(=O)c1ccccc1)c1ccccc1NC(=O)Cc1cccnc1
+  -7.76   -50.92   61.08    0.88     O=C(Nc1nccs1)c1cccnc1S(=O)(=O)c1cccs1
+  -6.51   -22.36   64.94    0.68     O=C(Nc1nccs1)c1ccc(Cn2ccnc2)cc1
+ -16.33   -65.90   29.08    0.74     COCCN1CCN(C(=O)Nc2cccnc2SCc2cccnc2)CC1
+  -4.60   -41.58   77.07    0.93     O=C(NCCc1cccnc1)Nc1ccc(C(=O)Nc2cccnc2)cc1
+ -12.14   -49.21   38.47    0.69     O=C(CSc1sccc1Cc1ccccc1)Nc1ccccc1
+Step [180/3000]: Train loss: 4440.0135
+
+       Step 180   Fraction valid SMILES: 100.0  Time elapsed: 3.77h Time left: 58.73h
+  Agent    Prior   Target   Score             SMILES
+  -7.23   -42.91   66.78    0.86     O=C(NCc1cccnc1)Nc1ccc(Cn2ccnc2)cc1
+  -5.30   -67.34   56.44    0.97     O=C(NCSc1cccnc1)Nc1ccc(C(=O)NCc2cccnc2)cc1
+  -7.39   -28.46   37.97    0.52     NS(=O)(=O)c1cccnc1
+  -4.89   -33.72   67.14    0.79     O=C(Nc1nccs1)Nc1ccc(C(=O)Nc2ccccn2)cc1
+  -7.94   -54.61   49.59    0.81     O=C(NCCCc1cccs1)Nc1ccc(-c2cccnc2)cc1
+  -4.52   -49.23   70.07    0.93     O=C(NCSc1cccnc1)Nc1ccc(C(=O)Nc2ccccc2)cc1
+  -5.26   -34.47   60.77    0.74     O=C(Nc1nccs1)Nc1ccc(C(=O)Nc2ccccc2)cc1
+  -5.38   -36.87  -36.87    0.00     O=C(NCSc1nccs1)Nc1ccc(C(=O)Nc2ccccc2)cc1
+  -3.56   -48.97   74.55    0.96     O=C(NCSc1cccnc1)Nc1ccc(C(=O)Nc2cccnc2)cc1
+  -9.33   -52.16   46.28    0.77     O=C(NCCN1CCOCC1)c1ccccc1Sc1ccc(F)cc1
+Step [181/3000]: Train loss: 4435.8761
+
+       Step 181   Fraction valid SMILES: 99.1  Time elapsed: 3.79h Time left: 58.70h
+  Agent    Prior   Target   Score             SMILES
+  -8.13   -49.97   51.27    0.79     O=C(NCCCc1ccccn1)Nc1ccc(Cn2ccnc2)cc1
+  -7.43   -52.59   56.34    0.85     O=C(NCSc1ccncc1)Nc1ccc(-c2ccccc2)cc1
+  -6.17   -42.14   65.89    0.84     O=C(NCCCc1cccnc1)Nc1ccc(C(=O)Nc2cccnc2)cc1
+ -10.12   -39.27   60.70    0.78     O=C(Cc1ccncc1)Nc1ccc(S(=O)(=O)Nc2ccccn2)cc1
+  -8.39   -47.19   63.02    0.86     O=C(NCCSc1cccnc1)Nc1ccc(-c2cccs2)cc1
+  -4.70   -34.56   65.15    0.78     O=C(Nc1nccs1)Nc1ccc(C(=O)Nc2cccnc2)cc1
+  -7.20   -50.64   46.64    0.76     O=C(NCCN1CCOCC1)c1ccccc1Sc1cccnc1
+  -7.54   -40.36   59.35    0.78     O=C(NCCSc1cccnc1)NCc1ccccc1
+  -7.31   -54.05   61.02    0.90     O=C(NCSc1cccnc1)Nc1ccc(Cc2cccnc2)cc1
+ -10.25   -56.22   61.41    0.92     O=C(NCSc1ccccn1)Nc1cccnc1Sc1cccnc1
+Step [182/3000]: Train loss: 4447.0590
+
+       Step 182   Fraction valid SMILES: 100.0  Time elapsed: 3.81h Time left: 58.67h
+  Agent    Prior   Target   Score             SMILES
+  -4.87   -26.50   63.36    0.70     O=C(Nc1nccs1)Nc1ccc(-c2cccnc2)cc1
+  -7.11   -38.50   48.02    0.68     O=C(Cc1ccccc1)Nc1ccc(-c2ccccc2)cc1
+  -6.86   -63.05   52.66    0.90     O=C(NCSc1ccccn1)Nc1ccc(C(=O)NCc2cccnc2)cc1
+  -6.71   -46.21   67.45    0.89     O=C(NCSc1cccnc1)Nc1ccc(S(=O)(=O)Nc2ccccc2)cc1
+  -6.06   -55.33   68.45    0.97     O=C(NCCSc1cccnc1)Nc1ccc(C(=O)Nc2cccnn2)cc1
+ -12.18   -44.19   46.30    0.71     O=C(Cc1ccccc1)Nc1ccccc1CCc1cccs1
+ -12.16   -32.11  -32.11    0.00     O=C(Nc1nccs1)Nc1ccc(-c2ccc[nH]2)cc1
+  -5.21   -33.79   60.67    0.74     O=C(Nc1cccnc1)Nc1ccc(Cn2ccnc2)cc1
+  -7.33   -41.89   72.03    0.89     O=C(NCc1nccs1)Nc1ccc(-c2cccnc2)cc1
+ -12.19   -43.52   38.02    0.64     O=C(N/C=C/NCc1ccccc1)c1ccccc1
+Step [183/3000]: Train loss: 4235.8530
+
+       Step 183   Fraction valid SMILES: 98.2  Time elapsed: 3.83h Time left: 58.64h
+  Agent    Prior   Target   Score             SMILES
+  -8.48   -35.79   43.18    0.62     O=C(Nc1nccs1)Nc1ccc(Cl)cc1
+  -5.08   -53.65   70.51    0.97     O=C(NCSc1ccccn1)Nc1ccc(C(=O)Nc2cccnn2)cc1
+  -8.92   -58.78   60.26    0.93     O=C(NCSc1ncsc1)Nc1ccc(C(=O)Nc2ccccn2)cc1
+  -6.30   -44.48   59.20    0.81     O=C(NCSc1ccccn1)Nc1ccc(-c2ccccn2)cc1
+ -10.00   -32.54   47.85    0.63     O=C(Nc1nccs1)NCc1ccncc1
+ -14.07   -46.59   55.04    0.79     O=S(=O)(Cc1cccs1)Nc1ccc(-c2ccccc2)cc1
+  -4.35   -53.03   63.06    0.91     O=C(NCSc1cccnc1)Nc1ccc(Cn2ccnc2)cc1
+  -8.95   -39.68   68.74    0.85     O=C(CSc1ncsc1S(=O)(=O)c1ccccc1)c1ccccc1
+  -5.07   -48.97   73.01    0.95     O=C(NCSc1cccnc1)Nc1ccc(C(=O)Nc2cccnc2)cc1
+  -8.41   -49.04   50.42    0.78     O=C(NCCOc1ccccc1)Nc1ccc(Cn2ccnc2)cc1
+Step [184/3000]: Train loss: 4250.3488
+
+       Step 184   Fraction valid SMILES: 99.1  Time elapsed: 3.85h Time left: 58.61h
+  Agent    Prior   Target   Score             SMILES
+  -5.40   -27.56   37.97    0.51     NS(=O)(=O)c1ccccc1
+  -9.49   -56.46   23.80    0.63     O=C(c1ccccn1)Nc1ccc(-c2ccccn2)cc1
+ -10.59   -51.95   46.99    0.77     O=C(CCSc1cccnc1)Nc1ccc(-c2ccccc2)cc1
+ -15.65   -37.72   37.55    0.59     O=C(NCCCN1CCCCc2ccccc21)c1ccccc1
+  -6.14   -36.93   63.04    0.78     O=C(NCSc1nccs1)NCc1ccccc1
+  -9.31   -50.96   34.16    0.67     O=C(c1ccccn1)Nc1ccc(Cn2ccnc2)cc1
+  -9.39   -26.89   48.25    0.59     O=S(=O)(Nc1ccccc1)c1ccccn1
+  -8.34   -25.91   63.30    0.70     O=C(COc1ccccc1)Nc1ccc(Cn2ccnc2)cc1
+  -6.16   -43.92   78.45    0.96     O=C(NCSc1ccccn1)Nc1ccc(S(=O)(=O)Nc2ccccn2)cc1
+  -5.61   -47.03   75.72    0.96     O=C(NCSc1cccnc1)Nc1ccc(C(=O)Nc2ccccn2)cc1
+Step [185/3000]: Train loss: 4137.2178
+
+       Step 185   Fraction valid SMILES: 99.2  Time elapsed: 3.87h Time left: 58.59h
+  Agent    Prior   Target   Score             SMILES
+  -6.69   -57.05   55.46    0.88     O=C(NCSc1ccccc1)Nc1ccc(S(=O)(=O)Nc2cccnn2)cc1
+  -5.15   -32.24   77.84    0.86     O=C(Nc1cccnc1)Nc1ccc(S(=O)(=O)Nc2ccccn2)cc1
+  -7.28   -50.37   49.09    0.78     O=C(NCCCc1cccnc1)Nc1ccc(-c2ccccc2)cc1
+ -10.94   -44.97  -44.97    0.00     O=C(Nc1ccccnc1)Nc1ccc(C(=O)Nc2cccnn2)cc1
+  -5.47   -51.09   62.06    0.88     O=C(NCSc1cccnc1)Nc1ccc(-c2ccccc2)cc1
+  -8.77   -44.47   62.92    0.84     O=C(NCCSc1cccnc1)NCc1cccnc1
+ -12.38   -35.73   57.46    0.73     O=C(Nc1cccnc1)c1ccccc1Oc1cccnc1
+ -19.77   -57.91   45.90    0.81     O=C(Nc1ccccc1)Nc1ccc(C/C=C/Cc2ccccn2)cc1
+ -13.38   -48.92  -48.92    0.00     O=C(NCSc1nccs1)Nc1ccc(C(=O)NNc2ccccc2)cc1
+ -14.24   -43.80   49.00    0.73     O=C(NC(=O)NS(=O)(=O)c1ccccc1)c1cccnc1
+Step [186/3000]: Train loss: 4249.2110
+
+       Step 186   Fraction valid SMILES: 99.2  Time elapsed: 3.89h Time left: 58.58h
+  Agent    Prior   Target   Score             SMILES
+  -5.54   -56.03   64.16    0.94     O=C(NCCc1ccccn1)Nc1ccc(C(=O)Nc2cccnn2)cc1
+  -5.24   -55.33   67.17    0.96     O=C(NCCSc1cccnc1)Nc1ccc(C(=O)Nc2cccnn2)cc1
+  -6.22   -45.53   69.67    0.90     O=C(CSc1ccccn1)Nc1ccc(C(=O)Nc2cccnn2)cc1
+  -4.95   -55.37   52.28    0.84     O=C(NCSc1ccccn1)Nc1ccc(C(=O)NCc2ccccc2)cc1
+  -6.10   -46.47   67.32    0.89     O=C(NCSc1cccnc1)Nc1ccc(-c2cccnc2)cc1
+  -5.92   -31.81   63.42    0.74     O=C(Nc1cccnc1)Nc1ccc(-c2cccnc2)cc1
+  -4.93   -58.34   64.16    0.96     O=C(NCSc1cccnc1)Nc1ccc(C(=O)Nc2cccnn2)cc1
+  -7.30   -44.99   56.00    0.79     O=C(NCCCc1ccccn1)Nc1ccc(-c2cccnc2)cc1
+ -10.54   -45.18   46.46    0.72     O=C(Nc1ccccc1)c1ccccc1NCc1ccccn1
+  -7.45   -56.19   55.94    0.88     O=C(CSc1ccccn1)Nc1ccc(C(=O)NCc2cccnc2)cc1
+Step [187/3000]: Train loss: 4284.5714
+
+       Step 187   Fraction valid SMILES: 98.3  Time elapsed: 3.91h Time left: 58.56h
+  Agent    Prior   Target   Score             SMILES
+  -5.40   -46.33   81.67    1.00     O=C(NCSc1cccnc1)Nc1ccc(S(=O)(=O)Nc2ccccn2)cc1
+ -17.57   -72.83   21.63    0.74     CN(Cc1cccnc1)Nc1ccc(C(=O)NCc2ccco2)cc1
+  -6.28   -43.65   80.64    0.97     O=C(NCCCc1cccnc1)Nc1ccc(S(=O)(=O)Nc2ccccn2)cc1
+  -5.34   -56.03   64.54    0.94     O=C(NCCc1ccccn1)Nc1ccc(C(=O)Nc2cccnn2)cc1
+  -8.65   -31.12   42.86    0.58     O=C(Nc1ccccn1)Nc1ccc(Cl)cc1
+  -5.54   -48.82   57.55    0.83     O=C(NCSc1ccccc1)Nc1ccc(Cn2ccnc2)cc1
+  -6.13   -49.52   73.87    0.96     O=C(NCCSc1nccs1)Nc1ccc(C(=O)Nc2cccnn2)cc1
+  -8.70   -63.23   46.59    0.86     O=C(NCCc1ccccn1)Nc1cccnc1Sc1ccccn1
+  -6.63   -47.38   58.09    0.82     O=C(Nc1ccccn1)Nc1ccc(C(=O)NCc2ccccn2)cc1
+  -6.65   -42.82   51.90    0.74     O=C(Nc1cccnc1)c1cccnc1SCc1cccnc1
+Step [188/3000]: Train loss: 4440.6194
+
+       Step 188   Fraction valid SMILES: 99.2  Time elapsed: 3.94h Time left: 58.58h
+  Agent    Prior   Target   Score             SMILES
+  -5.85   -37.84   77.11    0.90     O=C(NCCSc1ccccn1)Nc1ccc(S(=O)(=O)Nc2ccccn2)cc1
+  -8.99   -45.41   72.86    0.92     O=C(NCCc1ccccc1)Nc1ccc(C(=S)Nc2ccccc2)cc1
+ -11.08   -74.42   51.92    0.99     O=C(NCCSc1cccnn1)Nc1ccc(C(=O)Nc2ccncn2)cc1
+  -5.80   -55.33   66.02    0.95     O=C(NCCSc1cccnc1)Nc1ccc(C(=O)Nc2cccnn2)cc1
+  -5.96   -44.31   69.22    0.89     O=C(Nc1cccnc1)Nc1ccc(C(=O)NCc2ccccn2)cc1
+  -9.35   -49.64   68.76    0.93     O=C(NCSc1ccncc1)Nc1ccc(C(=O)Nc2ccccn2)cc1
+  -9.64   -41.47   54.53    0.75     O=C(NCCN1CCCCC1)c1cccnc1Sc1ccc(F)cc1
+ -24.50   -57.67   26.43    0.66     OP(=N/Sc1ccccc1)c1cccs1
+  -8.38   -45.17   66.44    0.87     O=C(CSc1nccs1)Nc1ccccc1Sc1ccccn1
+ -14.73   -38.69   41.95    0.63     O=C(Nc1cc(Cl)ccc1Oc1ccccn1)c1ccccc1
+Step [189/3000]: Train loss: 4204.5223
+
+       Step 189   Fraction valid SMILES: 100.0  Time elapsed: 3.96h Time left: 58.59h
+  Agent    Prior   Target   Score             SMILES
+  -6.46   -52.31   59.95    0.88     O=C(Nc1cccnc1)Nc1ccc(C(=S)Nc2cccnn2)cc1
+ -16.14   -46.03   49.84    0.75     O=C(Nc1ccncn1)Nc1ccc(C(=O)Nc2ccncc2)cc1
+  -5.46   -49.33   57.67    0.84     O=C(NCSc1ccccn1)Nc1ccc(Cn2ccnc2)cc1
+  -7.73   -81.17   45.68    0.99     O=C(NCCc1cccnn1)Nc1ccc(C(=S)NCc2ccccc2)cc1
+  -8.43   -37.23   71.70    0.85     O=C(NCCc1ccccc1)Nc1ccc(CCc2cccnc2)cc1
+  -6.31   -68.26   44.38    0.88     O=C(NCCCc1ccccc1)Nc1ccc(C(=S)Nc2cccnn2)cc1
+  -9.36   -72.09   49.90    0.95     O=C(NCCCCc1ccccn1)Nc1ccc(C(=S)Nc2cccnn2)cc1
+  -6.63   -43.30   64.86    0.85     O=C(NCCc1ccccc1)Nc1ccc(C(=S)Nc2ccccn2)cc1
+ -11.32   -52.15   44.75    0.76     O=C(NCc1ccccn1)c1ccccc1Nc1ccccn1
+ -12.02   -49.18   70.24    0.93     O=C(NCCc1nccs1)c1ccccc1NCc1cccnc1
+Step [190/3000]: Train loss: 4139.3231
+
+       Step 190   Fraction valid SMILES: 97.5  Time elapsed: 3.98h Time left: 58.59h
+  Agent    Prior   Target   Score             SMILES
+  -8.03   -66.51   39.99    0.83     O=C(Cc1cccnc1)Nc1ccc(C(=S)Nc2cccnn2)cc1
+  -5.53   -45.90   51.13    0.76     O=C(Nc1cccnn1)Nc1ccc(Cn2ccnc2)cc1
+  -8.56   -66.06   49.66    0.90     O=C(NCc1cccnn1)Nc1ccc(S(=O)(=O)Nc2ccccn2)cc1
+ -14.98   -72.08   29.94    0.80     O=C(Nc1cccnn1)Nc1cccc(C(=O)NCc2ccco2)c1
+  -7.59   -54.57   61.52    0.91     O=C(CSc1cccnc1)Nc1ccc(S(=O)(=O)Nc2cccnn2)cc1
+ -10.40   -51.99   61.93    0.89     O=C(NCCSc1ccccn1)c1cccnc1Sc1cccnc1
+  -5.17   -35.62   53.08    0.69     O=C(Cc1ccccc1)Nc1ccc(Cn2ccnc2)cc1
+ -14.09   -44.54   49.03    0.73     O=C(NCCCN1CCCCC1)c1cccc(NC(=O)Cc2ccccc2)c1
+  -5.75   -30.92   75.19    0.83     O=C(NCCSc1nccs1)NCc1ccccc1
+ -15.21   -48.88   48.78    0.76     O=C(NCSc1ncsc1)c1ccccc1Oc1ccccc1
+Step [191/3000]: Train loss: 3963.5088
+
+       Step 191   Fraction valid SMILES: 99.1  Time elapsed: 4.00h Time left: 58.58h
+  Agent    Prior   Target   Score             SMILES
+  -5.37   -35.62   52.32    0.69     O=C(Cc1ccccc1)Nc1ccc(Cn2ccnc2)cc1
+  -6.40   -30.42   67.62    0.77     O=C(NCCSc1nccs1)CCc1cccnc1
+  -8.02   -52.47   61.84    0.89     O=C(CSc1cccnn1)Nc1ccc(S(=O)(=O)Nc2ccccn2)cc1
+  -8.11   -26.37   41.73    0.53     NS(=O)(=O)c1ccccn1
+  -6.24   -75.81   47.84    0.97     O=C(NCCCc1cccnn1)Nc1ccc(S(=O)(=O)Nc2cccnn2)cc1
+  -7.01   -58.56   51.01    0.86     O=C(Nc1cccnn1)Nc1ccc(C(=S)NCc2ccccc2)cc1
+  -4.96   -65.97   52.94    0.93     O=C(NCCCc1ccccn1)Nc1ccc(S(=O)(=O)Nc2cccnn2)cc1
+  -5.45   -46.69   60.06    0.83     O=C(NCCN1CCCCC1)c1cccnc1Sc1cccnc1
+  -6.17   -62.04   54.57    0.91     O=C(NCCSc1cccnn1)Nc1ccc(Cn2ccnc2)cc1
+ -10.27   -45.72   23.14    0.54     O=C(Cc1cccs1)NCc1ccccc1
+Step [192/3000]: Train loss: 4106.9249
+
+       Step 192   Fraction valid SMILES: 99.1  Time elapsed: 4.03h Time left: 58.60h
+  Agent    Prior   Target   Score             SMILES
+  -6.16   -59.07   63.30    0.96     O=C(NCSc1ccccn1)Nc1ccc(S(=O)(=O)Nc2cccnn2)cc1
+  -8.61   -37.03   90.97    1.00     O=C(NCSc1nccs1)Nc1ccc(S(=O)(=O)Nc2ccccn2)cc1
+  -6.56   -60.80   58.63    0.93     O=C(NCCc1cccs1)Nc1ccc(S(=O)(=O)Nc2cccnn2)cc1
+  -3.95   -57.35   59.77    0.92     O=C(NCCCc1cccnc1)Nc1ccc(S(=O)(=O)Nc2cccnn2)cc1
+  -4.92   -47.70   65.32    0.88     O=C(NCCc1cccnc1)Nc1ccc(S(=O)n2ccnc2)cc1
+  -5.17   -65.85   49.35    0.90     O=C(NCCc1ccccn1)Nc1ccc(S(=O)(=O)Nc2cccnn2)cc1
+  -5.91   -68.77   43.62    0.88     O=C(NCCc1cccnn1)Nc1ccc(Cn2ccnc2)cc1
+  -4.34   -63.21   47.25    0.86     O=C(Nc1cccnn1)Nc1ccc(S(=O)(=O)Nc2cccnn2)cc1
+ -13.95   -52.09   62.34    0.89     O=C(NCCCCCn1ccnc1)Nc1ccc(S(=O)(=O)Nc2cccnn2)cc1
+  -6.87   -66.72   39.52    0.83     O=C(NCCCc1cccnn1)c1cccnc1SCc1cccnc1
+Step [193/3000]: Train loss: 4286.8338
+
+       Step 193   Fraction valid SMILES: 98.1  Time elapsed: 4.05h Time left: 58.60h
+  Agent    Prior   Target   Score             SMILES
+  -8.74   -48.34   70.44    0.93     O=C(NCCc1cccnc1)Nc1ccc(C(=S)Nc2ccccn2)cc1
+  -8.19   -44.65   66.46    0.87     O=C(NCCCN1CCCCC1)c1cccnc1S(=O)(=O)Cc1cccnc1
+  -7.32   -40.73   47.72    0.69     O=C(CSc1cccnc1)NCc1cccnc1
+ -11.62   -77.94   43.02    0.94     O=C(NCSc1cccnn1)Nc1ccc(S(=O)(=O)NCc2cccnc2)cc1
+  -8.05   -44.14   65.42    0.86     O=C(NCCCc1cccnc1)c1cccnc1Sc1cccnc1
+  -8.27   -46.29   57.65    0.81     O=C(NCCOc1nccs1)Nc1ccc(Cn2ccnc2)cc1
+ -10.17   -46.29   55.47    0.80     O=C(NCCCc1ccccc1)c1cccnc1SCc1ccccn1
+  -8.43   -54.76   73.24    1.00     O=C(NCCCc1cccnc1)Nc1ccc(S(=O)(=O)NCc2ccccn2)cc1
+  -4.67   -46.05   56.74    0.80     O=C(Cc1ccccc1)Nc1ccc(S(=O)(=O)Nc2cccnn2)cc1
+ -10.11   -64.65   57.08    0.95     O=C(NCCCCc1cccnn1)c1cccnc1SCc1ccccn1
+Step [194/3000]: Train loss: 4151.3138
+
+       Step 194   Fraction valid SMILES: 97.3  Time elapsed: 4.07h Time left: 58.60h
+  Agent    Prior   Target   Score             SMILES
+  -8.08   -52.01   70.36    0.96     O=C(NCCSc1ccccn1)Nc1ccc(S(=O)(=O)Nc2cccnn2)cc1
+ -17.69   -79.04   45.76    0.98     O=C(NCCCOc1nccs1)Nc1nccnc1Sc1cccnc1
+  -4.92   -38.86   74.68    0.89     O=C(NCCSc1nccs1)NCc1cccnc1
+ -11.69   -53.86   59.94    0.89     O=S(=O)(NCCCc1cccnc1)Nc1ccc(S(=O)(=O)Nc2ccccn2)cc1
+  -6.06   -39.73   69.84    0.86     O=C(Nc1nccs1)c1cccnc1SCc1cccnc1
+ -12.56   -51.14   50.23    0.79     O=C(NCCc1cccnc1)c1ccc(S(=O)(=O)n2ccnc2)cc1
+  -8.27   -56.74   57.18    0.89     O=C(NCCCc1cccnc1)c1cccnc1SCc1ccncn1
+  -5.16   -46.05   59.42    0.82     O=C(Cc1ccccc1)Nc1ccc(S(=O)(=O)Nc2cccnn2)cc1
+  -7.41   -58.38   52.98    0.87     O=C(NCCc1cccnc1)Nc1ccc(Sc2ccncn2)cc1
+  -9.71   -39.06   52.72    0.72     O=C(NCCS(=O)(=O)c1cccnc1)c1cccnc1
+Step [195/3000]: Train loss: 4115.4379
+
+       Step 195   Fraction valid SMILES: 97.2  Time elapsed: 4.09h Time left: 58.59h
+  Agent    Prior   Target   Score             SMILES
+  -5.09   -46.57   67.99    0.89     O=C(NCCCc1cccnc1)c1cccnc1SCc1cccnc1
+  -8.87   -38.82   70.11    0.85     O=C(NCCCc1cccnc1)Nc1ccc(Nc2nccs2)cc1
+ -13.49   -59.63   31.51    0.71     O=C1CSCN1CCCNC(=O)c1ccccn1
+  -6.77   -60.98   60.36    0.95     O=C(NCCCSc1nccs1)c1cccnc1SCc1cccnc1
+  -6.01   -50.52   64.56    0.90     O=C(NCCOc1cccnc1)Nc1ccc(S(=O)(=O)n2ccnc2)cc1
+  -7.23   -40.46   52.21    0.72     O=C(NCCCSc1nccs1)CCN1CCCCC1
+ -13.00   -61.16   45.59    0.83     O=C(NCCCCc1cccnn1)c1cccnc1SCc1ccccc1
+  -7.65   -42.10   58.38    0.79     O=C(CCSc1nccs1)Nc1ccc(Cn2ccnc2)cc1
+ -11.94   -53.07   37.04    0.70     O=C(NCCOc1nccs1)NC1CC=CCC1
+  -3.48   -44.67   77.70    0.96     O=C(NCCc1cccnc1)Nc1ccc(S(=O)(=O)Nc2ccccn2)cc1
+Step [196/3000]: Train loss: 4179.2014
+
+       Step 196   Fraction valid SMILES: 99.1  Time elapsed: 4.12h Time left: 58.58h
+  Agent    Prior   Target   Score             SMILES
+  -9.86   -58.69   44.86    0.81     O=C(NCSc1nccs1)CCc1ccncn1
+  -4.92   -50.64   59.18    0.86     O=C(NCc1cccnc1)Nc1ccc(S(=O)(=O)n2ccnc2)cc1
+ -10.62   -32.58   66.49    0.77     O=C(CCCSc1nccs1)NCc1ccccn1
+ -12.91   -63.62   55.16    0.93     O=C(NCCOc1ncccn1)Nc1ccc(C(=O)NCc2ccccn2)cc1
+  -7.91   -51.65   52.41    0.81     O=C(NC(=O)c1cccnc1)Nc1ccc(S(=O)(=O)n2ccnc2)cc1
+  -6.73   -55.94   49.54    0.82     O=C(NCCCc1cccnc1)Nc1ccc(S(=O)(=O)n2cncn2)cc1
+  -6.04   -38.60   67.13    0.83     O=C(Nc1nccs1)Nc1ccc(S(=O)(=O)n2ccnc2)cc1
+  -8.09   -39.72   47.70    0.68     O=C(NCCOc1nccs1)CCN1CCCCC1
+  -4.06   -44.67   72.96    0.92     O=C(NCCc1cccnc1)Nc1ccc(S(=O)(=O)Nc2ccccn2)cc1
+  -5.11   -47.93   64.71    0.88     O=C(NCCCCc1cccnc1)Nc1ccc(S(=O)(=O)n2ccnc2)cc1
+Step [197/3000]: Train loss: 4257.5484
+
+       Step 197   Fraction valid SMILES: 100.0  Time elapsed: 4.14h Time left: 58.58h
+  Agent    Prior   Target   Score             SMILES
+ -12.94   -60.59   35.41    0.75     O=C(NCCCCc1ccccn1)C1CCN(C(=O)Cc2cccnc2)CC1
+ -10.17   -71.03   43.79    0.90     O=C(NCCSCc1nccs1)c1cccnc1S(=O)(=O)Cc1cccnc1
+  -6.85   -24.73   49.51    0.58     O=C(Nc1nccs1)NCc1ccccc1
+  -5.14   -47.93   60.48    0.85     O=C(NCCCCc1cccnc1)Nc1ccc(S(=O)(=O)n2ccnc2)cc1
+ -10.87   -66.39   56.49    0.96     O=C(NCCCc1cccnc1)Nc1ccc(NC(=O)NCc2cccnc2)cc1
+ -11.14   -41.09   70.01    0.87     S=C(NCc1ccccc1)Nc1ccc(S(=O)(=O)n2ccnc2)cc1
+  -6.96   -50.32   32.88    0.65     O=C(NCCS(=O)(=O)c1ccccn1)c1cccnc1
+  -6.55   -53.40   65.76    0.93     O=C(NCc1ccccn1)Nc1ccc(S(=O)(=O)n2ccnc2)cc1
+ -11.27   -71.61   45.13    0.91     O=C(NCCC(=O)Nc1ccccn1)c1cccnc1SCc1cccnc1
+  -4.70   -42.02   68.70    0.87     O=C(NCCc1cccnc1)c1cccnc1SCc1cccnc1
+Step [198/3000]: Train loss: 4136.0466
+
+       Step 198   Fraction valid SMILES: 97.4  Time elapsed: 4.16h Time left: 58.59h
+  Agent    Prior   Target   Score             SMILES
+  -4.78   -29.70   69.12    0.77     O=C(Cc1ccccc1)Nc1ccc(S(=O)(=O)Nc2ccccn2)cc1
+  -9.17   -40.53   51.50    0.72     O=C(NCc1cccnc1)Nc1ccc(F)cc1
+  -6.97   -52.07   53.02    0.82     O=C(NCCCN1CCCCC1)c1cccnc1Sc1ccccn1
+  -8.13   -63.89   54.00    0.92     O=C(NCCSc1nccs1)c1cccnc1Sc1ccncn1
+ -11.36   -59.12   41.75    0.79     O=C(NCc1nccs1)c1ccccc1NCCN1CCCCC1
+  -6.92   -44.92   66.31    0.87     O=C(NCCOc1cccnc1)Nc1ccc(S(=O)(=O)Nc2ccccn2)cc1
+  -6.63   -38.60   66.11    0.82     O=C(Nc1nccs1)Nc1ccc(S(=O)(=O)n2ccnc2)cc1
+ -11.54   -81.19   30.68    0.87     O=C(NCCCCc1ccccn1)c1cccnc1SCC(=O)NCc1ccncc1
+ -11.05   -60.19   43.23    0.81     O=C(NCCCc1ccccc1)c1cccnc1SCc1ccncn1
+ -10.81   -54.94   46.95    0.80     O=C(NCCCc1nccs1)c1ccccc1NC(=O)Cc1cccnc1
+Step [199/3000]: Train loss: 4138.6117
+
+       Step 199   Fraction valid SMILES: 100.0  Time elapsed: 4.19h Time left: 58.61h
+  Agent    Prior   Target   Score             SMILES
+  -5.08   -44.67   76.67    0.95     O=C(NCCc1cccnc1)Nc1ccc(S(=O)(=O)Nc2ccccn2)cc1
+ -11.67   -64.92   45.92    0.87     O=C(CCSc1cccnc1)Nc1ccc(C(=O)NCc2cccnc2)cc1
+  -7.35   -37.65   56.43    0.74     O=C(Nc1nccs1)Nc1ccc(Cn2ccnc2)cc1
+ -14.35   -64.52   53.62    0.92     O=C(NCCCCc1ccncc1)Nc1cccnc1Sc1ccccc1
+  -8.14   -48.48   52.64    0.79     O=C(Cc1ccccc1)Nc1ccc(S(=O)(=O)NCc2cccnc2)cc1
+ -11.26   -62.59   26.89    0.70     O=C(Cn1ccnc1)c1ccccc1Sc1ccccn1
+ -10.27   -51.73   49.26    0.79     O=C(NCCCCc1ccccn1)c1cccnc1CCN1CCOCC1
+ -12.97   -84.64   38.63    0.96     O=C(NCCSCc1cccnc1)Nc1ccc(NCc2ccccn2)nn1
+  -9.51   -47.68   68.16    0.90     O=C(NCCCc1cccnc1)Nc1ccc(CCc2ccccn2)cc1
+  -6.44   -43.37   59.80    0.81     O=C(NCCCc1cccnc1)Nc1ccc(Cn2ccnc2)cc1
+Step [200/3000]: Train loss: 4070.4730
+
+       Step 200   Fraction valid SMILES: 99.2  Time elapsed: 4.21h Time left: 58.64h
+  Agent    Prior   Target   Score             SMILES
+ -12.01   -48.21   67.24    0.90     O=C(CCCc1nccs1)c1cccnc1S(=O)(=O)Cc1ccccn1
+  -6.51   -54.91   62.85    0.92     O=C(NCCSc1nccs1)c1cccnc1SCc1ccccn1
+  -5.64   -38.86   70.71    0.86     O=C(NCCSc1nccs1)NCc1cccnc1
+ -10.85   -50.56   65.66    0.91     O=C(NCCCCCCc1cccnc1)Nc1ccc(S(=O)(=O)n2ccnc2)cc1
+ -12.69   -36.02   25.16    0.48     OCCSCc1ccccc1
+  -7.72   -39.07   72.03    0.87     O=C(NCCc1ccccc1)Nc1ccc(NCc2cccnc2)cc1
+ -17.75   -58.23   42.25    0.79     O=C(NCCc1cccnc1)Nc1cc(F)ccc1CCN1CCOCC1
+  -7.68   -33.60   73.40    0.84     O=C(NCCc1ccccc1)Nc1ccc(NC(=O)c2ccccc2)cc1
+ -13.60   -54.23  -54.23    0.00     O=C(NCCCSc1nc(NCc2cccnc2)ccn1)c1ccccc1
+  -8.63   -38.37   51.36    0.70     O=C(CCSCc1ccccc1)NCc1cccnc1
+Step [201/3000]: Train loss: 4227.4874
+
+       Step 201   Fraction valid SMILES: 99.2  Time elapsed: 4.23h Time left: 58.66h
+  Agent    Prior   Target   Score             SMILES
+  -9.04   -48.99   38.69    0.69     O=C(NCc1ccccn1)NCc1ccccc1
+  -8.91   -52.57   58.66    0.87     O=C(NCCCSc1cccnc1)c1cccnc1Nc1cccnc1
+ -13.31   -65.76   36.64    0.80     O=C(NC(=O)CSCc1ccncc1)Nc1ccc(Cn2ccnc2)cc1
+  -9.44   -23.59   57.81    0.64     O=C(NCCS(=O)(=O)Cc1ccccn1)c1ccccc1
+  -9.37   -52.86   56.97    0.86     O=C(NCCSCc1ccccc1)Nc1ccc(NC(=O)Cc2cccnc2)cc1
+  -9.58   -44.11   71.47    0.90     O=C(NCSc1ccccc1)Nc1ccc(S(=O)(=O)Nc2ccccn2)cc1
+ -14.49   -34.11   46.66    0.63     O=C1c2ccccc2S(=O)(=O)N1CCCN1CCCCC1
+ -18.69   -64.08  -64.08    0.00     O=C(OCCCSc1cccnc1)c1cccnc1SCC(=O)Nc1ccccn1
+ -13.67   -50.86   36.44    0.68     O=C(NCCCc1nccs1)c1cccnc1C1CC1
+  -9.36   -51.18   53.52    0.82     O=C(NCCCc1ccccn1)Nc1ccc(Nc2ncccn2)cc1
+Step [202/3000]: Train loss: 4276.6968
+
+       Step 202   Fraction valid SMILES: 99.2  Time elapsed: 4.26h Time left: 58.68h
+  Agent    Prior   Target   Score             SMILES
+  -9.31   -51.48   56.81    0.85     O=C(NCc1cccnc1)c1cccnc1Nc1ccc(Cn2ccnc2)cc1
+  -8.69   -51.43   45.72    0.76     O=C(NCCN1CCCCC1)c1ccccc1Sc1ccccc1
+  -8.01   -34.33   62.82    0.76     O=C(CCSc1nccs1)NCc1ccccn1
+  -9.11   -48.74   61.08    0.86     O=C(NCCCc1cccnc1)Nc1ccc(S(=O)(=O)n2ccnc2)cc1
+  -9.95   -54.69   56.41    0.87     O=C(NCCCSc1nccs1)c1cccnc1Nc1ccc(F)cc1
+ -24.12   -70.48  -70.48    0.00     O=C(NC/C=C/CCS=C(NS(=O)(=O)c1ccccn1)c1ccccc1
+ -18.11   -75.28   34.67    0.86     O=C(NC(=O)CSc1ccncn1)c1cccnc1Oc1cccnc1
+ -12.69   -41.99   42.75    0.66     O=C(Nc1nccs1)CC1CCN(Cc2ccccc2)CC1
+  -8.45   -35.79   50.74    0.68     O=C(CCSCc1ccccc1)NCc1ccccn1
+  -8.29   -49.14   47.38    0.75     O=C(NCSc1nccs1)CCc1ccncc1
+Step [203/3000]: Train loss: 4354.2006
+
+       Step 203   Fraction valid SMILES: 98.4  Time elapsed: 4.28h Time left: 58.70h
+  Agent    Prior   Target   Score             SMILES
+ -12.74   -57.86   51.83    0.86     O=C(CSCc1ccccc1)Nc1ccc(Nc2nccs2)nc1
+ -13.26   -80.05   29.01    0.85     O=C(CCSc1ccccn1)Nc1ccc(Nc2ccccn2)nn1
+ -11.78   -51.82   49.17    0.79     O=C(NCCOc1ccccn1)c1cccnc1SCc1cccnc1
+  -5.62   -39.97   69.34    0.85     O=C(NCCCCc1ccccc1)Nc1ccc(S(=O)(=O)Nc2ccccn2)cc1
+ -10.43   -49.21   58.57    0.84     O=C(NCCSCc1ccccc1)Nc1ccc(CCc2ccccn2)cc1
+ -10.43   -56.98   71.02    1.00     O=C(NCCSc1nccs1)Nc1ccc(NC(=O)Cc2ccccn2)nc1
+  -6.75   -30.55   63.65    0.74     O=C(CCSc1nccs1)NCc1ccccc1
+  -6.53   -37.47   57.00    0.74     O=C(NCCCSc1nccs1)CCN1CCOCC1
+ -12.12   -57.45   30.74    0.69     O=C(NCCOc1cccnc1)CCc1ccncc1
+  -8.81   -53.32   57.91    0.87     O=C(NCCc1nccs1)c1cccnc1Sc1cccnc1
+Step [204/3000]: Train loss: 4205.5594
+
+       Step 204   Fraction valid SMILES: 100.0  Time elapsed: 4.31h Time left: 58.74h
+  Agent    Prior   Target   Score             SMILES
+  -6.72   -35.33   42.88    0.61     O=C(CSCc1ccccc1)NCc1ccccc1
+  -9.43   -52.35   44.04    0.75     O=C(NCCc1nccs1)CCc1nccs1
+  -6.30   -28.46   38.10    0.52     NS(=O)(=O)c1cccnc1
+ -16.39   -58.84   24.11    0.65     c1cccnc1S(=O)(=O)NCCc1ccccc1
+  -5.06   -50.32   35.06    0.67     O=C(NCCS(=O)(=O)c1ccccn1)c1cccnc1
+  -7.25   -45.12   62.66    0.84     O=C(NCCN1CCCCC1)c1ccnc(NC(=O)Cc2cccnc2)c1
+  -6.64   -39.05  -39.05    0.00     O=C(NCCCSc1nccs1)Nc1ccc(S(=O)(=O)Nc2ccccn2)cc1
+ -11.27   -75.06   27.85    0.80     O=C(NCCCc1ncccn1)c1cccnc1S(=O)(=O)Cc1cccnc1
+  -8.85   -52.13   56.42    0.85     O=C(NCc1nccs1)c1ccccc1NCc1cccnc1
+ -12.41   -62.89   45.01    0.84     O=C(NCSc1nccs1)c1cccnc1C(=O)Nc1cccnc1
+Step [205/3000]: Train loss: 4125.2511
+
+       Step 205   Fraction valid SMILES: 100.0  Time elapsed: 4.33h Time left: 58.75h
+  Agent    Prior   Target   Score             SMILES
+ -10.61   -61.18  -61.18    0.00     O=C(NCCSc1cccnc1)Nc1ccc(NC(=O)c2ccncc2)cc1
+ -23.03   -73.42   19.50    0.73     CSCCN(S(=O)(=O)Cc1nccs1)c1cccnc1
+  -5.89   -44.04   61.82    0.83     O=C(NCCSc1nccs1)c1cccnc1S(=O)(=O)Cc1ccccc1
+ -15.62   -74.18   24.64    0.77     O=C(NCCN1CCCCC1)c1ccccc1CC(=O)NCCOc1ccccn1
+  -7.78   -34.93   60.17    0.74     O=C(NCCSc1nccs1)CCc1ccccn1
+  -9.43   -57.39   63.70    0.95     O=C(NCCc1cccnc1)Nc1ccc(S(=O)(=O)NCc2cccnc2)cc1
+  -9.05   -53.18   63.68    0.91     O=C(NCCSc1ccccn1)Nc1ccc(NC(=O)Cc2cccnc2)cc1
+ -12.72   -62.17   42.02    0.81     O=C(NCCCc1nccn1CCOc1cccnc1)c1ccccn1
+ -12.83   -31.68   47.55    0.62     Oc1ccc(C(=O)NCc2cccnc2)cc1
+  -9.23   -65.82   62.18    1.00     O=C(NC(=O)NCCc1cccnc1)Nc1ccc(S(=O)(=O)Nc2ccccn2)cc1
+Step [206/3000]: Train loss: 4307.9815
+
+       Step 206   Fraction valid SMILES: 99.2  Time elapsed: 4.35h Time left: 58.75h
+  Agent    Prior   Target   Score             SMILES
+ -12.67   -41.92   62.53    0.82     O=C(NCCN1CCCCC1)Nc1cc(Nc2cccnc2)ccn1
+ -10.17   -60.27   65.56    0.98     O=C(NCCc1cccnc1)Nc1ccc(S(=O)(=O)Nc2ccncn2)cc1
+ -10.24   -43.65   58.37    0.80     O=C(NC1CCNCC1)c1cccnc1CSc1nccs1
+  -6.05   -42.33   53.54    0.75     O=C(NCCc1nccs1)c1cccnc1S(=O)(=O)Cc1ccccc1
+ -10.81   -57.69   52.13    0.86     O=C(NCc1cccnc1)c1cccnc1CNc1cccnc1
+  -8.53   -41.90   53.98    0.75     O=C(NCSc1ccccn1)Nc1cccnc1
+  -8.68   -32.35   54.95    0.68     O=C(NCCCS(=O)(=O)c1ccccc1)c1cccnc1
+  -7.63   -43.49   63.52    0.84     O=C(NCCCc1cccnc1)c1cccnc1Nc1cccnc1
+  -5.97   -50.23   56.91    0.84     O=C(NCCSc1nccs1)c1cccnc1S(=O)(=O)Cc1ccccn1
+  -9.37   -43.91   52.98    0.76     O=C(Cc1ccccc1)Nc1ccc(NCc2ccccc2)cc1
+Step [207/3000]: Train loss: 4220.8193
+
+       Step 207   Fraction valid SMILES: 99.2  Time elapsed: 4.38h Time left: 58.78h
+  Agent    Prior   Target   Score             SMILES
+  -5.73   -24.73   50.02    0.58     O=C(Nc1nccs1)NCc1ccccc1
+  -7.16   -44.75   63.79    0.85     O=C(NCCc1ccccc1)Nc1ccc(NC(=O)c2cccnc2)cc1
+ -10.49   -43.68   55.39    0.77     O=C(Nc1ncccn1)Nc1ccc(C(=O)Nc2ccccn2)cc1
+  -9.01   -32.58   79.93    0.88     O=C(CCc1cccnc1)Nc1ccc(S(=O)(=O)Nc2ccccn2)cc1
+ -10.47   -43.82   58.70    0.80     O=C(NCSc1nccs1)c1cccnc1OCc1ccccc1
+ -10.37   -57.89   51.29    0.85     O=C(CCS(=O)(=O)c1ccccn1)Nc1ccc(Cn2ccnc2)cc1
+  -7.03   -39.22   69.58    0.85     O=C(NCCc1ccccc1)Nc1ccc(NC(=O)c2ccccn2)cc1
+  -9.39   -59.12   47.38    0.83     O=C(NCCN1CCCCC1)c1ccnc(NC(=O)COc2cccnc2)n1
+ -12.47   -63.01   54.24    0.92     O=C(NCCCc1cccnc1)Nc1ccnc(NC(=O)Cc2cccnc2)c1
+ -10.44   -40.60   50.79    0.71     O=S(=O)(Nc1ccccn1)c1cccnc1OCc1ccccc1
+Step [208/3000]: Train loss: 4663.5226
+
+Model is not improving, so we halt the training session.
+Use time: 15757.7877s
