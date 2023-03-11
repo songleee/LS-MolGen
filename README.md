@@ -22,6 +22,10 @@ LS-MolGen includes three sub-modules:
 
 Example of running the command:
 ```
+python pre_train.py
+
+python transfer_learning.py
+
 python reinforcement_learning.py
 ```
 
