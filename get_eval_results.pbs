@@ -3,7 +3,7 @@
 #PBS -e eval.out
 #PBS -o eval.out
 #PBS -q ai
-#PBS -l select=1:ncpus=36:ngpus=1:mem=32gb
+#PBS -l select=1:ncpus=32:ngpus=1:mem=32gb
 #PBS -l walltime=72:00:00
 
 cd $PBS_O_WORKDIR
@@ -12,9 +12,7 @@ cd $PBS_O_WORKDIR
 export PATH=/home/lisong/software/anaconda3/bin:$PATH
 export PATH=/home/lisong/local/bin:$PATH
 export PATH=/home/lisong/software/openbabel/bin:/home/lisong/software/LeDOCK:$PATH
-#source activate py3
 source activate LS-MolGen
-#source activate ReinventCommunity
 
 
 PROTEIN=EGFR
@@ -23,7 +21,7 @@ for model in aae vae latentgan reinvent pocket2mol moldqn sbmolgen lsmolgen; do
 for i in {0..5}; do
 python calc_metrics.py --gen_path data/${PROTEIN}/${model}/${protein}_${model}_gen_${i}.smi \
 			--train_path data/chembl31.smi --test_path data/$PROTEIN/${PROTEIN}_pX_7.smi \
-			--output ./result/${protein}_${model}_gen_${i}_eval_result.csv --n_jobs 36 --device 'cuda' \
+			--output ./result/${protein}_${model}_gen_${i}_eval_result.csv --n_jobs 32 --device 'cuda' \
 			--dock_file_dir data/$PROTEIN/ledock \
 #			--score_path data/baseline/${protein}_${model}_gen.smi
 done
