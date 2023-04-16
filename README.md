@@ -11,6 +11,15 @@ conda env create -f environment.yml
 conda activate LS-MolGen
 ```
 
+# Dependences
+To run this code, especially the reinforcement learning part, the following softwares are required:
+
+1. `LeDock`: the program used to get the docking score. Download from [here](http://www.lephar.com/download.htm).
+
+2. `Open Babel`: the software used to prepare the ligand. Download from [here](https://github.com/openbabel/openbabel/releases).
+
+After download the release packages of them, remember to add the PATH of them to the environment variables.
+
 # Usage
 LS-MolGen includes three sub-modules:
 
