@@ -1,6 +1,8 @@
 # LS-MolGen
 A ligand-and-structure dual-driven deep reinforcement learning method for target-specific molecular generation.
 
+Paper: [https://www.researchsquare.com/article/rs-2793302/v1](https://www.researchsquare.com/article/rs-2793302/v1)
+
 # Installation
 You can use the environment.yml file to create a new conda environment with all the necessary dependencies for LS-MolGen:
 
