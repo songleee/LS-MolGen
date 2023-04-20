@@ -1,7 +1,7 @@
 # LS-MolGen
 A ligand-and-structure dual-driven deep reinforcement learning method for target-specific molecular generation.
 
-![image](image/fig1.png)
+![image](figure/fig1.jpg)
 
 Paper: [https://www.researchsquare.com/article/rs-2793302/v1](https://www.researchsquare.com/article/rs-2793302/v1)
 
