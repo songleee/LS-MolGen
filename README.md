@@ -3,7 +3,7 @@ A ligand-and-structure dual-driven deep reinforcement learning method for target
 
 ![image](figure/fig1.jpg)
 
-Paper: [https://www.researchsquare.com/article/rs-2793302/v1](https://www.researchsquare.com/article/rs-2793302/v1)
+Paper: [https://pubs.acs.org/doi/10.1021/acs.jcim.3c00587](https://pubs.acs.org/doi/10.1021/acs.jcim.3c00587)
 
 # Installation
 You can use the environment.yml file to create a new conda environment with all the necessary dependencies for LS-MolGen:
