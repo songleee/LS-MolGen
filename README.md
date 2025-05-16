@@ -46,8 +46,7 @@ python reinforcement_learning.py
 LS-MolGen was developed by Song Li as part of a research project at Shanghai Jiao Tong University.
 
 # License
-LS-MolGen is released under the Apache License. See the LICENSE file for details.
-
+This project is licensed under the terms of the [CC-BY-NC-ND-4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode) license.
 
 
 
